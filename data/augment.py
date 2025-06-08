@@ -1,11 +1,20 @@
 import os
+import random
+from pathlib import Path
+
 import cv2
 import numpy as np
-from pathlib import Path
-import random
 import tqdm
 
-def add_rain(image, rain_drops=800, slant=-1, drop_length=30, drop_width=2, drop_color=(180, 180, 200)):
+
+def add_rain(
+    image,
+    rain_drops=800,
+    slant=-1,
+    drop_length=30,
+    drop_width=2,
+    drop_color=(180, 180, 200),
+):
     """Add prominent rain effect to an image."""
     image_rain = image.copy()
 
@@ -17,19 +26,21 @@ def add_rain(image, rain_drops=800, slant=-1, drop_length=30, drop_width=2, drop
 
     # Create rain drops
     for i in range(rain_drops):
-        x = random.randint(0, imshape[1]-1)
-        y = random.randint(0, imshape[0]-1)
+        x = random.randint(0, imshape[1] - 1)
+        y = random.randint(0, imshape[0] - 1)
 
         # Draw rain drop line with varying opacity
         opacity = random.randint(150, 230)
         drop_color_random = (opacity, opacity, min(255, opacity + 20))
 
         # Draw rain drop line
-        cv2.line(image_rain,
-                 (x, y),
-                 (x+slant, y+drop_length),
-                 drop_color_random,
-                 drop_width)
+        cv2.line(
+            image_rain,
+            (x, y),
+            (x + slant, y + drop_length),
+            drop_color_random,
+            drop_width,
+        )
 
     # Add blur to simulate motion
     image_rain = cv2.blur(image_rain, (3, 7))  # Vertical motion blur for rain
@@ -43,6 +54,7 @@ def add_rain(image, rain_drops=800, slant=-1, drop_length=30, drop_width=2, drop
     result = cv2.add(result, blue_tint)
 
     return result
+
 
 def add_fog(image, fog_coeff=0.8):
     """Add natural cloud-like fog effect to an image."""
@@ -59,12 +71,12 @@ def add_fog(image, fog_coeff=0.8):
     persistence = 0.5
 
     for octave in range(octaves):
-        scale = 2 ** octave
-        weight = persistence ** octave
+        scale = 2**octave
+        weight = persistence**octave
 
         # Create a noise layer
         noise = np.zeros((height, width), dtype=np.float32)
-        temp_noise = np.random.rand(height//scale, width//scale) * 255
+        temp_noise = np.random.rand(height // scale, width // scale) * 255
 
         # Resize to full size and normalize
         temp_noise = cv2.resize(temp_noise, (width, height))
@@ -88,15 +100,13 @@ def add_fog(image, fog_coeff=0.8):
 
     # Combine different blur sizes with varying weights
     cloud_texture = cv2.addWeighted(
-        small_blur, 0.3,
-        cv2.addWeighted(medium_blur, 0.5, large_blur, 0.5, 0),
-        0.7, 0
+        small_blur, 0.3, cv2.addWeighted(medium_blur, 0.5, large_blur, 0.5, 0), 0.7, 0
     )
 
     # Apply to fog layer with slight variations for RGB channels for realism
-    fog[:, :, 0] = cv2.multiply(fog[:, :, 0], cloud_texture, scale=1/255)
-    fog[:, :, 1] = cv2.multiply(fog[:, :, 1], cloud_texture, scale=1/255)
-    fog[:, :, 2] = cv2.multiply(fog[:, :, 2], cloud_texture, scale=1/255)
+    fog[:, :, 0] = cv2.multiply(fog[:, :, 0], cloud_texture, scale=1 / 255)
+    fog[:, :, 1] = cv2.multiply(fog[:, :, 1], cloud_texture, scale=1 / 255)
+    fog[:, :, 2] = cv2.multiply(fog[:, :, 2], cloud_texture, scale=1 / 255)
 
     # Add slight color variation (bluish-gray) to simulate natural fog
     fog = fog.astype(np.float32)
@@ -110,9 +120,10 @@ def add_fog(image, fog_coeff=0.8):
     fog = (fog * gradient).astype(np.uint8)
 
     # Blend fog with original image
-    foggy_img = cv2.addWeighted(image, 1-fog_coeff, fog, fog_coeff, 0)
+    foggy_img = cv2.addWeighted(image, 1 - fog_coeff, fog, fog_coeff, 0)
 
     return foggy_img
+
 
 def process_images(input_dir: Path, output_dir: Path):
     # Create output directory if it doesn't exist
