@@ -9,7 +9,7 @@ import tqdm
 
 def add_rain(
     image,
-    rain_drops=800,
+    rain_drops=int(800 * 1.5),
     slant=-1,
     drop_length=30,
     drop_width=2,
@@ -152,6 +152,15 @@ def process_images(input_dir: Path, output_dir: Path):
         cv2.imwrite(str(output_dir / f"{base_name}_rain.jpg"), img_rain)
         cv2.imwrite(str(output_dir / f"{base_name}_fog.jpg"), img_fog)
         cv2.imwrite(str(output_dir / f"{base_name}_rain_fog.jpg"), img_rain_fog)
+
+        # Save all images in a single image in 2x2 grid
+        combined_img = np.zeros((img.shape[0] * 2, img.shape[1] * 2, 3), dtype=np.uint8)
+        combined_img[: img.shape[0], : img.shape[1]] = img
+        combined_img[: img.shape[0], img.shape[1] :] = img_rain
+        combined_img[img.shape[0] :, : img.shape[1]] = img_fog
+        combined_img[img.shape[0] :, img.shape[1] :] = img_rain_fog
+        cv2.imwrite(str(output_dir / f"{base_name}_combined.jpg"), combined_img)
+        exit()
 
 
 if __name__ == "__main__":
