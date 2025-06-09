@@ -1,10 +1,92 @@
+import copy
 import os
 import random
+import xml.etree.ElementTree as ET
 from pathlib import Path
+from typing import Optional
 
 import cv2
 import numpy as np
 from rich.progress import BarColumn, Progress, TextColumn, TimeElapsedColumn
+
+from common import logger
+
+
+def create_augmented_annotations(original_xml_path, output_xml_path):
+    """
+    Create annotations for augmented images based on the original annotations.
+
+    Args:
+        original_xml_path: Path to the original XML file with annotations
+        output_xml_path: Path to save the augmented XML file
+    """
+    # Parse the original XML file
+    tree = ET.parse(original_xml_path)
+    root = tree.getroot()
+
+    # Create a list to store new image entries
+    new_images = []
+
+    # Weather conditions to create annotations for
+    weather_conditions = [
+        "rain_light",
+        "rain_medium",
+        "rain_heavy",
+        "fog_light",
+        "fog_medium",
+        "fog_heavy",
+        "rain_fog_light",
+        "rain_fog_medium",
+        "rain_fog_heavy",
+    ]
+
+    # Process each image in the original XML
+    logger.info(f"Processing {len(root.findall('image'))} original images...")
+    for image_elem in root.findall("image"):
+        # Keep the original image entry
+        new_images.append(copy.deepcopy(image_elem))
+
+        # Get the original image path
+        image_name_elem = image_elem.find("imageName")
+        if image_name_elem is None:
+            continue
+
+        original_path = image_name_elem.text
+
+        # Skip if there's no path
+        if not original_path:
+            continue
+
+        # Extract the base filename without extension
+        dir_part, filename = os.path.split(original_path)
+        base_name, ext = os.path.splitext(filename)
+
+        # Create new entries for each augmented version
+        for condition in weather_conditions:
+            # Create a deep copy of the original image element
+            new_image = copy.deepcopy(image_elem)
+
+            # Update the image path
+            new_image_path = f"{dir_part}/{base_name}_{condition}.jpg"
+            new_image.find("imageName").text = new_image_path
+
+            # Add the new image to our list
+            new_images.append(new_image)
+
+    # Create a new root element
+    new_root = ET.Element("tagset")
+
+    # Add all images (original + augmented) to the new root
+    logger.info(f"Adding {len(new_images)} total image entries to the new XML...")
+    for img in new_images:
+        new_root.append(img)
+
+    # Create a new tree and write to file
+    new_tree = ET.ElementTree(new_root)
+
+    # Use ElementTree's write function with XML declaration and proper encoding
+    new_tree.write(output_xml_path, encoding="utf-8", xml_declaration=True)
+    logger.info(f"Augmented annotations written to {output_xml_path}")
 
 
 def add_rain(
@@ -124,12 +206,19 @@ def add_fog(image, fog_coeff=0.8):
     return foggy_img
 
 
-def process_images(input_dir: Path, output_dir: Path):
+def process_images(
+    input_dir: Path, output_dir: Path, filenames: Optional[list[str]] = None
+):
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
 
     # Get all image files
     image_files = list(input_dir.glob("*.jpg")) + list(input_dir.glob("*.png"))
+
+    # Filter by specific filenames if provided
+    if filenames is not None:
+        image_files = [f for f in image_files if f.name in filenames]
+    logger.info(f"Found {len(image_files)} images to process in {input_dir}")
 
     # Augment each image
     with Progress(
@@ -147,7 +236,7 @@ def process_images(input_dir: Path, output_dir: Path):
             img = cv2.imread(str(img_path))
 
             if img is None:
-                print(f"Failed to read {img_path}")
+                logger.error(f"Failed to read {img_path}")
                 continue
 
             # Process images with different effects
@@ -241,10 +330,31 @@ def process_images(input_dir: Path, output_dir: Path):
             cv2.imwrite(str(output_dir / f"{base_name}_combined_3x3.jpg"), grid_img)
 
 
+def extract_image_filenames(xml_path):
+    tree = ET.parse(xml_path)
+    root = tree.getroot()
+
+    image_files = []
+    for image_elem in root.findall("image"):
+        image_name_elem = image_elem.find("imageName")
+        if image_name_elem is not None and image_name_elem.text:
+            # Get just the filename from the path
+            _, filename = os.path.split(image_name_elem.text)
+            image_files.append(filename)
+
+    return image_files
+
+
 if __name__ == "__main__":
     random.seed(42)
     np.random.seed(42)
 
+    test_xml_path = "data/svt1/test.xml"
+
+    xml_image_files = extract_image_filenames(test_xml_path)
+    logger.info(f"Found {len(xml_image_files)} images in the XML file")
+
     input_dir = Path("data/svt1/img")
     output_dir = Path("data/svt1_augmented/img")
-    process_images(input_dir, output_dir)
+    process_images(input_dir, output_dir, xml_image_files)
+
