@@ -357,4 +357,3 @@ if __name__ == "__main__":
     input_dir = Path("data/svt1/img")
     output_dir = Path("data/svt1_augmented/img")
     process_images(input_dir, output_dir, xml_image_files)
-
