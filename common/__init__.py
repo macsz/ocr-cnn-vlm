@@ -36,9 +36,7 @@ def create_message(image_path):
                     "- Identify and transcribe all visible text in the image exactly as it appears.\n"
                     "- Preserve the original line breaks, spacing, and formatting from the image.\n"
                     "- Output only the transcribed text, line by line, without adding any commentary or explanations or special characters.\n"
-                    "- Do not include any additional information or context.\n"
-                    "- Recognize each character independently - labels visible in the image might be a serial number or an expiration date.\n"
-                    "- Do not include any additional text or explanations.\n",
+                    "- Do not include any additional information or context.\n",
                 },
                 {"type": "image", "url": str(image_path)},
             ],
