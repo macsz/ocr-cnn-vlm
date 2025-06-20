@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import re
@@ -206,7 +207,19 @@ def eval(category: Category):
 
 if __name__ == "__main__":
 
-    model_name = "google/gemma-3-4b-it"
+    parser = argparse.ArgumentParser(description="Evaluate OCR model on SVT dataset.")
+    parser.add_argument(
+        "--model",
+        choices=[
+            "google/gemma-3-4b-it",
+            "Qwen/Qwen2.5-VL-3B-Instruct",
+        ],
+        default="Qwen/Qwen2.5-VL-3B-Instruct",
+    )
+    args = parser.parse_args()
+
+    model_name = args.model
+
     device = "cuda"
     torch_dtype = "bfloat16"
 
