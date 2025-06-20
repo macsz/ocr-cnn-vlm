@@ -7,15 +7,21 @@ from collections import Counter
 from enum import Enum
 from glob import glob
 
+import torch
 from rich.console import Console
 from rich.progress import (BarColumn, Progress, TextColumn, TimeElapsedColumn,
                            TimeRemainingColumn)
 from rich.table import Table
 from torch.utils.data import DataLoader, Dataset
 from torchvision import transforms
+from transformers import AutoModel, AutoTokenizer
 
 from common import create_message, init_pipeline, logger
+from vlm.internvl import device_map, load_image
 
+model = None
+tokenizer = None
+pipe = None
 
 
 class Category(Enum):
@@ -30,6 +36,7 @@ class Category(Enum):
     RAIN_FOG_MEDIUM = "rain_fog_medium"
     RAIN_FOG_HEAVY = "rain_fog_heavy"
 
+
 CATEGORIES = [
     Category.ORIGINAL,
     Category.RAIN_LIGHT,
@@ -42,6 +49,7 @@ CATEGORIES = [
     Category.RAIN_FOG_MEDIUM,
     Category.RAIN_FOG_HEAVY,
 ]
+
 
 class WeatherAugmentedImageDataset(Dataset):
     def __init__(self, img_dir, category: Category = Category.ORIGINAL):
@@ -103,7 +111,7 @@ def load_annotations(xml_path):
     return annotations
 
 
-def eval(category: Category):
+def eval(infer_func, category: Category):
     # Create the dataset and dataloader
     img_dir = "data/svt1_augmented/img"
     dataset = WeatherAugmentedImageDataset(img_dir, category=category)
@@ -141,12 +149,7 @@ def eval(category: Category):
 
             # Generate response from the model
             # response = pipe(prompt=prompt, images=image_pil, max_new_tokens=512, do_sample=False)
-            messages = create_message(path)
-            response = pipe(text=messages)
-            result = {"path": path, "response": response[0]["generated_text"]}
-
-            # for result in results:
-            text_found = result["response"][-1]["content"]
+            result, text_found = infer_func(path)
 
             words = [word.strip(".,!?:;()-\"'").lower() for word in text_found.split()]
             word_counts = Counter(word for word in words if word)
@@ -218,6 +221,29 @@ def eval(category: Category):
     return correct_ocr, processed_images
 
 
+def infer_func_gemma_qwen(path):
+    # Good for Gemma and Qwen
+    messages = create_message(path)
+    response = pipe(text=messages)
+    result = {"path": path, "response": response[0]["generated_text"]}
+    text_found = result["response"][-1]["content"]
+    return result, text_found
+
+
+def infer_func_internvl(path):
+    # Good for InternVL
+    messages = create_message(path)
+    message = messages[0]["content"][0]["text"]
+    pixel_values = load_image(path, max_num=12).to(torch.bfloat16).cuda()
+    generation_config = dict(max_new_tokens=1024, do_sample=True)
+
+    question = f"<image>\n{message}"
+    response = model.chat(tokenizer, pixel_values, question, generation_config)
+
+    result = {"path": path, "response": response}
+    return result, response
+
+
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Evaluate OCR model on SVT dataset.")
@@ -227,8 +253,9 @@ if __name__ == "__main__":
             "google/gemma-3-4b-it",
             "Qwen/Qwen2.5-VL-3B-Instruct",
             "OpenGVLab/InternVL3-2B",
+            "OpenGVLab/InternVL3-1B",
         ],
-        default="OpenGVLab/InternVL3-2B",
+        default="OpenGVLab/InternVL3-1B",
     )
     args = parser.parse_args()
 
@@ -237,14 +264,32 @@ if __name__ == "__main__":
     device = "cuda"
     torch_dtype = "bfloat16"
 
-    pipe = init_pipeline(model_name, device, torch_dtype)
+    if model_name in ["Qwen/Qwen2.5-VL-3B-Instruct", "google/gemma-3-4b-it"]:
+        pipe = init_pipeline(model_name, device, torch_dtype)
+        infer_func = infer_func_gemma_qwen
+    elif model_name in ["OpenGVLab/InternVL3-2B", "OpenGVLab/InternVL3-1B"]:
+        model = AutoModel.from_pretrained(
+            model_name,
+            torch_dtype=torch.bfloat16,
+            load_in_8bit=False,
+            low_cpu_mem_usage=True,
+            use_flash_attn=False,
+            trust_remote_code=True,
+            device_map=device_map,
+        ).eval()
+        tokenizer = AutoTokenizer.from_pretrained(
+            model_name, trust_remote_code=True, use_fast=False
+        )
+        infer_func = infer_func_internvl
+    else:
+        raise ValueError(f"Model {model_name} not supported")
 
     logger.info("Pipeline initialized successfully.")
 
     category_results = {}
     for category in CATEGORIES:
         logger.info(f"Evaluating category: {category.value}")
-        correct_ocr, processed_images = eval(category)
+        correct_ocr, processed_images = eval(infer_func, category)
         category_results[category.value] = (correct_ocr, processed_images)
         # Save to JSON file
         with open(f"results/{model_name.replace('/', '-')}_scores.json", "w") as f:

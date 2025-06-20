@@ -1,0 +1,3481 @@
+[
+    {
+        "path": "data/svt1_augmented/img/00_02_rain_fog_light.jpg",
+        "response": "HERITAGE FORUM\n\nHERITAGE FORUM\n\n(s. Art and J. Ann Aragon",
+        "ground_truth": [
+            "forum",
+            "forum",
+            "heritage",
+            "heritage"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/00_03_rain_fog_light.jpg",
+        "response": "THE JUKE JOINT BAR & CELL  \nPOOL & HOTEL\n\n735  \n735  \n735  \n35  \n35  \n35  \n35  \n45  \n735",
+        "ground_truth": [
+            "bar",
+            "grill",
+            "joint",
+            "juke"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "grill"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/00_04_rain_fog_light.jpg",
+        "response": "Avante Gardens  \nFLORIST\n\nAvenida Rull\u00f3ia\nSCHOOL OF\nFLORAL DESIGN\n\n3 PARES 5",
+        "ground_truth": [
+            "avante",
+            "florist",
+            "gardens",
+            "school",
+            "floral",
+            "design"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/00_05_rain_fog_light.jpg",
+        "response": "I'm unable to transcribe and analyze specific text from an image directly. However, I can help identify other elements like objects, text, colors, or weather patterns using OCR software. If you want, I can describe the scene or explain the visual aspects if that helps!",
+        "ground_truth": [
+            "muzeo",
+            "public",
+            "anaheim"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "muzeo",
+            "public",
+            "anaheim"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/00_06_rain_fog_light.jpg",
+        "response": "HAHM MOTORS\nUSA\n\nWAVE RUNNER\nRATOR\nATVs",
+        "ground_truth": [
+            "hahm",
+            "motorsports",
+            "motorsports",
+            "hahm"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "motorsports"
+        ],
+        "mismatched_counts": {
+            "hahm": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/00_07_rain_fog_light.jpg",
+        "response": "ANAHEIM BAND INSTRUMENTS",
+        "ground_truth": [
+            "anaheim",
+            "band",
+            "instruments"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/00_10_rain_fog_light.jpg",
+        "response": "Angelia\n\nHAMBURGERS\n\nCALL HOP SERVICE\n\nLAUNCH ROPAT\n\nWELCOMME",
+        "ground_truth": [
+            "angelo",
+            "hamburgers"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "angelo"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/00_11_rain_fog_light.jpg",
+        "response": "Welcome To MILLS Ford\n\nFord\n\nWelcome To MILLS\n\nFord",
+        "ground_truth": [
+            "ford",
+            "mills"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "ford": [
+                1,
+                3
+            ],
+            "mills": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/00_13_rain_fog_light.jpg",
+        "response": "KFC  \n131  \nYA",
+        "ground_truth": [
+            "kfc"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/00_15_rain_fog_light.jpg",
+        "response": "SUSHI SHOGUN\nJAPANESE\nCUISINE\n\nALL YOU CAN EAT\n\nSUSHI SHOGUCHA\n\nCAN EAT",
+        "ground_truth": [
+            "shogun",
+            "shogun",
+            "sushi",
+            "sushi"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "shogun": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/00_16_rain_fog_light.jpg",
+        "response": "DJ SUBS\nNOW SERVING\nBreakfast\nOPEN\nOPEN",
+        "ground_truth": [
+            "sub"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "sub"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/00_17_rain_fog_light.jpg",
+        "response": "EconoLodge\n\nSPA SUITES\n\nALL LAUNCHERS Y CASINOS AND VEHICLES TO FURTHER INFERENCE",
+        "ground_truth": [
+            "econo",
+            "lodge"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "econo",
+            "lodge"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/00_18_rain_fog_light.jpg",
+        "response": "Days Inn Suites",
+        "ground_truth": [
+            "days",
+            "inn"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/00_19_rain_fog_light.jpg",
+        "response": "Sure! Here is the transcribed text from the image:\n\n```\nComfort INN\n\nComplaint INN\n```",
+        "ground_truth": [
+            "comfort",
+            "inn"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "inn": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/01_01_rain_fog_light.jpg",
+        "response": "Budget.",
+        "ground_truth": [
+            "budget"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/01_03_rain_fog_light.jpg",
+        "response": "Public Storage",
+        "ground_truth": [
+            "public",
+            "storage"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/01_04_rain_fog_light.jpg",
+        "response": "Sure, here is the transcribed text from the image:\n\n```\nShell\n```",
+        "ground_truth": [
+            "shell"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/01_05_rain_fog_light.jpg",
+        "response": "Enterprise\n\nI 900 rent a car",
+        "ground_truth": [
+            "car",
+            "enterprise",
+            "enterprise",
+            "rent"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "enterprise": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/01_06_rain_fog_light.jpg",
+        "response": "AVIS",
+        "ground_truth": [
+            "avis"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/01_07_rain_fog_light.jpg",
+        "response": "CHANTERRELLES",
+        "ground_truth": [
+            "chanterelle"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "chanterelle"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/01_11_rain_fog_light.jpg",
+        "response": "GOODWILL\n\n2\n\n4\n\n6\n\n8\n\n10\n\n12\n\n14\n\n16\n\n18\n\n20\n\n22",
+        "ground_truth": [
+            "goodwill"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/01_13_rain_fog_light.jpg",
+        "response": "THE ICEBOX\n\nSchool Stuff\nBranding Apparel - Promotional Products\n\n700 U.S. Ave",
+        "ground_truth": [
+            "icebox",
+            "the"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/01_14_rain_fog_light.jpg",
+        "response": "SIX FEET UNDER\nCOLL\n\nRIVER CITY HILL BREWS\nCOLL",
+        "ground_truth": [
+            "feet",
+            "six",
+            "under"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/01_15_rain_fog_light.jpg",
+        "response": "SUPER 8 HOTEL",
+        "ground_truth": [
+            "super"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/01_16_rain_fog_light.jpg",
+        "response": "It looks like there were no visible texts in the image that could be OCR'ed accurately. The prominent text on the building reads \"EMBASSY.\" No transcribed text was generated for it based on the provided image.",
+        "ground_truth": [
+            "embassy"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/01_17_rain_fog_light.jpg",
+        "response": "CARROLL STREET",
+        "ground_truth": [
+            "carroll",
+            "street"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/01_19_rain_fog_light.jpg",
+        "response": "Hertz 201  \nPARKING",
+        "ground_truth": [
+            "hertz"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/02_01_rain_fog_light.jpg",
+        "response": "GRAND CENTRAL\n\nTEN 45 to 75:\n\nE. EAGER ST",
+        "ground_truth": [
+            "central",
+            "grand",
+            "eager"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/02_02_rain_fog_light.jpg",
+        "response": "THE REDWOOD\nLUXURY APARTMENTS\n\n1. S. Eutaw\n\nNow Leasing",
+        "ground_truth": [
+            "redwood",
+            "redwood",
+            "apartments"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "redwood": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/02_03_rain_fog_light.jpg",
+        "response": "PAUL LAURENCE DUNBAR COMMUNITY HIGH SCHOOL\n\n1400 ORLEANS STREET",
+        "ground_truth": [
+            "dunbar",
+            "high",
+            "laurence",
+            "paul",
+            "school",
+            "orleans"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/02_05_rain_fog_light.jpg",
+        "response": "Chase-Brextton Health Services, Inc.",
+        "ground_truth": [
+            "brexton",
+            "chase",
+            "health",
+            "services",
+            "inc"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "brexton",
+            "chase"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/02_06_rain_fog_light.jpg",
+        "response": "MARLBORO\n\nPleaseSign\n\nMarlboro\n\nOPI\n\nN\n+\n\u2013\n\n80452023",
+        "ground_truth": [
+            "marlboro"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "marlboro": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/02_08_rain_fog_light.jpg",
+        "response": "RED SQUARE\n\nSOPS BELVEDERE\n\nRED SQUARE\n\nSOPS BELVEDERE",
+        "ground_truth": [
+            "red",
+            "square",
+            "belvedere"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "red": [
+                1,
+                2
+            ],
+            "square": [
+                1,
+                2
+            ],
+            "belvedere": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/02_09_rain_fog_light.jpg",
+        "response": "Mount Vernon Hotel & Cafeteria\n\nWER& GUESTS MUST\nFIRST REGISTER\nFOR GARAGE ACCESS\n\nAF\n\nMOUNT VERNON\nHotel & Cafeteria\n\nPLEASE NOTE THAT\nA SIGN FOR \"FIRST REGISTER\"\nFOR GARAGE ACCESS\nIS CURRENTLY AVAILABLE\nOn the window above the\ndoor.\n\nWET AIR\nDRIVING CONDITIONS\n\nWet, driving conditions.\n\nR\n\nD",
+        "ground_truth": [
+            "hotel",
+            "vernon",
+            "first",
+            "first"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "hotel": [
+                1,
+                2
+            ],
+            "vernon": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/02_10_rain_fog_light.jpg",
+        "response": "END ROAD WORK\n\nKYRO PIZZA & GRILL\n\nNO PARKING\n\nPARKING NO FREE Internet Available Now\n\nNo parking",
+        "ground_truth": [
+            "kyro",
+            "pizza"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/02_13_rain_fog_light.jpg",
+        "response": "SOTTO  \nSopra  \nSOTTO  \nENGINE  \nSopra  \nSOTTO  \nSopra  \nSOTTO  \nSopra  \nSOTTO  \nSopra  \nSOTTO  \nSopra  \nSOTTO  \nSopra  \nSOTTO",
+        "ground_truth": [
+            "sopra",
+            "sotto"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "sopra": [
+                1,
+                7
+            ],
+            "sotto": [
+                1,
+                8
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/02_15_rain_fog_light.jpg",
+        "response": "FOR EYES\n\nCONTACTS\n\nEYROGLASSES\n\nEYE EXAMS\n\n50% OFF SALE\n2 FOR $99\n\nOSHEAS K\n\nCONTENTS",
+        "ground_truth": [
+            "eyes",
+            "for",
+            "shea"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "shea"
+        ],
+        "mismatched_counts": {
+            "for": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/02_16_rain_fog_light.jpg",
+        "response": "PICKLES PUB\n\nWISE LATINA DRANK HERI\n2 FORSI BEER BIRD FLU\nGAME DAY SPECIALS",
+        "ground_truth": [
+            "pickles",
+            "pub",
+            "pickles",
+            "pub"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "pickles": [
+                2,
+                1
+            ],
+            "pub": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/02_17_rain_fog_light.jpg",
+        "response": "All words in the image:\n1111W\nCENTR\nSTREET\nGALLERY\nTOWER\nAPARTMENT\nHOMES",
+        "ground_truth": [
+            "gallery",
+            "street"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_00_rain_fog_light.jpg",
+        "response": "MOUNTAIN SUN\nPUB & BREWERY\n\nMOUNTAIN SUN\nMOUTAIN SUN PBY. BREWERY\nMOUTAIN SUN\nMOUTAIN SUN PBY. BREWERY\nLEFT HATRO\n4835",
+        "ground_truth": [
+            "brewery",
+            "pub",
+            "sun",
+            "mountain"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "brewery": [
+                1,
+                3
+            ],
+            "sun": [
+                1,
+                5
+            ],
+            "mountain": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/03_01_rain_fog_light.jpg",
+        "response": "Larrey's Boot Fitting  \n2709 Spruce Street  \nLIGAS FP",
+        "ground_truth": [
+            "boot",
+            "fitting",
+            "larry"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "larry"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_02_rain_fog_light.jpg",
+        "response": "BEADS BEADS\n2539\n\nOW\nOPEN\n\nNE\n\nBEADS",
+        "ground_truth": [
+            "beads",
+            "beads",
+            "beads"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_03_rain_fog_light.jpg",
+        "response": "Colorado Daily\n\nA\n\ntrain light\n\nBrick building\n\nWeather",
+        "ground_truth": [
+            "colorado",
+            "daily"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_05_rain_fog_light.jpg",
+        "response": "ANTHROPOLOGY  \n1805",
+        "ground_truth": [
+            "anthropologie"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "anthropologie"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_06_rain_fog_light.jpg",
+        "response": "POLISH",
+        "ground_truth": [
+            "polish"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_09_rain_fog_light.jpg",
+        "response": "Common Threads old & new\n\n---\n\n    CAR\n    STATIONERY\n    GARAGE\n\n---\n\nGREEN T\nWATERING CORDS\nCOOLING SYSTEM\n\n---\n\n323\nCITY\n    CO",
+        "ground_truth": [
+            "common",
+            "threads"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_11_rain_fog_light.jpg",
+        "response": "SHITEN  \nBRASSERIE TENTEN  \n\nDRASSERVIE TENEN  \nDRASSERVIE TENEN",
+        "ground_truth": [
+            "brasserie",
+            "ten",
+            "ten",
+            "ten"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "ten"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_12_rain_fog_light.jpg",
+        "response": "TRIDENT",
+        "ground_truth": [
+            "trident"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_14_rain_fog_light.jpg",
+        "response": "HIMALAYAS RESTAURANT \nBEST Indian Lunch\n\n2010 14th STREET",
+        "ground_truth": [
+            "himalayas",
+            "restaurant",
+            "street"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_15_rain_fog_light.jpg",
+        "response": "Certainly!\n\n70x  \nTHE JAMAS' COACHIN  \nSPRING JULES & THE FLORET  \nVENDOR AND REVENCH END HORTON HEAT  \nSO FLUKEY  \nSPRING JULES & THE FLORET  \nTHE JAMAS' COACHIN  \nSPRING JULES & THE FLORET  \nSPRING JULES & THE FLORET  \nSPRING JULES & THE FLORET",
+        "ground_truth": [
+            "fox"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "fox"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_16_rain_fog_light.jpg",
+        "response": "Sure, here is the transcribed text from the image:\n\n```\nscooters\nG\nKYMCO\nSPRUECE\n\n2506\nSPRUECE\n```",
+        "ground_truth": [
+            "scooters",
+            "sportique",
+            "spruce"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "sportique",
+            "spruce"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/03_18_rain_fog_light.jpg",
+        "response": "BARNSLEY TIRE CO.\n\nYOKOHRA\nMICHELLE\n\nNORTH\nN",
+        "ground_truth": [
+            "barnsley",
+            "tire"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/04_00_rain_fog_light.jpg",
+        "response": "RadioShack\n\nSan Fernando",
+        "ground_truth": [
+            "radio",
+            "shack"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "radio",
+            "shack"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/04_01_rain_fog_light.jpg",
+        "response": "GARNY MEAT & DELI\n\nDI GIULIO CHIROPACTIC\n\nFRESH MEAT & DELI\n\nFOU LEASE PIKEN\n\nA/C",
+        "ground_truth": [
+            "chiropractic",
+            "giulio",
+            "deli",
+            "deli",
+            "garny"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "chiropractic"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/04_02_rain_fog_light.jpg",
+        "response": "KOTAYK KABOB\nGREEK & NERDIERAMANIC CREW SERVICE\nSHISH KABOB\nGROCERY\nMEAT & DELI\nBEER & WINE\nCHI\n4NSV39\nGARREL\nGROCERY\nMEAT & DELI",
+        "ground_truth": [
+            "deli",
+            "deli",
+            "kabob",
+            "kotayk",
+            "grocery"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "kabob": [
+                1,
+                2
+            ],
+            "grocery": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/04_05_rain_fog_light.jpg",
+        "response": "FIRST UNITED METHODIST CHURCH",
+        "ground_truth": [
+            "church",
+            "first",
+            "methodist",
+            "united"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/04_06_rain_fog_light.jpg",
+        "response": "BURBANK  \nFLORIST & GIFTS  \nBURBAN  \nCHECK CASH\n\nBURBANT\nFLORISTS",
+        "ground_truth": [
+            "burbank",
+            "burbank",
+            "florist",
+            "gifts",
+            "check"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "burbank": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/04_07_rain_fog_light.jpg",
+        "response": "F\u00b7Mobile  \nGenoaks  \nGenoaks  \nGenoaks",
+        "ground_truth": [
+            "mobile"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "mobile"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/04_11_rain_fog_light.jpg",
+        "response": "```\nLA LOMMITH SUPPLY\nSPEEDZONE\nAUTO CENTER\n549\n86E DOORAPINERS\n76\nPOLICE\nSPEEDER\nCRIME SCENE\n```",
+        "ground_truth": [
+            "speed",
+            "zone",
+            "auto",
+            "supply",
+            "locksmith"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "speed",
+            "zone",
+            "locksmith"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/04_12_rain_fog_light.jpg",
+        "response": "Phil's Imports, Inc.\nHONDA AND ACURA EXPERTS",
+        "ground_truth": [
+            "imports",
+            "phil"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "phil"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/04_13_rain_fog_light.jpg",
+        "response": "EAGLE MEDICAL SUPPLY\n\nEAGLE MEDICAL SUPPLY\n\n922\n\nEAGLE MEDICAL SUPPLY\n\n924\n\n922 h\n\nPO\n\nS\n\nW\n\n8\n\n69\n\n8\n\ncom\n\n1",
+        "ground_truth": [
+            "eagle",
+            "eagle",
+            "medical",
+            "medical"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "eagle": [
+                2,
+                3
+            ],
+            "medical": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/04_14_rain_fog_light.jpg",
+        "response": "920 M & M ACCOUNTANCY 920\n\nCLOSED \n\nMERS 21-6626",
+        "ground_truth": [
+            "accountancy"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/04_17_rain_fog_light.jpg",
+        "response": "PizzaMan The Deliverers\n\nJAS GIFTS\n\nBAUT",
+        "ground_truth": [
+            "gifts",
+            "jas",
+            "pizza",
+            "man"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "pizza",
+            "man"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/04_18_rain_fog_light.jpg",
+        "response": "Mobil \n\n1.75\n\n1.85\n\n1.95 \n\nMobil Mart",
+        "ground_truth": [
+            "mart",
+            "mobil",
+            "mobil"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/04_19_rain_fog_light.jpg",
+        "response": "Rubicina's\nUTY SALON\nGLENDOKS\nCLEANERS\n& LAUNDRY",
+        "ground_truth": [
+            "cleaners",
+            "cleaners",
+            "glenoaks"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "glenoaks"
+        ],
+        "mismatched_counts": {
+            "cleaners": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/05_00_rain_fog_light.jpg",
+        "response": "NK of America  \nWhtT  \nCoca-Cola  \nWHITE PALACE  \nGRILL  \nBREAKFAST  \nUNCH  \nCONNERS  \nOPEN  \n\n1/2 OFF  \nFREE",
+        "ground_truth": [
+            "palace",
+            "white",
+            "white",
+            "america"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "white": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/05_01_rain_fog_light.jpg",
+        "response": "Moon Palace\n\n\u9152\u5bb6\n\n\u4e0a\u6d77\n\nMoon Palace\n\n\u4e0a\u4e0a\n\nMoon Palace\n\n\u9152\u5bb6\n\n\u4e0a\u6d77",
+        "ground_truth": [
+            "moon",
+            "palace"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "moon": [
+                1,
+                3
+            ],
+            "palace": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/05_02_rain_fog_light.jpg",
+        "response": "I cannot transcribe images like this. If you have a different type of image or need further analysis, please provide more details!",
+        "ground_truth": [
+            "castle",
+            "white"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "castle",
+            "white"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/05_04_rain_fog_light.jpg",
+        "response": "MICHAELS THE ART & CRAFTS STORE\n\nLA FITNESS\n\nWORD MARKET\n\nMichaels\n\nWORLD MARKET",
+        "ground_truth": [
+            "michael",
+            "arts",
+            "crafts",
+            "world",
+            "market",
+            "fitness"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "michael",
+            "arts"
+        ],
+        "mismatched_counts": {
+            "market": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/05_05_rain_fog_light.jpg",
+        "response": "G. Fishman's State Inc.\nFINE FABRICS\nG.I.C.\nDrapers",
+        "ground_truth": [
+            "fabrics",
+            "fishman",
+            "inc",
+            "inc"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "fishman"
+        ],
+        "mismatched_counts": {
+            "inc": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/05_06_rain_fog_light.jpg",
+        "response": "ST JEROME SCHOOL\n\nEtc\n\nL.",
+        "ground_truth": [
+            "jerome",
+            "school"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/05_10_rain_fog_light.jpg",
+        "response": "GRANDSTAND  \nGRANDSTAND  \nGRANDSTAND  \nGRANDSTAND  \nGRA\nGRANDSTAND  \nGRANDSTAND  \nGRA\nGRANDSTAND  \nGRANDSTAND  \nGRA\nGRANDSTAND  \nGRO\nSPADSTAND  \nGRANDSTAND\nGRO\nSPADSTAND  \nGRO\nSPADSTAND  \nGRO\nSPADSTAND  \nGRO\nSPADSTAND  \nGRANDSTAND  \nGRO\nSPADSTAND  \nGRO",
+        "ground_truth": [
+            "grandstand",
+            "grandstand"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "grandstand": [
+                2,
+                11
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/05_11_rain_fog_light.jpg",
+        "response": "Certainly! Here is the transcribed text from the image:\n\n---\n\nMartin's Corner  \nBar & Grill\n\nCERTIFIED GROCERS\n\n---",
+        "ground_truth": [
+            "corner",
+            "martin",
+            "bar"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "martin"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/05_13_rain_fog_light.jpg",
+        "response": "At&t\n\ngamestop\n\nAT&T\n\nGameStop\n\nGameStop\n\nGameStop\n\nGameStop\n\nGameStop\n\nGameStop",
+        "ground_truth": [
+            "gamestop"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "gamestop": [
+                1,
+                7
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/05_14_rain_fog_light.jpg",
+        "response": "DE LA SALLE",
+        "ground_truth": [
+            "salle"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/05_15_rain_fog_light.jpg",
+        "response": "DE PASADA\nDE BUSTE TAOCOS IN TOWN\n312-243-6441",
+        "ground_truth": [
+            "pasada"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/05_16_rain_fog_light.jpg",
+        "response": "TARGET",
+        "ground_truth": [
+            "target"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/05_17_rain_fog_light.jpg",
+        "response": "POMPARI\n\nWALK\n\nSMALL CAR\n\nDRESSING\n\nWALKING\n\nSMALL STORE\n\nIN STORE\n\nFASHIONING\n\nSMALL PAVEMENT\n\nWALKING\n\nWHITE CAR\n\nDRESSING",
+        "ground_truth": [
+            "pompei"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "pompei"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/05_18_rain_fog_light.jpg",
+        "response": "Jewel Osco\n\nPlease note that I have transcribed the text directly from the image as mentioned above.",
+        "ground_truth": [
+            "jewel",
+            "osco"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/05_19_rain_fog_light.jpg",
+        "response": "NK   \n\u7ebd\u7ea6\u4eba\nNEW YORK LIFE   \none \u7684 \u4fdd\u9669   \nTHR \nTHREE HAPPINESS   \n\u4e00\u73ed\u7684 \u4fdd\u9669   \n208-1070",
+        "ground_truth": [
+            "happiness",
+            "three",
+            "chinatown"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "chinatown"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/06_00_rain_fog_light.jpg",
+        "response": "Jimmy's Food Store\n\nFINE ITALIAN Imports & Deli\nITALIAN ESPRESSO\n$1 Shot plus tax\nFRESH MEATS & SAUSAGES\n\nITALIAN ESPRESSO\n\n$1 Shot plus tax",
+        "ground_truth": [
+            "food",
+            "jimmy",
+            "store"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "jimmy"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/06_03_rain_fog_light.jpg",
+        "response": "FUJI SACINA  \nTHE TRAUMATIC MASSAGE",
+        "ground_truth": [
+            "fuji",
+            "massage"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/06_10_rain_fog_light.jpg",
+        "response": "PUFF n STUFF\n\nOPEN\n\nFIFO's WINE\n\nOpen",
+        "ground_truth": [
+            "puff",
+            "stuff"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/06_12_rain_fog_light.jpg",
+        "response": "STARBUCKS\nCOFFEE\nCOFFEE",
+        "ground_truth": [
+            "starbucks"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/06_13_rain_fog_light.jpg",
+        "response": "STARBUCKS COFFEE\n\nSTARBUCKS\nCOFFEE\n\nSTARBUCKS COFFEE",
+        "ground_truth": [
+            "starbucks",
+            "starbucks"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "starbucks": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/06_16_rain_fog_light.jpg",
+        "response": "LA MICROACANA HEAT MARKET TAQUERIA\n\nCelulares Telulos SERVOR D PARA AUTO \n24/34\n\nTAQUERIA\nSanta Rosa Fumero",
+        "ground_truth": [
+            "market",
+            "meat",
+            "michoacana",
+            "taqueria",
+            "taqueria"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "meat",
+            "michoacana"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/06_17_rain_fog_light.jpg",
+        "response": "iames ten cells\n6324",
+        "ground_truth": [
+            "cellars",
+            "ten",
+            "times"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "cellars",
+            "times"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/06_18_rain_fog_light.jpg",
+        "response": "DALLAS THEOLOGICAL SEMINARY",
+        "ground_truth": [
+            "dallas",
+            "seminary",
+            "theological"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_01_rain_fog_light.jpg",
+        "response": "```\nWILLIAMS TAVERN\nTAVERN\nHARVEY\n```\n```",
+        "ground_truth": [
+            "tavern",
+            "tavern",
+            "williams"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_02_rain_fog_light.jpg",
+        "response": "WINBRO\n\n1620 GRANT ST",
+        "ground_truth": [
+            "winbro",
+            "grant"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_03_rain_fog_light.jpg",
+        "response": "I'm unable to transcribe any text from this image.",
+        "ground_truth": [
+            "olin"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "olin"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_04_rain_fog_light.jpg",
+        "response": "LUCKY FORTUNE\nRESTAURANT\nTAKE OUT & DELIVERY 303 860-8484\n\nNO PARKING ANY TIME\n\n2 HOUR PARKING\nBAM-6PM",
+        "ground_truth": [
+            "fortune",
+            "lucky",
+            "restaurant"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_06_rain_fog_light.jpg",
+        "response": "CAPITOL\nCUSTOMTAILORS\nFOR\nLADIES&\nGENTLEMEN\n\nJEWELRY\n\nWATERCOORS\nFOODS\n\nBakelowSmiths\n\n861-2057",
+        "ground_truth": [
+            "capitol",
+            "custom",
+            "tailors",
+            "jewelry",
+            "bakery",
+            "watercourse"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "custom",
+            "tailors",
+            "bakery",
+            "watercourse"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_07_rain_fog_light.jpg",
+        "response": "QUALITY CUSTOM FRAMING\nIN ONLY 6 TH 8 DAYS!\n\nHOLLYWOOD POSTERS\nWE HAVE MORE MOVIE & ROCK POSTERS THAN THERE ARE IN THE WORLD",
+        "ground_truth": [
+            "hollywood",
+            "posters"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "posters": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/07_08_rain_fog_light.jpg",
+        "response": "AVENUE Theater\n\nFree Parking\n\nFREE SALE\n\nFREE SALE\n\nFREE SALE",
+        "ground_truth": [
+            "avenue",
+            "theater"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_09_rain_fog_light.jpg",
+        "response": "UPTOWN VILLAGE APARTMENTS 300 E. 17th AVE.",
+        "ground_truth": [
+            "uptown",
+            "village"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_10_rain_fog_light.jpg",
+        "response": "McDonald\u2019s\n\nFREE\nMall\nRide\n\nEvery Day Van",
+        "ground_truth": [
+            "donald",
+            "donald"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "donald"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_12_rain_fog_light.jpg",
+        "response": "SIMMY JOHN'S\n\nX\n\nJOHN'S\n\nx",
+        "ground_truth": [
+            "jimmy",
+            "john"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "jimmy",
+            "john"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_13_rain_fog_light.jpg",
+        "response": "Quizno's Subs\nQuizno's Subs\nQuizno's Subs\nQUESTION",
+        "ground_truth": [
+            "quiznos",
+            "quiznos"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "quiznos"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_15_rain_fog_light.jpg",
+        "response": "CLEANERS\nFive Star\n\nTHIS SIDE\nNO PARKING ANY TIME\nLOADING ONLY TUNE-PM\n\nSECURED LOCKERS & ...\n\nFREE PARKING ...\n\n\ufffd\n\n+ ...",
+        "ground_truth": [
+            "cleaners",
+            "five",
+            "star"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_17_rain_fog_light.jpg",
+        "response": "GREAT WALL\n\nCHINESE FOOD\n\nTEL 303-832-6611\n\nFAX 303-832-6612\n\ned\n\nZuma",
+        "ground_truth": [
+            "chinese",
+            "great",
+            "wall"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/07_19_rain_fog_light.jpg",
+        "response": "WARWICK\n\nHOTEL\n\n(303) 777-7777  \nYellow Cab  \n7228  \n7274  E238 B1  \nWARWICK HOTEL\n\nZ",
+        "ground_truth": [
+            "hotel",
+            "warwick"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "hotel": [
+                1,
+                2
+            ],
+            "warwick": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/08_00_rain_fog_light.jpg",
+        "response": "MASSAI\nSEAFOOD\n\nNHL\n\nX",
+        "ground_truth": [
+            "massa"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "massa"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/08_04_rain_fog_light.jpg",
+        "response": "HESS\nONE\nAllen Center\n\nPolice\nAgency\n\n2",
+        "ground_truth": [
+            "allen",
+            "hess",
+            "center"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/08_05_rain_fog_light.jpg",
+        "response": "The transcribed text from the image is: \n\n```\nMcSHULL PLAZA\n```\n\nEach line in the image is as follows:\n\n```\nMcSHULL PLAZA\n```",
+        "ground_truth": [
+            "plaza",
+            "shell",
+            "two"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "shell",
+            "two"
+        ],
+        "mismatched_counts": {
+            "plaza": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/08_07_rain_fog_light.jpg",
+        "response": "THE MAGNOLIA",
+        "ground_truth": [
+            "magnolia"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/08_08_rain_fog_light.jpg",
+        "response": "MAGING ZERO'S SANDWICH SHOP\n\nSOUP\n\n0",
+        "ground_truth": [
+            "sandwich",
+            "shop",
+            "zero"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "zero"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/08_09_rain_fog_light.jpg",
+        "response": "Quiznos Sub\n+ \n- \n\nThe image displays the storefront and parking area in front of a Quiznos Sub restaurant. Rain is falling inside the window, and there are several cars parked in the lot. On the right side, a map or sign with some red marks is partially visible.",
+        "ground_truth": [
+            "quiznos"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "quiznos": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/08_12_rain_fog_light.jpg",
+        "response": "Domino's  \nP 699  \nP 591  \nCareer Special  \nPizza 5/$9/box",
+        "ground_truth": [
+            "domino"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "domino"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/08_17_rain_fog_light.jpg",
+        "response": "SPAGHETTI WAREHOUSE\n\nSPAGHETTI\nWAREHOUSE",
+        "ground_truth": [
+            "spaghetti",
+            "warehouse"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "spaghetti": [
+                1,
+                2
+            ],
+            "warehouse": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/08_18_rain_fog_light.jpg",
+        "response": "/u la",
+        "ground_truth": [
+            "zula",
+            "zula"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "zula"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_00_rain_fog_light.jpg",
+        "response": "CIRCLE CENTRE",
+        "ground_truth": [
+            "centre",
+            "circle"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_01_rain_fog_light.jpg",
+        "response": "MPRH Y\n\n0\n\n+",
+        "ground_truth": [
+            "murphy"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "murphy"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_03_rain_fog_light.jpg",
+        "response": "HOULIHAN'S",
+        "ground_truth": [
+            "houlihan",
+            "houlihan"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "houlihan"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_07_rain_fog_light.jpg",
+        "response": "Indiana Hoof Theatre\n\nIndian Hoof Theatre\n\nIndian Hoof Theatre\n\nIndian Hoof Theatre\n\nIndiana Hoof Theatre\n\nFedEx",
+        "ground_truth": [
+            "indiana",
+            "repertory",
+            "theatre",
+            "indiana"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "repertory"
+        ],
+        "mismatched_counts": {
+            "theatre": [
+                1,
+                5
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/09_10_rain_fog_light.jpg",
+        "response": "ZERO\n\nL'OVE\n\nZ",
+        "ground_truth": [
+            "leon"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "leon"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_11_rain_fog_light.jpg",
+        "response": "CHASETOWER\nCHASEO",
+        "ground_truth": [
+            "chase",
+            "chase"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "chase"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_12_rain_fog_light.jpg",
+        "response": "WHEELER MISSION MINISTRIES",
+        "ground_truth": [
+            "mission",
+            "wheeler"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_13_rain_fog_light.jpg",
+        "response": "JOBSITE SUPPLY  \nCONSTRUCTION IDEAS AT WORK 684-7474",
+        "ground_truth": [
+            "jobsite",
+            "supply",
+            "work"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_14_rain_fog_light.jpg",
+        "response": "ZOLL\nZESCO\nBrothers\nPRODUCTS\n\nZZZ\nZZV",
+        "ground_truth": [
+            "brothers",
+            "products",
+            "zesco",
+            "zoll"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_15_rain_fog_light.jpg",
+        "response": "Sheraton\n\nN\n+ \n+ \n-",
+        "ground_truth": [
+            "sheraton"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_16_rain_fog_light.jpg",
+        "response": "Industrial Anodizing\n1610",
+        "ground_truth": [
+            "anodizing",
+            "industrial"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_18_rain_fog_light.jpg",
+        "response": "Homewood Suites  \n211",
+        "ground_truth": [
+            "homewood",
+            "suites"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/09_19_rain_fog_light.jpg",
+        "response": "SIMON",
+        "ground_truth": [
+            "simon"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/10_03_rain_fog_light.jpg",
+        "response": "PAKISTAN TEA HOUSE\n\nA Touch of Traditional Cuisine\n\n212-240-9800\n\n176 CHURCH ST.\n\nTEX-MEXICAN EXPRESS\n\nPaya\n\nOpen\n\nPhono\n\nOPEN\n\n1K35",
+        "ground_truth": [
+            "house",
+            "tea",
+            "pak"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "pak"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/10_04_rain_fog_light.jpg",
+        "response": "Fifth Ave\n\nLENCRAFTERS\n\nNO STANDING ANY TIME\n\nFINE+2 POINTS\n\n10AM-6PM\nMON-FRI",
+        "ground_truth": [
+            "lenscrafters",
+            "fifth",
+            "ave"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "lenscrafters"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/10_05_rain_fog_light.jpg",
+        "response": "FOSSIL\n\nFOSSIL \n\nFOSSIL",
+        "ground_truth": [
+            "fossil",
+            "fossil"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "fossil": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/10_17_rain_fog_light.jpg",
+        "response": "Jean Louis David\n\nCUTS $26\n\n2",
+        "ground_truth": [
+            "david",
+            "jean",
+            "louis"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/10_18_rain_fog_light.jpg",
+        "response": "NO STANDING\nEXCEPT TRUCKS\nLOADING & UNLOADING\n8AM-7PM\nEXCEPT SUNDAY\n\nFranklyWines",
+        "ground_truth": [
+            "frankly",
+            "wines"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "frankly",
+            "wines"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_00_rain_fog_light.jpg",
+        "response": "GRAND BOHEMIAN HOTEL  \nENTRANCE",
+        "ground_truth": [
+            "bohemian",
+            "grand",
+            "hotel"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_01_rain_fog_light.jpg",
+        "response": "NAPASORN\n\nN\n\nBARNEY",
+        "ground_truth": [
+            "napasorn"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_02_rain_fog_light.jpg",
+        "response": "SUSHI HATSU",
+        "ground_truth": [
+            "hatsu",
+            "sushi"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_03_rain_fog_light.jpg",
+        "response": "AL'S ARMY STORE\n\nEST. 1957\n\n23\n\n3",
+        "ground_truth": [
+            "army",
+            "store"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_04_rain_fog_light.jpg",
+        "response": "Orlando Sentinel\ncommunications",
+        "ground_truth": [
+            "orlando",
+            "sentinel"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_05_rain_fog_light.jpg",
+        "response": "KYLE'S BIKE SHOP\nCK UP & DELIVERY \n071 228-7088",
+        "ground_truth": [
+            "bike",
+            "kyle",
+            "shop"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "kyle"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_06_rain_fog_light.jpg",
+        "response": "STARBUCKS COFFEE\n\nSTARBUCKS\nCOFFEE\n\nWORLDSTAR",
+        "ground_truth": [
+            "starbucks",
+            "starbucks",
+            "coffee",
+            "coffee"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_07_rain_fog_light.jpg",
+        "response": "Parliament House RESORT\n\nLATIM NIGHT\nLISA LANE\nDJ DIDO",
+        "ground_truth": [
+            "house",
+            "parliament",
+            "resort"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_08_rain_fog_light.jpg",
+        "response": "COLONIAL\nRESTAURANT \n& LOUNGE",
+        "ground_truth": [
+            "colonial",
+            "restaurant"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_09_rain_fog_light.jpg",
+        "response": "CENTRAL STATION BAR\n\nCENTRAL STATION BAR\n\n00 EAST",
+        "ground_truth": [
+            "bar",
+            "bar",
+            "central",
+            "central",
+            "station",
+            "station"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_10_rain_fog_light.jpg",
+        "response": "CHURCH OF SCIENTOLOGY HABARD DIANETICS FOUNDATION",
+        "ground_truth": [
+            "scientology",
+            "church"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_12_rain_fog_light.jpg",
+        "response": "TIJUANA FLATS\n2\nZOUZOH\nTijuanaFlats Co\nZOUZOH",
+        "ground_truth": [
+            "flats",
+            "tijuana",
+            "zou",
+            "zou",
+            "zou"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "zou"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_13_rain_fog_light.jpg",
+        "response": "DONG - A-SUPERMARKET",
+        "ground_truth": [
+            "dong",
+            "market"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "market"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_15_rain_fog_light.jpg",
+        "response": "Colonial PHOTO & HOBBY INC.",
+        "ground_truth": [
+            "colonial",
+            "hobby",
+            "inc",
+            "photo"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_16_rain_fog_light.jpg",
+        "response": "Little SAIGON",
+        "ground_truth": [
+            "little",
+            "saigon"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_17_rain_fog_light.jpg",
+        "response": "T@bu",
+        "ground_truth": [
+            "tabu"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "tabu"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_18_rain_fog_light.jpg",
+        "response": "OPEN\n\nDO NOT ENTER",
+        "ground_truth": [
+            "cityarts",
+            "factory"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "cityarts",
+            "factory"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/11_19_rain_fog_light.jpg",
+        "response": "Travelodge\n\nALL NEW ROOMS\nALL ROOMS $47.95\n5107808 Thu 12/3/08",
+        "ground_truth": [
+            "travelodge"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/12_02_rain_fog_light.jpg",
+        "response": "TD Bank\n\nWe don't put nickel and dime in you. Get yours at the store\nPic day. NY DAY. We're open!\n\nPC DAY\nNY DAY",
+        "ground_truth": [
+            "bank"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/12_03_rain_fog_light.jpg",
+        "response": "HRG\n\nHard Rock Cafe\n\nHard Rock Cafe",
+        "ground_truth": [
+            "hard",
+            "hard",
+            "rock",
+            "rock",
+            "cafe",
+            "cafe"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/12_04_rain_fog_light.jpg",
+        "response": "EMBASSY SUITES  \nCenter City  \nPARKING  \nDO NOT ENTER  \nENTER",
+        "ground_truth": [
+            "embassy",
+            "suites",
+            "parking",
+            "center",
+            "city"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/12_05_rain_fog_light.jpg",
+        "response": "N  \n+  \n-  \nG  \nA  \nN  \n+  \n-  \n  \nR",
+        "ground_truth": [
+            "jones"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "jones"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/12_06_rain_fog_light.jpg",
+        "response": "capsGIRO\nCELATO ARTISANS\n\nCapri\n\n Gelato\n Capresso\n Gelato\n Panier",
+        "ground_truth": [
+            "capogiro"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "capogiro"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/12_08_rain_fog_light.jpg",
+        "response": "Sheraton\nPhillips SEAFOOD\n\nTEXK ACE RESTAURANT\nLOBBY BAR",
+        "ground_truth": [
+            "sheraton",
+            "restaurant"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/12_09_rain_fog_light.jpg",
+        "response": "TRAADER JOE'S",
+        "ground_truth": [
+            "joe",
+            "trader"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "joe",
+            "trader"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/12_10_rain_fog_light.jpg",
+        "response": "BI\u00c8RES\nPPRESSION\nPARK\nVIP S\nHOTEL",
+        "ground_truth": [
+            "parc"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "parc"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/12_13_rain_fog_light.jpg",
+        "response": "CHERRY STREET  \nCHINESE KOSH  \nVEGETARIAN RESTAURANT  \n\n\u7d20\u98df\u8f69 1010 CHERRY STREET  Tel:215-923-",
+        "ground_truth": [
+            "cherry",
+            "cherry",
+            "chinese",
+            "vegetarian",
+            "street",
+            "street",
+            "cherry",
+            "chinese",
+            "vegetarian"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "cherry": [
+                3,
+                2
+            ],
+            "chinese": [
+                2,
+                1
+            ],
+            "vegetarian": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/12_15_rain_fog_light.jpg",
+        "response": "Oneus  \n\u00d8  \n\u00d8",
+        "ground_truth": [
+            "ortlieb"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "ortlieb"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/12_16_rain_fog_light.jpg",
+        "response": "UNITED STATES\n\nBUS\nPARKING FACILITY\nUSE TOWER\nONE WAY\n\nBUS PARKING FACILITY USE TOWER",
+        "ground_truth": [
+            "mint",
+            "states",
+            "united"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "mint"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/12_18_rain_fog_light.jpg",
+        "response": "CHINATOWN DOLLAR INC.\n\u83ef\u83ef $18\uff06UP \u516c\u53f8 \nHardware \nStationary \n\u73a9\u5177 & Party Supplies  \nStations \n\u793c\u54c1\u96f6\u552e\u91d1\u5177\u98df\u54c1 \n\nDING  HOI",
+        "ground_truth": [
+            "china",
+            "dollar",
+            "inc",
+            "town",
+            "ding"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "china",
+            "town"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_01_rain_fog_light.jpg",
+        "response": "UNIVERSITY CENTER",
+        "ground_truth": [
+            "center",
+            "university",
+            "asu"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "asu"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_02_rain_fog_light.jpg",
+        "response": "STANBUSS'S COFFEE",
+        "ground_truth": [
+            "starbucks"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "starbucks"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_03_rain_fog_light.jpg",
+        "response": "Came 'Fanitos Suj,\nCafe Ronui\nPizza Pasta Salada & Nahuas",
+        "ground_truth": [
+            "quiznos",
+            "salads",
+            "subs"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "quiznos",
+            "salads",
+            "subs"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_04_rain_fog_light.jpg",
+        "response": "PASE LORI DODGE TOWER",
+        "ground_truth": [
+            "dodge",
+            "phelps",
+            "tower"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "phelps"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_07_rain_fog_light.jpg",
+        "response": "see lounge\na domestiques parfumeur",
+        "ground_truth": [
+            "eye",
+            "lounge"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "eye"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_08_rain_fog_light.jpg",
+        "response": "I'm unable to transcribe this image for you directly. However, you can use OCR tools to extract the text that says \"Enterprise\" from the image.",
+        "ground_truth": [
+            "enterprise"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_10_rain_fog_light.jpg",
+        "response": "Pizza Hut\nz\n+ \n-",
+        "ground_truth": [
+            "hut",
+            "pizza"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_11_rain_fog_light.jpg",
+        "response": "MAGIC AUTO\nno words in red",
+        "ground_truth": [
+            "auto",
+            "magic"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_12_rain_fog_light.jpg",
+        "response": "MCA\n\nYMCA",
+        "ground_truth": [
+            "ymca"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_13_rain_fog_light.jpg",
+        "response": "speed5  \n55  \n\nspeed**",
+        "ground_truth": [
+            "space"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "space"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_14_rain_fog_light.jpg",
+        "response": "N\nc\nircles:discs&tapes\n\nN\nL\n+ \n-\n\nN\nN\n\nc\nircles:discs&tapes",
+        "ground_truth": [
+            "circles",
+            "tapes"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "circles",
+            "tapes"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_15_rain_fog_light.jpg",
+        "response": "-WYNDHAM HOTEL",
+        "ground_truth": [
+            "hotel",
+            "wyndham"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_16_rain_fog_light.jpg",
+        "response": "rnoicated arts",
+        "ground_truth": [
+            "arts",
+            "modified"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "modified"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/13_17_rain_fog_light.jpg",
+        "response": "US AIRWAYS CENTER\n\nUS AIRWAYS CENTER\n\nN\n+",
+        "ground_truth": [
+            "airways",
+            "center"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "airways": [
+                1,
+                2
+            ],
+            "center": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/13_19_rain_fog_light.jpg",
+        "response": "CHEUVRONT\nRESTAURANT",
+        "ground_truth": [
+            "cheuvront",
+            "cheuvront",
+            "restaurant"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "cheuvront": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/14_01_rain_fog_light.jpg",
+        "response": "HIGGINS",
+        "ground_truth": [
+            "higgins"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/14_02_rain_fog_light.jpg",
+        "response": "Marriott\n\n3",
+        "ground_truth": [
+            "marriott"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/14_05_rain_fog_light.jpg",
+        "response": "Roots\n\nRoots",
+        "ground_truth": [
+            "roots"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "roots": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/14_06_rain_fog_light.jpg",
+        "response": "Convention Center\n\nNo",
+        "ground_truth": [
+            "center",
+            "convention"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/14_07_rain_fog_light.jpg",
+        "response": "EVEREST COLLEGE\n\nEvery\n\nWHEELBARC LE\n\nB\n\nON  CARR\n\nCOLLEGE\n\nWHEELBARC\n\nB\n\nON  CARR\n\nCOLLEGE\n\nM\n\nABRA",
+        "ground_truth": [
+            "college",
+            "everest"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "college": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/14_08_rain_fog_light.jpg",
+        "response": "PIONEER PLACE\nSATS FIFTH AVENUE",
+        "ground_truth": [
+            "pioneer",
+            "place",
+            "saks",
+            "fifth",
+            "avenue"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "saks"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/14_09_rain_fog_light.jpg",
+        "response": "Cinema 21\n\nSTEVE BUSCEMI'S\nINTERVIEW\nNEXT: \"NO END IN SIGHT\"\n\nP",
+        "ground_truth": [
+            "cinema"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/14_10_rain_fog_light.jpg",
+        "response": "Park Kitchen",
+        "ground_truth": [
+            "kitchen",
+            "park"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/14_12_rain_fog_light.jpg",
+        "response": "DAN & LOUIS  \nSince 1907  \nOSTERIA \n\n[Missing text box]",
+        "ground_truth": [
+            "bar",
+            "dan",
+            "louis",
+            "oyster"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "bar",
+            "oyster"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/14_13_rain_fog_light.jpg",
+        "response": "ODyssey Theater K Park",
+        "ground_truth": [
+            "mission",
+            "pub",
+            "theatre"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "mission",
+            "pub",
+            "theatre"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/14_14_rain_fog_light.jpg",
+        "response": "SATYRICON/PDX.COM  \nTHE LIFE AND TIMES  \nSYSTEM AND STATION MICROFIA",
+        "ground_truth": [
+            "satyricon"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "satyricon"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/14_17_rain_fog_light.jpg",
+        "response": "LINCOLN HIGH SCHOOL",
+        "ground_truth": [
+            "high",
+            "lincoln",
+            "school"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/14_18_rain_fog_light.jpg",
+        "response": "Marriott\n\nMarriott\n\nMarriott",
+        "ground_truth": [
+            "marriott",
+            "marriott"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "marriott": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/15_03_rain_fog_light.jpg",
+        "response": "SURE! Here is the transcribed text from the image:\n\n\"SAN DIEGO Harbor Excursion\nwww.sdhere.com\n(619) 234-4111\n\n2009 Google\"",
+        "ground_truth": [
+            "diego",
+            "excursion",
+            "harbor",
+            "san"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/15_04_rain_fog_light.jpg",
+        "response": "Timken\nMuseum of Art\n\nEuropean Works Of Art\nAmerican Paintings\nAnd Russian Icons\n\nPREMIER ADMISSION",
+        "ground_truth": [
+            "art",
+            "art",
+            "art",
+            "museum",
+            "museum",
+            "timken",
+            "timken"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "art": [
+                3,
+                2
+            ],
+            "museum": [
+                2,
+                1
+            ],
+            "timken": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/15_05_rain_fog_light.jpg",
+        "response": "Sin Diego Automotive Museum\n\nONLY\n\nAUTHORIZED VEHICLES",
+        "ground_truth": [
+            "automotive",
+            "diego",
+            "museum",
+            "san"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "san"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/15_06_rain_fog_light.jpg",
+        "response": "EL CORTEZ",
+        "ground_truth": [
+            "cortez"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/15_08_rain_fog_light.jpg",
+        "response": "THE Casbah\n\nn\n\n00:33",
+        "ground_truth": [
+            "casbah"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/15_10_rain_fog_light.jpg",
+        "response": "AIR & SPACE MUSEUM\n\nAIR & SPACE MUSEUM",
+        "ground_truth": [
+            "air",
+            "museum",
+            "space"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "air": [
+                1,
+                2
+            ],
+            "museum": [
+                1,
+                2
+            ],
+            "space": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/15_11_rain_fog_light.jpg",
+        "response": "Parking Entrance 8'-0\" Clearance\nExit Only Do Not En\n\nZ\n\n+ -",
+        "ground_truth": [
+            "plaza",
+            "america"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "plaza",
+            "america"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/15_12_rain_fog_light.jpg",
+        "response": "HORTON GRAND HOTEL\n\nHORTON\nGRAND\nHOTEL",
+        "ground_truth": [
+            "grand",
+            "horton",
+            "hotel"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "grand": [
+                1,
+                2
+            ],
+            "horton": [
+                1,
+                2
+            ],
+            "hotel": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/15_17_rain_fog_light.jpg",
+        "response": "COURTYARD\nMarriott\n\nMarriott",
+        "ground_truth": [
+            "courtyard"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/15_19_rain_fog_light.jpg",
+        "response": "Holiday Inn  \nBoutique des Biscuits  \nSuite 4470  \n0113 0114  \nA HOLIDAY INN  \nNO PARKING  \nLEFT TURN YIELD",
+        "ground_truth": [
+            "holiday",
+            "hotel",
+            "inn"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "hotel"
+        ],
+        "mismatched_counts": {
+            "holiday": [
+                1,
+                2
+            ],
+            "inn": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/16_01_rain_fog_light.jpg",
+        "response": "HOTEL WHITCOMB\n\n1231",
+        "ground_truth": [
+            "hotel",
+            "whitcomb"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/16_02_rain_fog_light.jpg",
+        "response": "The text from the image is:\n\nThe\nMOSSER\n54\nLIC PARKING",
+        "ground_truth": [
+            "mosser",
+            "the"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "the": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/16_04_rain_fog_light.jpg",
+        "response": "HOTEL CARLTON",
+        "ground_truth": [
+            "carlton",
+            "hotel"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/16_06_rain_fog_light.jpg",
+        "response": "CITY LIGHTS BOOKS\n\nQTYIGHTS BOOKSTORE\n\nCity Lights Books\n\nCOPYRIGHT 2009\nCity Lights Books, Publishers",
+        "ground_truth": [
+            "bookstore",
+            "city",
+            "city",
+            "lights",
+            "lights"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "city": [
+                2,
+                3
+            ],
+            "lights": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/16_12_rain_fog_light.jpg",
+        "response": "FIRST CRUSH",
+        "ground_truth": [
+            "crush",
+            "first"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/16_13_rain_fog_light.jpg",
+        "response": "TADA  \nRESTAURANT",
+        "ground_truth": [
+            "restaurant",
+            "tara"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "tara"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/16_14_rain_fog_light.jpg",
+        "response": "1660\nWASHINGTON SQUARE INN",
+        "ground_truth": [
+            "inn",
+            "square",
+            "washington"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/16_15_rain_fog_light.jpg",
+        "response": "Canto Do Brasil RESTAURANT  \n41 Franklin  \n626-8727",
+        "ground_truth": [
+            "brazil",
+            "canto",
+            "restaurant"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "brazil"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/16_16_rain_fog_light.jpg",
+        "response": "ORBLEUM THEATRE\n\nWICKED",
+        "ground_truth": [
+            "orpheum",
+            "theatre"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "orpheum"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/16_17_rain_fog_light.jpg",
+        "response": "PINECREST  \n-The Food Makers\u00ae  \nSince 1960. RESTAURANT. Open 24 hrs.  \nPIRS  \nATM",
+        "ground_truth": [
+            "crest",
+            "pine",
+            "restaurant"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "crest",
+            "pine"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/16_18_rain_fog_light.jpg",
+        "response": "SAINT FRANCIS MEMORIAL HOSPITAL  \nCHW  \n900\n\nSAINT FRANCIS  \nMEMORIAL HOSPITAL  \nCHW  \n900",
+        "ground_truth": [
+            "francis",
+            "hospital",
+            "memorial",
+            "saint"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "francis": [
+                1,
+                2
+            ],
+            "hospital": [
+                1,
+                2
+            ],
+            "memorial": [
+                1,
+                2
+            ],
+            "saint": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/17_00_rain_fog_light.jpg",
+        "response": "SAN JOSE\nMUSEUM OF ART\n\nOF ART",
+        "ground_truth": [
+            "art",
+            "jose",
+            "museum",
+            "san"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "art": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/17_02_rain_fog_light.jpg",
+        "response": "MOTIF\n\nRESTAURANT AND CLUB\n\n389 South Last Street\n\nTel. 408-621-8889\n\nwww.motiflounge.com",
+        "ground_truth": [
+            "motif",
+            "restaurant",
+            "club",
+            "and",
+            "south",
+            "first"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "first"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/17_03_rain_fog_light.jpg",
+        "response": "131\nBICYCLE EXPRESS\nOPEN",
+        "ground_truth": [
+            "bicycle",
+            "express"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/17_05_rain_fog_light.jpg",
+        "response": "Sure, I will transcribe the image from text based on what is visible.\n\n```\nMcDonald's\n```\n\n(Note: Line by line, the transcribed text is: \n\"McDonald's\")\n```",
+        "ground_truth": [
+            "donald"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "donald"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/17_06_rain_fog_light.jpg",
+        "response": "B-Line\nBODY\nSHOP.\n408-279-4500",
+        "ground_truth": [
+            "body",
+            "shop",
+            "line"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "line"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/17_07_rain_fog_light.jpg",
+        "response": "ERNST YOUNG  \nSan Carles St",
+        "ground_truth": [
+            "ernst",
+            "young",
+            "san"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/17_08_rain_fog_light.jpg",
+        "response": "BOTOWN\n\nCHINESE\nVIETNAM\n\nCHUYEN\n\nCHUYEN",
+        "ground_truth": [
+            "town"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "town"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/17_09_rain_fog_light.jpg",
+        "response": "THE SAINTe CLAIRE",
+        "ground_truth": [
+            "claire",
+            "sainte",
+            "the"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/17_10_rain_fog_light.jpg",
+        "response": "nit\n\nliquid\nliquid agency",
+        "ground_truth": [
+            "agency",
+            "liquid",
+            "liquid"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/17_13_rain_fog_light.jpg",
+        "response": "ABRAHAM LINCOLN PUBLIC SCHOOL\n\nLIVING ROOM ENTRANCE\n\nAfrican American School District\n\nFENCING AND DOOR LAYOUT",
+        "ground_truth": [
+            "high",
+            "lincoln",
+            "school",
+            "school",
+            "california"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "high",
+            "california"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/17_14_rain_fog_light.jpg",
+        "response": "SAN JOSE MUSEUM OF\nQuilts & Textiles\n\nXs",
+        "ground_truth": [
+            "jose",
+            "museum",
+            "quilts",
+            "san",
+            "textiles"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/17_15_rain_fog_light.jpg",
+        "response": "GOODWILL\n\nGOODWILL\n GOOD SOURCE DIVISION\n\nGOODWILL \nGOOD SOURCE DIVISION",
+        "ground_truth": [
+            "goodwill"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "goodwill": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/17_16_rain_fog_light.jpg",
+        "response": "RAMADA\u00ae",
+        "ground_truth": [
+            "ramada"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "ramada"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/17_17_rain_fog_light.jpg",
+        "response": "FAHRENHEIT\n\nFAHRENHEIT",
+        "ground_truth": [
+            "fahrenheit",
+            "lounge"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "lounge"
+        ],
+        "mismatched_counts": {
+            "fahrenheit": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/17_18_rain_fog_light.jpg",
+        "response": "N\n\nN\n\nSOUTH FIRST BILLIARD'S\n\nN\n\nN",
+        "ground_truth": [
+            "billiards",
+            "first",
+            "south"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "billiards"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_00_rain_fog_light.jpg",
+        "response": "ANTICA VIA TRIBUNALI PIZZERIA",
+        "ground_truth": [
+            "tribunali",
+            "via"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_01_rain_fog_light.jpg",
+        "response": "TRIPLE\ndoor\n\nONLY\nPATRICIA BARRER FRIDAY3 THE ALBUM LEAF\nSAT & TOO SLIM & THE TAILDRAGGERS\n\nmusicquarium",
+        "ground_truth": [
+            "door",
+            "the",
+            "the",
+            "triple",
+            "the"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "the": [
+                3,
+                2
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/18_02_rain_fog_light.jpg",
+        "response": "BLACK BOTTLE\n\n2600 Vine St\n\nONE WAY",
+        "ground_truth": [
+            "black",
+            "bottle",
+            "vine"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_03_rain_fog_light.jpg",
+        "response": "HOTEL MAX",
+        "ground_truth": [
+            "hotel",
+            "max"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_04_rain_fog_light.jpg",
+        "response": "RED LION HOTEL\n\n(Transcribed text only. No additional commentary or explanations added.)",
+        "ground_truth": [
+            "hotel",
+            "lion",
+            "red"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_06_rain_fog_light.jpg",
+        "response": "PARAMOUNT  \nAvenue  \nPARENTAL ADVISORY: 60% ADULT SITUATIONS 40% FOAM RUBBER  \nJUNE 10-22  \navenueq.com  \n\nAbove the theater sign:\nT",
+        "ground_truth": [
+            "paramount"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_07_rain_fog_light.jpg",
+        "response": "THE MOORE HOTEL\nTHE MOORE HOTEL\nALTERATIVES\nCITY CUSTOM\nTAILORS",
+        "ground_truth": [
+            "hotel",
+            "hotel",
+            "moore",
+            "moore"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_08_rain_fog_light.jpg",
+        "response": "GARAGE\n\n1130",
+        "ground_truth": [
+            "garage"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_09_rain_fog_light.jpg",
+        "response": "PIKE AND WESTERN'WINE SHOP\n\nPIKE AND WESTERN'WINE SHOP\n\nPIKE AND WESTERN'WINE SHOP\n\nPIKE AND WESTERN'WINE SHOP",
+        "ground_truth": [
+            "pike",
+            "western",
+            "wine"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "western",
+            "wine"
+        ],
+        "mismatched_counts": {
+            "pike": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/18_10_rain_fog_light.jpg",
+        "response": "Best Western\nEXECUTIVE INN",
+        "ground_truth": [
+            "best",
+            "executive",
+            "inn",
+            "western"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_13_rain_fog_light.jpg",
+        "response": "Best Western Loyal Inn",
+        "ground_truth": [
+            "inn",
+            "loyal",
+            "western",
+            "best"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_15_rain_fog_light.jpg",
+        "response": "SIXTH AVENUE\nBAR & GRILL\n\nSIXTH AVENUE BAR & GRILL",
+        "ground_truth": [
+            "avenue",
+            "sixth",
+            "bar",
+            "grill",
+            "sixth",
+            "grill",
+            "avenue",
+            "bar"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_16_rain_fog_light.jpg",
+        "response": "94 Stewart RESTAURANT",
+        "ground_truth": [
+            "restaurant",
+            "stewart"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_17_rain_fog_light.jpg",
+        "response": "CINERAMA\n\nwww.cinerama.com\n\n[Door handle]\n+ -\n+ -\n\n[Windows]\n[Signboard]\n[Window reflection]",
+        "ground_truth": [
+            "cinerama",
+            "cinerama"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "cinerama": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/18_18_rain_fog_light.jpg",
+        "response": "GARFIELD\nHIGH\nSCHOOL\nAT\nLINCOLN",
+        "ground_truth": [
+            "garfield",
+            "high",
+            "school"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/18_19_rain_fog_light.jpg",
+        "response": "HEUMOS\n\nNEUMOS\n\nUPCOMING SHOWS\n\nUPCOMING SHOWS\n\nUPCOMING SHOWS",
+        "ground_truth": [
+            "neumos",
+            "neumos"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "neumos": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/19_00_rain_fog_light.jpg",
+        "response": "Restaurant\n\nCafe Soleil\n\nBar",
+        "ground_truth": [
+            "cafe",
+            "soleil",
+            "bar",
+            "restaurant"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/19_01_rain_fog_light.jpg",
+        "response": "TINY JEWEL BOX\n\nNO STANDING\nOR PARKING\nMETRO B BUS\nZONE",
+        "ground_truth": [
+            "box",
+            "jewel",
+            "tiny"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/19_03_rain_fog_light.jpg",
+        "response": "CVS/pharmacy\nCVS/pharmacy\nCVS/pharmacy\n24 HOURS",
+        "ground_truth": [
+            "cvs",
+            "cvs",
+            "cvs",
+            "cvs",
+            "pharmacy",
+            "cvs",
+            "cvs"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "cvs",
+            "pharmacy"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/19_04_rain_fog_light.jpg",
+        "response": "ART & FRAMING\nSAME DAY FRMING\nCUE MOM FRAMPING\n\nSAKANA\nJAPANESE RESTAURANT\n\nGROCERY-BEER & DELICATESSE",
+        "ground_truth": [
+            "japanese",
+            "restaurant",
+            "sakana"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/19_06_rain_fog_light.jpg",
+        "response": "THE FIREPLACE\n\nLIQUOR BEER\n\nATM\nSALVUELDAMS\n\nSTATE LIQUOR\nWINE SPECIALS",
+        "ground_truth": [
+            "fireplace"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/19_07_rain_fog_light.jpg",
+        "response": "WM. FOX & CO.\n\n1427\n\n1425\n\nOPEN\n\nSHOE REPAIR & TAILORING\nON PREMISES\nORGANIC CLEANING\n\nOPEN",
+        "ground_truth": [
+            "fox",
+            "cleaners"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "cleaners"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/19_09_rain_fog_light.jpg",
+        "response": "Books for America\nBooks for America\nBOOKS FOR AMERICA\nA non-profit bookstore\nNew & Used Books\nHelp support our library building literacy efforts\nbookshopamerica.org\nOpen\nOPEN\nBOOKS FOR ANNALS \nBOOKS FOR ANNALS",
+        "ground_truth": [
+            "america",
+            "america",
+            "books",
+            "books",
+            "for",
+            "for"
+        ],
+        "match_success": false,
+        "missing_words": [],
+        "mismatched_counts": {
+            "america": [
+                2,
+                3
+            ],
+            "books": [
+                2,
+                6
+            ],
+            "for": [
+                2,
+                5
+            ]
+        }
+    },
+    {
+        "path": "data/svt1_augmented/img/19_11_rain_fog_light.jpg",
+        "response": "THE GUITAR SHOP\n\nFUDDRUCKERS\n\nFresh Ground Beef\nGarden Fresh Produce\nFresh Baked Bread\n\nFUDDS PRIME\n100%\n\nGREAT AMERICAN\nPREMIUM BEEF\n\nFresh\n\nBRAWLER\n\n18 ST\n\nONE WAY",
+        "ground_truth": [
+            "fuddruckers",
+            "the"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/19_12_rain_fog_light.jpg",
+        "response": "met caf\u00e9\n\n2 HOUR PARKING\n7AM-8PM\nMondays-Fridays",
+        "ground_truth": [
+            "cafe",
+            "met"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "cafe"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/19_13_rain_fog_light.jpg",
+        "response": "PARK & PMI\n\nCHOCOLATE MOOSE\n\nPAPER, PLASTIC, GAUGE\n\n1745\n\nIN G LOUNGE",
+        "ground_truth": [
+            "chocolate",
+            "moose",
+            "lounge"
+        ],
+        "match_success": true,
+        "missing_words": [],
+        "mismatched_counts": {}
+    }
+]
