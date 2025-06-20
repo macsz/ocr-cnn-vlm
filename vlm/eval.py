@@ -17,6 +17,7 @@ from torchvision import transforms
 from common import create_message, init_pipeline, logger
 
 
+
 class Category(Enum):
     ORIGINAL = "original"
     RAIN_LIGHT = "rain_light"
@@ -29,6 +30,18 @@ class Category(Enum):
     RAIN_FOG_MEDIUM = "rain_fog_medium"
     RAIN_FOG_HEAVY = "rain_fog_heavy"
 
+CATEGORIES = [
+    Category.ORIGINAL,
+    Category.RAIN_LIGHT,
+    Category.RAIN_MEDIUM,
+    Category.RAIN_HEAVY,
+    Category.FOG_LIGHT,
+    Category.FOG_MEDIUM,
+    Category.FOG_HEAVY,
+    Category.RAIN_FOG_LIGHT,
+    Category.RAIN_FOG_MEDIUM,
+    Category.RAIN_FOG_HEAVY,
+]
 
 class WeatherAugmentedImageDataset(Dataset):
     def __init__(self, img_dir, category: Category = Category.ORIGINAL):
@@ -213,8 +226,9 @@ if __name__ == "__main__":
         choices=[
             "google/gemma-3-4b-it",
             "Qwen/Qwen2.5-VL-3B-Instruct",
+            "OpenGVLab/InternVL3-2B",
         ],
-        default="Qwen/Qwen2.5-VL-3B-Instruct",
+        default="OpenGVLab/InternVL3-2B",
     )
     args = parser.parse_args()
 
@@ -227,20 +241,8 @@ if __name__ == "__main__":
 
     logger.info("Pipeline initialized successfully.")
 
-    categories = [
-        Category.ORIGINAL,
-        Category.RAIN_LIGHT,
-        Category.RAIN_MEDIUM,
-        Category.RAIN_HEAVY,
-        Category.FOG_LIGHT,
-        Category.FOG_MEDIUM,
-        Category.FOG_HEAVY,
-        Category.RAIN_FOG_LIGHT,
-        Category.RAIN_FOG_MEDIUM,
-        Category.RAIN_FOG_HEAVY,
-    ]
     category_results = {}
-    for category in categories:
+    for category in CATEGORIES:
         logger.info(f"Evaluating category: {category.value}")
         correct_ocr, processed_images = eval(category)
         category_results[category.value] = (correct_ocr, processed_images)
