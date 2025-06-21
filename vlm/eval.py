@@ -14,7 +14,7 @@ from rich.progress import (BarColumn, Progress, TextColumn, TimeElapsedColumn,
 from rich.table import Table
 from torch.utils.data import DataLoader, Dataset
 from torchvision import transforms
-from transformers import AutoModel, AutoTokenizer
+from transformers import AutoModel, AutoTokenizer, AutoProcessor, AutoModelForImageTextToText, AutoModelForCausalLM
 
 from common import create_message, init_pipeline, logger
 from vlm.internvl import device_map, load_image
@@ -22,6 +22,7 @@ from vlm.internvl import device_map, load_image
 model = None
 tokenizer = None
 pipe = None
+processor = None
 
 
 class Category(Enum):
@@ -230,6 +231,31 @@ def infer_func_gemma_qwen(path):
     return result, text_found
 
 
+def infer_func_smolvlm(path):
+    # # Good for Gemma and Qwen
+    messages = create_message(path)
+    # response = pipe(text=messages)
+    # result = {"path": path, "response": response[0]["generated_text"]}
+    # text_found = result["response"][-1]["content"]
+    # return result, text_found
+
+    inputs = processor.apply_chat_template(
+        messages,
+        add_generation_prompt=True,
+        tokenize=True,
+        return_dict=True,
+        return_tensors="pt",
+    ).to(model.device, dtype=torch.bfloat16)
+
+    generated_ids = model.generate(**inputs, do_sample=False, max_new_tokens=64)
+    response = processor.batch_decode(
+        generated_ids,
+        skip_special_tokens=True,
+    )
+    result = {"path": path, "response": response[0]}
+    return result, response[0]
+
+
 def infer_func_internvl(path):
     # Good for InternVL
     messages = create_message(path)
@@ -239,6 +265,15 @@ def infer_func_internvl(path):
 
     question = f"<image>\n{message}"
     response = model.chat(tokenizer, pixel_values, question, generation_config)
+
+    result = {"path": path, "response": response}
+    return result, response
+
+
+def infer_func_tinyllava(path):
+    messages = create_message(path)
+    message = messages[0]["content"][0]["text"]
+    response, genertaion_time = model.chat(prompt=message, image=path, tokenizer=tokenizer)
 
     result = {"path": path, "response": response}
     return result, response
@@ -254,20 +289,44 @@ if __name__ == "__main__":
             "Qwen/Qwen2.5-VL-3B-Instruct",
             "OpenGVLab/InternVL3-2B",
             "OpenGVLab/InternVL3-1B",
+            "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+            "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+            "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+            "llava-hf/llava-1.5-7b-hf",
+            "tinyllava/TinyLLaVA-Phi-2-SigLIP-3.1B",
+            "tinyllava/TinyLLaVA-Gemma-SigLIP-2.4B",
+            "jiajunlong/TinyLLaVA-OpenELM-450M-SigLIP-0.89B",
+            "Zhang199/TinyLLaVA-Qwen2-0.5B-SigLIP",
+            "Zhang199/TinyLLaVA-Qwen2.5-3B-SigLIP",
         ],
-        default="OpenGVLab/InternVL3-1B",
+        default="tinyllava/TinyLLaVA-Phi-2-SigLIP-3.1B",
     )
     args = parser.parse_args()
 
     model_name = args.model
+    logger.info(f"Model: {model_name}")
 
     device = "cuda"
     torch_dtype = "bfloat16"
 
-    if model_name in ["Qwen/Qwen2.5-VL-3B-Instruct", "google/gemma-3-4b-it"]:
+    if model_name in ["Qwen/Qwen2.5-VL-3B-Instruct", "google/gemma-3-4b-it", "llava-hf/llava-1.5-7b-hf"]:
         pipe = init_pipeline(model_name, device, torch_dtype)
         infer_func = infer_func_gemma_qwen
-    elif model_name in ["OpenGVLab/InternVL3-2B", "OpenGVLab/InternVL3-1B"]:
+    elif model_name in [
+        "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+        "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+        "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+    ]:
+        processor = AutoProcessor.from_pretrained(model_name)
+        model = AutoModelForImageTextToText.from_pretrained(
+            model_name,
+            torch_dtype=torch.bfloat16,
+        ).to("cuda")
+        infer_func = infer_func_smolvlm
+    elif model_name in [
+        "OpenGVLab/InternVL3-2B",
+        "OpenGVLab/InternVL3-1B",
+    ]:
         model = AutoModel.from_pretrained(
             model_name,
             torch_dtype=torch.bfloat16,
@@ -281,6 +340,12 @@ if __name__ == "__main__":
             model_name, trust_remote_code=True, use_fast=False
         )
         infer_func = infer_func_internvl
+    elif "tinyllava" in model_name.lower():
+        model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True)
+        model.cuda()
+        config = model.config
+        tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=False, model_max_length = config.tokenizer_model_max_length,padding_side = config.tokenizer_padding_side)
+        infer_func = infer_func_tinyllava
     else:
         raise ValueError(f"Model {model_name} not supported")
 
