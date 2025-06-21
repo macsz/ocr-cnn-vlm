@@ -194,3 +194,4 @@ cython_debug/
 .cursorindexingignore
 data/svt1
 data/svt1_augmented
+data/icdar2015/
