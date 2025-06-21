@@ -1,6 +1,6 @@
 [
     {
-        "path": "data/svt1_augmented/img/00_02_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/00_02_rain_fog_heavy.jpg",
         "response": "Heritage Forum",
         "ground_truth": [
             "forum",
@@ -22,8 +22,8 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/00_03_rain_medium.jpg",
-        "response": "The Juke Joint",
+        "path": "data/svt1_augmented/img/00_03_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a black surface with a white word written on it. The word is \"Tide.\"",
         "ground_truth": [
             "bar",
             "grill",
@@ -33,12 +33,14 @@
         "match_success": false,
         "missing_words": [
             "bar",
-            "grill"
+            "grill",
+            "joint",
+            "juke"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/00_04_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/00_04_rain_fog_heavy.jpg",
         "response": "Florist",
         "ground_truth": [
             "avante",
@@ -59,7 +61,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/00_05_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/00_05_rain_fog_heavy.jpg",
         "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "muzeo",
@@ -75,8 +77,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/00_06_rain_medium.jpg",
-        "response": "Hahamomotorsports.com",
+        "path": "data/svt1_augmented/img/00_06_rain_fog_heavy.jpg",
+        "response": "Ham Motorsports",
         "ground_truth": [
             "hahm",
             "motorsports",
@@ -85,14 +87,18 @@
         ],
         "match_success": false,
         "missing_words": [
-            "hahm",
-            "motorsports"
+            "hahm"
         ],
-        "mismatched_counts": {}
+        "mismatched_counts": {
+            "motorsports": [
+                2,
+                1
+            ]
+        }
     },
     {
-        "path": "data/svt1_augmented/img/00_07_rain_medium.jpg",
-        "response": "The word \"A\" is in the top left corner of the image.",
+        "path": "data/svt1_augmented/img/00_07_rain_fog_heavy.jpg",
+        "response": "The image shows a large building with a roof, and the sky is cloudy.",
         "ground_truth": [
             "anaheim",
             "band",
@@ -107,8 +113,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/00_10_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/00_10_rain_fog_heavy.jpg",
+        "response": "The image shows a large building with a sign that says \"Barron's Fries.\"",
         "ground_truth": [
             "angelo",
             "hamburgers"
@@ -121,18 +127,21 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/00_11_rain_medium.jpg",
-        "response": "Welcome to Mills Ford",
+        "path": "data/svt1_augmented/img/00_11_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a black car's hood, with the hood's logo visible in the background.",
         "ground_truth": [
             "ford",
             "mills"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "ford",
+            "mills"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/00_13_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/00_13_rain_fog_heavy.jpg",
         "response": "KFC",
         "ground_truth": [
             "kfc"
@@ -142,8 +151,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/00_15_rain_medium.jpg",
-        "response": "Sushi Shogun",
+        "path": "data/svt1_augmented/img/00_15_rain_fog_heavy.jpg",
+        "response": "The image shows a large building with a dark roof, and it appears to be raining.",
         "ground_truth": [
             "shogun",
             "shogun",
@@ -151,20 +160,14 @@
             "sushi"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "shogun": [
-                2,
-                1
-            ],
-            "sushi": [
-                2,
-                1
-            ]
-        }
+        "missing_words": [
+            "shogun",
+            "sushi"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/00_16_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/00_16_rain_fog_heavy.jpg",
         "response": "DJ Subs",
         "ground_truth": [
             "sub"
@@ -176,41 +179,49 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/00_17_rain_medium.jpg",
-        "response": "The image shows a rainy day with a large sign that says \"Econo Lodge\".",
+        "path": "data/svt1_augmented/img/00_17_rain_fog_heavy.jpg",
+        "response": "The image shows a large body of water, possibly a lake or a river, with a cloudy sky above. The water appears to be calm and still, with no visible waves or currents.",
         "ground_truth": [
             "econo",
             "lodge"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "econo",
+            "lodge"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/00_18_rain_medium.jpg",
-        "response": "The image shows a hotel sign with the name \"Days Inn & Suites\" on it.",
+        "path": "data/svt1_augmented/img/00_18_rain_fog_heavy.jpg",
+        "response": "Day Inn & Suites",
         "ground_truth": [
             "days",
             "inn"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "days"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/00_19_rain_medium.jpg",
-        "response": "Comfort Inn",
+        "path": "data/svt1_augmented/img/00_19_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a sign in the snow. The sign is white and has a red circle on it.",
         "ground_truth": [
             "comfort",
             "inn"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "comfort",
+            "inn"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_01_rain_medium.jpg",
-        "response": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "path": "data/svt1_augmented/img/01_01_rain_fog_heavy.jpg",
+        "response": "Bridge",
         "ground_truth": [
             "budget"
         ],
@@ -221,29 +232,34 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_03_rain_medium.jpg",
-        "response": "Public Storage",
+        "path": "data/svt1_augmented/img/01_03_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a lot of windows.",
         "ground_truth": [
             "public",
             "storage"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "public",
+            "storage"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_04_rain_medium.jpg",
-        "response": "Shell",
+        "path": "data/svt1_augmented/img/01_04_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a black background.",
         "ground_truth": [
             "shell"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "shell"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_05_rain_medium.jpg",
-        "response": "Enterprise",
+        "path": "data/svt1_augmented/img/01_05_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a black background.",
         "ground_truth": [
             "car",
             "enterprise",
@@ -253,28 +269,26 @@
         "match_success": false,
         "missing_words": [
             "car",
+            "enterprise",
             "rent"
         ],
-        "mismatched_counts": {
-            "enterprise": [
-                2,
-                1
-            ]
-        }
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_06_rain_medium.jpg",
-        "response": "Avis",
+        "path": "data/svt1_augmented/img/01_06_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a black background.",
         "ground_truth": [
             "avis"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "avis"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_07_rain_medium.jpg",
-        "response": "Chantelle's",
+        "path": "data/svt1_augmented/img/01_07_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with the word \"Hainesville\" written on it.",
         "ground_truth": [
             "chanterelle"
         ],
@@ -285,28 +299,32 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_11_rain_medium.jpg",
-        "response": "The image shows a rainy day with a car driving down a street. The car is driving past a store called Goodwill.",
+        "path": "data/svt1_augmented/img/01_11_rain_fog_heavy.jpg",
+        "response": "The image shows a wet road with a car driving down it.",
         "ground_truth": [
             "goodwill"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "goodwill"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_13_rain_medium.jpg",
-        "response": "The Icebox",
+        "path": "data/svt1_augmented/img/01_13_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a black background.",
         "ground_truth": [
             "icebox",
             "the"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "icebox"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_14_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/01_14_rain_fog_heavy.jpg",
         "response": "6 feet under",
         "ground_truth": [
             "feet",
@@ -320,53 +338,57 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_15_rain_medium.jpg",
-        "response": "Super 8 Hotel",
+        "path": "data/svt1_augmented/img/01_15_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a wall with a lot of writing on it. The writing is in a foreign language, and it is difficult to read.",
         "ground_truth": [
             "super"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "super"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_16_rain_medium.jpg",
-        "response": "Embassy",
+        "path": "data/svt1_augmented/img/01_16_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray surface, possibly a piece of paper or a gray wall. The text is in black and white, and it is difficult to read due to the gray background.",
         "ground_truth": [
             "embassy"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "embassy"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_17_rain_medium.jpg",
-        "response": "Carroll Street",
+        "path": "data/svt1_augmented/img/01_17_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "carroll",
             "street"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "carroll",
+            "street"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/01_19_rain_medium.jpg",
-        "response": "Here is the transcribed text from the image:\n\n\"A Hertz rental car is parked in front of a building. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz sign on it. The car is parked in front of a building that has a Hertz",
+        "path": "data/svt1_augmented/img/01_19_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "hertz"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "hertz": [
-                1,
-                30
-            ]
-        }
+        "missing_words": [
+            "hertz"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/02_01_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/02_01_rain_fog_heavy.jpg",
         "response": "Grand Central",
         "ground_truth": [
             "central",
@@ -380,8 +402,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/02_02_rain_medium.jpg",
-        "response": "The Redwood Hotel",
+        "path": "data/svt1_augmented/img/02_02_rain_fog_heavy.jpg",
+        "response": "The redwood restaurant is closed.",
         "ground_truth": [
             "redwood",
             "redwood",
@@ -399,8 +421,8 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/02_03_rain_medium.jpg",
-        "response": "Paul Lawrence Dunker High School",
+        "path": "data/svt1_augmented/img/02_03_rain_fog_heavy.jpg",
+        "response": "1400",
         "ground_truth": [
             "dunbar",
             "high",
@@ -412,14 +434,17 @@
         "match_success": false,
         "missing_words": [
             "dunbar",
+            "high",
             "laurence",
+            "paul",
+            "school",
             "orleans"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/02_05_rain_medium.jpg",
-        "response": "Chase Bretton Health Services",
+        "path": "data/svt1_augmented/img/02_05_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building.",
         "ground_truth": [
             "brexton",
             "chase",
@@ -430,13 +455,16 @@
         "match_success": false,
         "missing_words": [
             "brexton",
+            "chase",
+            "health",
+            "services",
             "inc"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/02_06_rain_medium.jpg",
-        "response": "Marlboro",
+        "path": "data/svt1_augmented/img/02_06_rain_fog_heavy.jpg",
+        "response": "The word \"Marlboro\" is written in black on the side of a building.",
         "ground_truth": [
             "marlboro"
         ],
@@ -445,8 +473,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/02_08_rain_medium.jpg",
-        "response": "Red Square",
+        "path": "data/svt1_augmented/img/02_08_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a city street at night. The street is wet, and the sky is cloudy. There are no people visible in the photo.",
         "ground_truth": [
             "red",
             "square",
@@ -454,12 +482,14 @@
         ],
         "match_success": false,
         "missing_words": [
+            "red",
+            "square",
             "belvedere"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/02_09_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/02_09_rain_fog_heavy.jpg",
         "response": "Mount Vernon Hotel & Cafe",
         "ground_truth": [
             "hotel",
@@ -474,14 +504,16 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/02_10_rain_medium.jpg",
-        "response": "The image shows a pizza restaurant called \"Kyro Pizza & Grill\" located on a street corner.",
+        "path": "data/svt1_augmented/img/02_10_rain_fog_heavy.jpg",
+        "response": "The image shows a pizza and grill restaurant with a sign that says \"Kero Pizza & Grill\".",
         "ground_truth": [
             "kyro",
             "pizza"
         ],
         "match_success": false,
-        "missing_words": [],
+        "missing_words": [
+            "kyro"
+        ],
         "mismatched_counts": {
             "pizza": [
                 1,
@@ -490,22 +522,19 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/02_13_rain_medium.jpg",
-        "response": "The image shows a restaurant called Botten Weinkahn.",
+        "path": "data/svt1_augmented/img/02_13_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a sign on the front. The sign reads \"Sotto Sopra.\"",
         "ground_truth": [
             "sopra",
             "sotto"
         ],
-        "match_success": false,
-        "missing_words": [
-            "sopra",
-            "sotto"
-        ],
+        "match_success": true,
+        "missing_words": [],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/02_15_rain_medium.jpg",
-        "response": "For Eyes",
+        "path": "data/svt1_augmented/img/02_15_rain_fog_heavy.jpg",
+        "response": "For eyes",
         "ground_truth": [
             "eyes",
             "for",
@@ -518,8 +547,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/02_16_rain_medium.jpg",
-        "response": "Pickles Pub",
+        "path": "data/svt1_augmented/img/02_16_rain_fog_heavy.jpg",
+        "response": "Crickets Pub",
         "ground_truth": [
             "pickles",
             "pub",
@@ -527,12 +556,10 @@
             "pub"
         ],
         "match_success": false,
-        "missing_words": [],
+        "missing_words": [
+            "pickles"
+        ],
         "mismatched_counts": {
-            "pickles": [
-                2,
-                1
-            ],
             "pub": [
                 2,
                 1
@@ -540,7 +567,7 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/02_17_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/02_17_rain_fog_heavy.jpg",
         "response": "Gallery Tower Apartments",
         "ground_truth": [
             "gallery",
@@ -553,8 +580,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_00_rain_medium.jpg",
-        "response": "Mountain Sun",
+        "path": "data/svt1_augmented/img/03_00_rain_fog_heavy.jpg",
+        "response": "The image shows a rainy day with a large building covered in rain.",
         "ground_truth": [
             "brewery",
             "pub",
@@ -564,13 +591,15 @@
         "match_success": false,
         "missing_words": [
             "brewery",
-            "pub"
+            "pub",
+            "sun",
+            "mountain"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_01_rain_medium.jpg",
-        "response": "Larry's Boot Fitting",
+        "path": "data/svt1_augmented/img/03_01_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "boot",
             "fitting",
@@ -578,36 +607,43 @@
         ],
         "match_success": false,
         "missing_words": [
+            "boot",
+            "fitting",
             "larry"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_02_rain_medium.jpg",
-        "response": "Beads Beads Beads",
+        "path": "data/svt1_augmented/img/03_02_rain_fog_heavy.jpg",
+        "response": "The image is a blurry photo of a building with a sign on it. The sign reads \"Beach Head Bobs\".",
         "ground_truth": [
             "beads",
             "beads",
             "beads"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "beads"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_03_rain_medium.jpg",
-        "response": "Colorado Daily",
+        "path": "data/svt1_augmented/img/03_03_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a large white building in the background. The building is covered in snow, and the sky is cloudy.",
         "ground_truth": [
             "colorado",
             "daily"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "colorado",
+            "daily"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_05_rain_medium.jpg",
-        "response": "An image of a parking lot with a car and a truck parked in it.",
+        "path": "data/svt1_augmented/img/03_05_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a parking lot with a car and a truck parked in it.",
         "ground_truth": [
             "anthropologie"
         ],
@@ -618,8 +654,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_06_rain_medium.jpg",
-        "response": "1. Palish\n2. Palish",
+        "path": "data/svt1_augmented/img/03_06_rain_fog_heavy.jpg",
+        "response": "The image is a blurry photo of a building with a sign on the side. The sign reads \"J&J\".",
         "ground_truth": [
             "polish"
         ],
@@ -630,19 +666,22 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_09_rain_medium.jpg",
-        "response": "Common Threads",
+        "path": "data/svt1_augmented/img/03_09_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a parking lot with a building in the background. The parking lot is empty, with no cars visible.",
         "ground_truth": [
             "common",
             "threads"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "common",
+            "threads"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_11_rain_medium.jpg",
-        "response": "Restaurant name: La Brasserie Tenet\nOutdoor seating area: Yes",
+        "path": "data/svt1_augmented/img/03_11_rain_fog_heavy.jpg",
+        "response": "The image shows a rainy day with a large building in the background.",
         "ground_truth": [
             "brasserie",
             "ten",
@@ -651,23 +690,26 @@
         ],
         "match_success": false,
         "missing_words": [
+            "brasserie",
             "ten"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_12_rain_medium.jpg",
-        "response": "Trident",
+        "path": "data/svt1_augmented/img/03_12_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "trident"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "trident"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_14_rain_medium.jpg",
-        "response": "Here is the transcribed text from the image:\n\nHimalayas",
+        "path": "data/svt1_augmented/img/03_14_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a black surface with various text and images on it. The text is in white and appears to be in a foreign language. The image is blurry, making it difficult to discern the specific text or images.",
         "ground_truth": [
             "himalayas",
             "restaurant",
@@ -675,14 +717,15 @@
         ],
         "match_success": false,
         "missing_words": [
+            "himalayas",
             "restaurant",
             "street"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_15_rain_medium.jpg",
-        "response": "70x70",
+        "path": "data/svt1_augmented/img/03_15_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray surface with a black background. The text is in white and appears to be a black and white photo.",
         "ground_truth": [
             "fox"
         ],
@@ -693,8 +736,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_16_rain_medium.jpg",
-        "response": "The image shows a group of people gathered outside of a building, possibly a shop or a restaurant. The people are standing around, likely waiting for their orders or socializing.",
+        "path": "data/svt1_augmented/img/03_16_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "scooters",
             "sportique",
@@ -709,21 +752,22 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/03_18_rain_medium.jpg",
-        "response": "Barnley Tire Co.",
+        "path": "data/svt1_augmented/img/03_18_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a large, dark roof. The roof appears to be covered in snow, giving the scene a somewhat gloomy atmosphere.",
         "ground_truth": [
             "barnsley",
             "tire"
         ],
         "match_success": false,
         "missing_words": [
-            "barnsley"
+            "barnsley",
+            "tire"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_00_rain_medium.jpg",
-        "response": "RadioShack",
+        "path": "data/svt1_augmented/img/04_00_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a street scene with a cloudy sky.",
         "ground_truth": [
             "radio",
             "shack"
@@ -736,8 +780,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_01_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/04_01_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a sign that says \"D'Iglio Chiropractic\".",
         "ground_truth": [
             "chiropractic",
             "giulio",
@@ -747,7 +791,6 @@
         ],
         "match_success": false,
         "missing_words": [
-            "chiropractic",
             "giulio",
             "deli",
             "garny"
@@ -755,8 +798,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_02_rain_medium.jpg",
-        "response": "Kotayak Kabob",
+        "path": "data/svt1_augmented/img/04_02_rain_fog_heavy.jpg",
+        "response": "The image shows a parking lot with a car parked in the middle. The parking lot is covered in snow, and the sky is dark.",
         "ground_truth": [
             "deli",
             "deli",
@@ -767,13 +810,14 @@
         "match_success": false,
         "missing_words": [
             "deli",
+            "kabob",
             "kotayk",
             "grocery"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_05_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/04_05_rain_fog_heavy.jpg",
         "response": "First United Methodist Church",
         "ground_truth": [
             "church",
@@ -786,8 +830,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_06_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/04_06_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image. Please provide me with the image so that I can transcribe it for you.",
         "ground_truth": [
             "burbank",
             "burbank",
@@ -805,8 +849,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_07_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/04_07_rain_fog_heavy.jpg",
+        "response": "The image shows a cloudy sky with a tree and a building.",
         "ground_truth": [
             "mobile"
         ],
@@ -817,8 +861,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_11_rain_medium.jpg",
-        "response": "1. Speedzone\n2. Auto printer\n3. 1000 block of speedzone\n4. 1000 block of speedzone\n5. 1000 block of speedzone\n6. 1000 block of speedzone\n7. 1000 block of speedzone\n8. 1000 block of speedzone\n9. 1000 block of speedzone\n10. 1000 block of speedzone\n11. 1000 block of speedzone\n12. 1000 block of speedzone\n13. 1000 block of speedzone\n14. 1000 block of speedzone\n15. 1000 block of speedzone\n16. 1000 block of speedzone\n17. 1000 block of speedzone\n18. 1000 block of speedzone\n19. 1000 block of speedzone\n20. 1000 block of speedzone\n21. 1000 block of speedzone\n22. 1000 block of speedzone\n23. 1000 block of speedzone\n24. 1000 block of speedzone\n25. 1000 block of speedzone\n26. 1000 block of speedzone\n27. 1000 block of speedzone\n28. 1000 block of speedzone\n29. 1000 block of speedzone\n30. 1000 block of speedzone\n31. 1000 block of speedzone\n32. 1000 block of speedzone\n33. 1000 block of speedzone\n34. 1000 block of speedzone\n35. 1000 block of speedzone\n36. 1000 block of speedzone\n37. 1000 block of speedzone\n38. 1000 block of speedzone\n39. 1000 block of speedzone\n40. 1000 block of speedzone\n41. 1000 block of speedzone\n4",
+        "path": "data/svt1_augmented/img/04_11_rain_fog_heavy.jpg",
+        "response": "The image shows a parking lot with a large building in the background. The parking lot is covered in snow, and there are several cars parked in the lot.",
         "ground_truth": [
             "speed",
             "zone",
@@ -830,27 +874,29 @@
         "missing_words": [
             "speed",
             "zone",
+            "auto",
             "supply",
             "locksmith"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_12_rain_medium.jpg",
-        "response": "Hills Imports Honda and Acura Experts",
+        "path": "data/svt1_augmented/img/04_12_rain_fog_heavy.jpg",
+        "response": "The image shows a large building with a large window. The building is covered in snow, and the sky is dark.",
         "ground_truth": [
             "imports",
             "phil"
         ],
         "match_success": false,
         "missing_words": [
+            "imports",
             "phil"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_13_rain_medium.jpg",
-        "response": "922 924 4244",
+        "path": "data/svt1_augmented/img/04_13_rain_fog_heavy.jpg",
+        "response": "Eagle Medical Supply",
         "ground_truth": [
             "eagle",
             "eagle",
@@ -858,15 +904,21 @@
             "medical"
         ],
         "match_success": false,
-        "missing_words": [
-            "eagle",
-            "medical"
-        ],
-        "mismatched_counts": {}
+        "missing_words": [],
+        "mismatched_counts": {
+            "eagle": [
+                2,
+                1
+            ],
+            "medical": [
+                2,
+                1
+            ]
+        }
     },
     {
-        "path": "data/svt1_augmented/img/04_14_rain_medium.jpg",
-        "response": "920 M & M Accounting",
+        "path": "data/svt1_augmented/img/04_14_rain_fog_heavy.jpg",
+        "response": "920 M. & M. Accounting",
         "ground_truth": [
             "accountancy"
         ],
@@ -877,8 +929,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_17_rain_medium.jpg",
-        "response": "Pizza Man Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas Pizzas",
+        "path": "data/svt1_augmented/img/04_17_rain_fog_heavy.jpg",
+        "response": "The image shows a car parked in front of a building on a rainy day. The car is white and is positioned in the middle of the scene. The building is a store, and the car is parked in front of it.",
         "ground_truth": [
             "gifts",
             "jas",
@@ -888,13 +940,15 @@
         "match_success": false,
         "missing_words": [
             "gifts",
-            "jas"
+            "jas",
+            "pizza",
+            "man"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_18_rain_medium.jpg",
-        "response": "Mobil",
+        "path": "data/svt1_augmented/img/04_18_rain_fog_heavy.jpg",
+        "response": "The image shows a cloudy sky with a sign that says \"Mobi\" on it.",
         "ground_truth": [
             "mart",
             "mobil",
@@ -902,35 +956,29 @@
         ],
         "match_success": false,
         "missing_words": [
-            "mart"
+            "mart",
+            "mobil"
         ],
-        "mismatched_counts": {
-            "mobil": [
-                2,
-                1
-            ]
-        }
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/04_19_rain_medium.jpg",
-        "response": "The image shows a rainy day outside of a building with a sign that says \"Glenoaks Cleaners & Laundromat\".",
+        "path": "data/svt1_augmented/img/04_19_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a sign on the side. The sign reads \"Salena's Car Wash.\"",
         "ground_truth": [
             "cleaners",
             "cleaners",
             "glenoaks"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "cleaners": [
-                2,
-                1
-            ]
-        }
+        "missing_words": [
+            "cleaners",
+            "glenoaks"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_00_rain_medium.jpg",
-        "response": "White Palace Breakfast Lunch Restaurant",
+        "path": "data/svt1_augmented/img/05_00_rain_fog_heavy.jpg",
+        "response": "White Palace Grill",
         "ground_truth": [
             "palace",
             "white",
@@ -949,7 +997,7 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/05_01_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/05_01_rain_fog_heavy.jpg",
         "response": "Moon Palace",
         "ground_truth": [
             "moon",
@@ -960,19 +1008,21 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_02_rain_medium.jpg",
-        "response": "White Castle",
+        "path": "data/svt1_augmented/img/05_02_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building.",
         "ground_truth": [
             "castle",
             "white"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "castle"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_04_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/05_04_rain_fog_heavy.jpg",
+        "response": "The image shows a parking lot with a car parked in front of a building. The car is parked near a curb, and there is a parking meter nearby. The parking lot is empty, and there is no visible traffic or pedestrians.",
         "ground_truth": [
             "michael",
             "arts",
@@ -993,8 +1043,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_05_rain_medium.jpg",
-        "response": "G. Fishman's Fine Fabrics",
+        "path": "data/svt1_augmented/img/05_05_rain_fog_heavy.jpg",
+        "response": "The image shows a large building with a sign on the front of it. The building is covered in snow, and the sky is cloudy.",
         "ground_truth": [
             "fabrics",
             "fishman",
@@ -1003,43 +1053,42 @@
         ],
         "match_success": false,
         "missing_words": [
+            "fabrics",
             "fishman",
             "inc"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_06_rain_medium.jpg",
-        "response": "The image is a street view of a school with a large building and a sign on the sidewalk.",
+        "path": "data/svt1_augmented/img/05_06_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "jerome",
             "school"
         ],
         "match_success": false,
         "missing_words": [
-            "jerome"
+            "jerome",
+            "school"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_10_rain_medium.jpg",
-        "response": "Grandstand",
+        "path": "data/svt1_augmented/img/05_10_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a street scene with a car and a truck parked on the side of the road.",
         "ground_truth": [
             "grandstand",
             "grandstand"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "grandstand": [
-                2,
-                1
-            ]
-        }
+        "missing_words": [
+            "grandstand"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_11_rain_medium.jpg",
-        "response": "0",
+        "path": "data/svt1_augmented/img/05_11_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a street scene with a car parked in front of a building. The car is parked on the side of the road, and there is a sign on the building. The street appears to be wet, possibly due to recent rain.",
         "ground_truth": [
             "corner",
             "martin",
@@ -1054,21 +1103,21 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_13_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/05_13_rain_fog_heavy.jpg",
+        "response": "The image shows a parking lot with several cars parked in it.",
+        "ground_truth": [
+            "gamestop"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "gamestop"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/05_14_rain_fog_heavy.jpg",
         "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
-            "gamestop"
-        ],
-        "match_success": false,
-        "missing_words": [
-            "gamestop"
-        ],
-        "mismatched_counts": {}
-    },
-    {
-        "path": "data/svt1_augmented/img/05_14_rain_medium.jpg",
-        "response": "The image shows a rain-soaked street with a building in the background.",
-        "ground_truth": [
             "salle"
         ],
         "match_success": false,
@@ -1078,8 +1127,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_15_rain_medium.jpg",
-        "response": "De Pasadena",
+        "path": "data/svt1_augmented/img/05_15_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray surface with a black background. The text is in white and is written in a foreign language.",
         "ground_truth": [
             "pasada"
         ],
@@ -1090,8 +1139,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_16_rain_medium.jpg",
-        "response": "The image shows a building with a large red and white sign on the side of it. The sign reads \"Target.\"",
+        "path": "data/svt1_augmented/img/05_16_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a sign on the side. The sign reads \"Target.\"",
         "ground_truth": [
             "target"
         ],
@@ -1100,8 +1149,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_17_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/05_17_rain_fog_heavy.jpg",
+        "response": "The image is a blurry photo of a building with a parking lot in front of it.",
         "ground_truth": [
             "pompei"
         ],
@@ -1112,19 +1161,22 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_18_rain_medium.jpg",
-        "response": "Jewel Osco",
+        "path": "data/svt1_augmented/img/05_18_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "jewel",
             "osco"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "jewel",
+            "osco"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/05_19_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/05_19_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a car, with the license plate visible.",
         "ground_truth": [
             "happiness",
             "three",
@@ -1139,8 +1191,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/06_00_rain_medium.jpg",
-        "response": "Jimmy's Food Store",
+        "path": "data/svt1_augmented/img/06_00_rain_fog_heavy.jpg",
+        "response": "The image is a blurry, dark photo of a building with a red and white striped awning.",
         "ground_truth": [
             "food",
             "jimmy",
@@ -1148,13 +1200,15 @@
         ],
         "match_success": false,
         "missing_words": [
-            "jimmy"
+            "food",
+            "jimmy",
+            "store"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/06_03_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/06_03_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a street scene with a large body of water in the background.",
         "ground_truth": [
             "fuji",
             "massage"
@@ -1167,8 +1221,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/06_10_rain_medium.jpg",
-        "response": "Puff 'n Stuff",
+        "path": "data/svt1_augmented/img/06_10_rain_fog_heavy.jpg",
+        "response": "Puff Stuff",
         "ground_truth": [
             "puff",
             "stuff"
@@ -1178,7 +1232,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/06_12_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/06_12_rain_fog_heavy.jpg",
         "response": "Starbucks Coffee",
         "ground_truth": [
             "starbucks"
@@ -1188,24 +1242,21 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/06_13_rain_medium.jpg",
-        "response": "Starbucks Coffee",
+        "path": "data/svt1_augmented/img/06_13_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a street scene with a large building in the background. The building appears to be a store, and the street is wet from rain. There are several cars parked along the street, and a truck is also visible.",
         "ground_truth": [
             "starbucks",
             "starbucks"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "starbucks": [
-                2,
-                1
-            ]
-        }
+        "missing_words": [
+            "starbucks"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/06_16_rain_medium.jpg",
-        "response": "La Hacienda Meat Market",
+        "path": "data/svt1_augmented/img/06_16_rain_fog_heavy.jpg",
+        "response": "The image shows a parking lot with several cars parked in it. The cars are parked in a row, and there is a large building in the background. The parking lot is covered in rain, which is why the cars are parked under a roof.",
         "ground_truth": [
             "market",
             "meat",
@@ -1215,14 +1266,16 @@
         ],
         "match_success": false,
         "missing_words": [
+            "market",
+            "meat",
             "michoacana",
             "taqueria"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/06_17_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/06_17_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a building with a gray roof.",
         "ground_truth": [
             "cellars",
             "ten",
@@ -1237,19 +1290,23 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/06_18_rain_medium.jpg",
-        "response": "Dallas Theological Seminary",
+        "path": "data/svt1_augmented/img/06_18_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a street scene with a large body of water in the background.",
         "ground_truth": [
             "dallas",
             "seminary",
             "theological"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "dallas",
+            "seminary",
+            "theological"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_01_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/07_01_rain_fog_heavy.jpg",
         "response": "WILLIAMS TAVERN",
         "ground_truth": [
             "tavern",
@@ -1266,8 +1323,8 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/07_02_rain_medium.jpg",
-        "response": "Winbro 1600 Cranton St",
+        "path": "data/svt1_augmented/img/07_02_rain_fog_heavy.jpg",
+        "response": "The word \"Winbro\" is visible on the building.",
         "ground_truth": [
             "winbro",
             "grant"
@@ -1279,8 +1336,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_03_rain_medium.jpg",
-        "response": "The word \"The\" is written in white on a black background.",
+        "path": "data/svt1_augmented/img/07_03_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as requested. I am a text-based AI and do not have the capability to analyze or transcribe images.",
         "ground_truth": [
             "olin"
         ],
@@ -1291,20 +1348,24 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_04_rain_medium.jpg",
-        "response": "Lucky Fortune Restaurant",
+        "path": "data/svt1_augmented/img/07_04_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "fortune",
             "lucky",
             "restaurant"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "fortune",
+            "lucky",
+            "restaurant"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_06_rain_medium.jpg",
-        "response": "Capitol Custom Tailors",
+        "path": "data/svt1_augmented/img/07_06_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a snow-covered roof.",
         "ground_truth": [
             "capitol",
             "custom",
@@ -1315,6 +1376,9 @@
         ],
         "match_success": false,
         "missing_words": [
+            "capitol",
+            "custom",
+            "tailors",
             "jewelry",
             "bakery",
             "watercourse"
@@ -1322,18 +1386,21 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_07_rain_medium.jpg",
-        "response": "Hollywood Posters",
+        "path": "data/svt1_augmented/img/07_07_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "hollywood",
             "posters"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "hollywood",
+            "posters"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_08_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/07_08_rain_fog_heavy.jpg",
         "response": "Avenue",
         "ground_truth": [
             "avenue",
@@ -1346,8 +1413,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_09_rain_medium.jpg",
-        "response": "1. 1000 block of 1st Ave.\n2. 1st Ave.\n3. 1st Ave.\n4. 1st Ave.\n5. 1st Ave.\n6. 1st Ave.\n7. 1st Ave.\n8. 1st Ave.\n9. 1st Ave.\n10. 1st Ave.\n11. 1st Ave.\n12. 1st Ave.\n13. 1st Ave.\n14. 1st Ave.\n15. 1st Ave.\n16. 1st Ave.\n17. 1st Ave.\n18. 1st Ave.\n19. 1st Ave.\n20. 1st Ave.\n21. 1st Ave.\n22. 1st Ave.\n23. 1st Ave.\n24. 1st Ave.\n25. 1st Ave.\n26. 1st Ave.\n27. 1st Ave.\n28. 1st Ave.\n29. 1st Ave.\n30. 1st Ave.\n31. 1st Ave.\n32. 1st Ave.\n33. 1st Ave.\n34. 1st Ave.\n35. 1st Ave.\n36. 1st Ave.\n37. 1st Ave.\n38. 1st Ave.\n39. 1st Ave.\n40. 1st Ave.\n41. 1st Ave.\n42. 1st Ave.\n43. 1st Ave.\n44. 1st Ave.\n45. 1st Ave.\n46. 1st Ave.\n47. 1st Ave.\n48. 1st Ave.\n49. 1st Ave.\n50. 1st Ave.\n51. 1st Ave.\n52. 1st Ave.\n53. 1st Ave.\n54. 1st Ave.\n55. 1st Ave.\n56. 1st Ave.\n57. 1st Ave.",
+        "path": "data/svt1_augmented/img/07_09_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "uptown",
             "village"
@@ -1360,7 +1427,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_10_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/07_10_rain_fog_heavy.jpg",
         "response": "McDonald's",
         "ground_truth": [
             "donald",
@@ -1373,37 +1440,35 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_12_rain_medium.jpg",
-        "response": "Jimmy John's",
+        "path": "data/svt1_augmented/img/07_12_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "jimmy",
             "john"
         ],
         "match_success": false,
         "missing_words": [
+            "jimmy",
             "john"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_13_rain_medium.jpg",
-        "response": "Quiznos Sub Sandwich",
+        "path": "data/svt1_augmented/img/07_13_rain_fog_heavy.jpg",
+        "response": "The image shows a large building with a sign on the front of it. The building is covered in fog, giving it a somewhat mysterious appearance. The sign is in the shape of a Q, and it is located in the middle of the building. The building is surrounded by a parking lot, and there are several cars parked in the area.",
         "ground_truth": [
             "quiznos",
             "quiznos"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "quiznos": [
-                2,
-                1
-            ]
-        }
+        "missing_words": [
+            "quiznos"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_15_rain_medium.jpg",
-        "response": "Cleaners",
+        "path": "data/svt1_augmented/img/07_15_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a building with a large window.",
         "ground_truth": [
             "cleaners",
             "five",
@@ -1411,13 +1476,14 @@
         ],
         "match_success": false,
         "missing_words": [
+            "cleaners",
             "five",
             "star"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_17_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/07_17_rain_fog_heavy.jpg",
         "response": "Great Wall",
         "ground_truth": [
             "chinese",
@@ -1431,8 +1497,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/07_19_rain_medium.jpg",
-        "response": "Yellow Cab",
+        "path": "data/svt1_augmented/img/07_19_rain_fog_heavy.jpg",
+        "response": "Taxi",
         "ground_truth": [
             "hotel",
             "warwick"
@@ -1445,8 +1511,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/08_00_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/08_00_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a black background.",
         "ground_truth": [
             "massa"
         ],
@@ -1457,8 +1523,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/08_04_rain_medium.jpg",
-        "response": "The image shows a man walking down a sidewalk in front of a building with a large sign that says \"1000 Alien Center\".",
+        "path": "data/svt1_augmented/img/08_04_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as requested. I am a text-based AI and do not have the capability to analyze or transcribe images.",
         "ground_truth": [
             "allen",
             "hess",
@@ -1467,13 +1533,14 @@
         "match_success": false,
         "missing_words": [
             "allen",
-            "hess"
+            "hess",
+            "center"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/08_05_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/08_05_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray surface, possibly a concrete wall or a gray floor.",
         "ground_truth": [
             "plaza",
             "shell",
@@ -1488,78 +1555,74 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/08_07_rain_medium.jpg",
-        "response": "The word \"Magnolia\" is visible in the image.",
+        "path": "data/svt1_augmented/img/08_07_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray metal surface, which is described as a \"gray metal sheet\" and \"gray metal surface.\" The text is described as \"gray metal\" and \"gray metal surface.\"",
         "ground_truth": [
             "magnolia"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "magnolia"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/08_08_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/08_08_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a black and white pattern.",
+        "ground_truth": [
+            "sandwich",
+            "shop",
+            "zero"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "sandwich",
+            "shop",
+            "zero"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/08_09_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a black background.",
+        "ground_truth": [
+            "quiznos"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "quiznos"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/08_12_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a sign that says \"Don's\".",
+        "ground_truth": [
+            "domino"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "domino"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/08_17_rain_fog_heavy.jpg",
         "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
-        "ground_truth": [
-            "sandwich",
-            "shop",
-            "zero"
-        ],
-        "match_success": false,
-        "missing_words": [
-            "sandwich",
-            "shop",
-            "zero"
-        ],
-        "mismatched_counts": {}
-    },
-    {
-        "path": "data/svt1_augmented/img/08_09_rain_medium.jpg",
-        "response": "Qunix Sub",
-        "ground_truth": [
-            "quiznos"
-        ],
-        "match_success": false,
-        "missing_words": [
-            "quiznos"
-        ],
-        "mismatched_counts": {}
-    },
-    {
-        "path": "data/svt1_augmented/img/08_12_rain_medium.jpg",
-        "response": "Domino's",
-        "ground_truth": [
-            "domino"
-        ],
-        "match_success": false,
-        "missing_words": [
-            "domino"
-        ],
-        "mismatched_counts": {}
-    },
-    {
-        "path": "data/svt1_augmented/img/08_17_rain_medium.jpg",
-        "response": "1. Spaghetti Warehouse\n2. Spaghetti Warehouse\n3. Spaghetti Warehouse\n4. Spaghetti Warehouse\n5. Spaghetti Warehouse\n6. Spaghetti Warehouse\n7. Spaghetti Warehouse\n8. Spaghetti Warehouse\n9. Spaghetti Warehouse\n10. Spaghetti Warehouse\n11. Spaghetti Warehouse\n12. Spaghetti Warehouse\n13. Spaghetti Warehouse\n14. Spaghetti Warehouse\n15. Spaghetti Warehouse\n16. Spaghetti Warehouse\n17. Spaghetti Warehouse\n18. Spaghetti Warehouse\n19. Spaghetti Warehouse\n20. Spaghetti Warehouse\n21. Spaghetti Warehouse\n22. Spaghetti Warehouse\n23. Spaghetti Warehouse\n24. Spaghetti Warehouse\n25. Spaghetti Warehouse\n26. Spaghetti Warehouse\n27. Spaghetti Warehouse\n28. Spaghetti Warehouse\n29. Spaghetti Warehouse\n30. Spaghetti Warehouse\n31. Spaghetti Warehouse\n32. Spaghetti Warehouse\n33. Spaghetti Warehouse\n34. Spaghetti Warehouse\n35. Spaghetti Warehouse\n36. Spaghetti Warehouse\n37. Spaghetti Warehouse\n38. Spaghetti Warehouse\n39. Spaghetti Warehouse\n40. Spaghetti Warehouse\n41. Spaghetti Warehouse\n42. Spaghetti Warehouse\n43. Spaghetti Warehouse\n44. Spaghetti Warehouse\n45. Spaghetti Warehouse\n46. Spaghetti Warehouse\n47. Spaghetti Warehouse\n48. Spaghetti Warehouse\n49. Spaghetti Warehouse\n50. Spaghetti Warehouse\n51. Spaghetti Warehouse\n52. Spaghetti Warehouse\n53. Spaghetti Warehouse\n54. Spaghetti Warehouse\n55. Spaghetti Warehouse\n56. Spaghetti Warehouse\n57. Spaghetti Warehouse\n58. Spaghetti Warehouse\n59. Spaghetti Warehouse\n60. Spaghetti Warehouse\n61. Spaghetti Warehouse\n62. Spaghetti Warehouse\n63. Spaghetti Warehouse\n64. Spaghetti Warehouse\n65. Spaghetti Warehouse\n66. Spaghetti Warehouse\n67. Spaghetti Warehouse\n68. Spaghetti Warehouse\n69. Spaghetti Warehouse\n70. Spaghetti Warehouse\n71. Spaghetti Warehouse\n72. Spaghetti Warehouse\n73. Spaghetti Warehouse\n74. Spaghetti Warehouse\n75. Spaghetti Warehouse\n76. Spaghetti Warehouse\n77. Spaghetti Warehouse\n78. Spaghetti Warehouse\n79. Spaghetti Warehouse\n80. Spaghetti Warehouse\n81. Spaghetti Warehouse\n82. Spaghetti Warehouse\n83. Spaghetti Warehouse\n84. Spaghetti Warehouse\n85. Spaghetti Warehouse\n86. Spaghetti Warehouse\n87. Spaghetti",
         "ground_truth": [
             "spaghetti",
             "warehouse"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "spaghetti": [
-                1,
-                87
-            ],
-            "warehouse": [
-                1,
-                86
-            ]
-        }
+        "missing_words": [
+            "spaghetti",
+            "warehouse"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/08_18_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/08_18_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as requested. I am a text-based AI and do not have the capability to analyze or transcribe images.",
         "ground_truth": [
             "zula",
             "zula"
@@ -1571,8 +1634,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_00_rain_medium.jpg",
-        "response": "The image shows a busy street with cars and trucks driving under a large glass building.",
+        "path": "data/svt1_augmented/img/09_00_rain_fog_heavy.jpg",
+        "response": "The image shows a large group of cars and trucks driving down a street in the rain.",
         "ground_truth": [
             "centre",
             "circle"
@@ -1585,8 +1648,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_01_rain_medium.jpg",
-        "response": "The image shows a red car driving down a street on a rainy day.",
+        "path": "data/svt1_augmented/img/09_01_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "murphy"
         ],
@@ -1597,8 +1660,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_03_rain_medium.jpg",
-        "response": "The image shows a street scene with a car driving down the road. The car is driving in the rain, and the street is wet.",
+        "path": "data/svt1_augmented/img/09_03_rain_fog_heavy.jpg",
+        "response": "The image shows a wet road with a car driving down it.",
         "ground_truth": [
             "houlihan",
             "houlihan"
@@ -1610,8 +1673,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_07_rain_medium.jpg",
-        "response": "Indiana Repertory Theatre",
+        "path": "data/svt1_augmented/img/09_07_rain_fog_heavy.jpg",
+        "response": "FedEx",
         "ground_truth": [
             "indiana",
             "repertory",
@@ -1619,17 +1682,16 @@
             "indiana"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "indiana": [
-                2,
-                1
-            ]
-        }
+        "missing_words": [
+            "indiana",
+            "repertory",
+            "theatre"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_10_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/09_10_rain_fog_heavy.jpg",
+        "response": "The image shows a large building with a dark sky above it.",
         "ground_truth": [
             "leon"
         ],
@@ -1640,24 +1702,21 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_11_rain_medium.jpg",
-        "response": "Chase Tower",
+        "path": "data/svt1_augmented/img/09_11_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a lot of windows.",
         "ground_truth": [
             "chase",
             "chase"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "chase": [
-                2,
-                1
-            ]
-        }
+        "missing_words": [
+            "chase"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_12_rain_medium.jpg",
-        "response": "The image shows a rainy day with a car driving down a street. The car is driving down the street in the rain.",
+        "path": "data/svt1_augmented/img/09_12_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a street with a large body of water in the background.",
         "ground_truth": [
             "mission",
             "wheeler"
@@ -1670,8 +1729,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_13_rain_medium.jpg",
-        "response": "The image shows a building with a sign that says \"Jouste Supply Co.\".",
+        "path": "data/svt1_augmented/img/09_13_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a street scene with a cloudy sky.",
         "ground_truth": [
             "jobsite",
             "supply",
@@ -1680,13 +1739,14 @@
         "match_success": false,
         "missing_words": [
             "jobsite",
+            "supply",
             "work"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_14_rain_medium.jpg",
-        "response": "The image shows a street scene with a building and a tree. The building is labeled \"Zolco.\"",
+        "path": "data/svt1_augmented/img/09_14_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a large window. The building is located in a city and appears to be a large warehouse. The sky is dark and cloudy, creating a moody atmosphere.",
         "ground_truth": [
             "brothers",
             "products",
@@ -1703,18 +1763,20 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_15_rain_medium.jpg",
-        "response": "The image shows a hotel with a large sign that says \"Sheraton\" on it. The hotel is located in a city, and there is a car parked in front of it.",
+        "path": "data/svt1_augmented/img/09_15_rain_fog_heavy.jpg",
+        "response": "The image shows a large, dark gray building with a large window. The window is covered in snow, and the building appears to be made of concrete.",
         "ground_truth": [
             "sheraton"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "sheraton"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_16_rain_medium.jpg",
-        "response": "The image shows a white car driving down a street on a rainy day.",
+        "path": "data/svt1_augmented/img/09_16_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a street scene with a car parked on the side of the road. The car is positioned near the center of the image, and the street appears to be wet.",
         "ground_truth": [
             "anodizing",
             "industrial"
@@ -1727,7 +1789,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_18_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/09_18_rain_fog_heavy.jpg",
         "response": "Homewood Suites",
         "ground_truth": [
             "homewood",
@@ -1738,8 +1800,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/09_19_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/09_19_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a large, dark gray wall.",
         "ground_truth": [
             "simon"
         ],
@@ -1750,8 +1812,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/10_03_rain_medium.jpg",
-        "response": "Pakistan Tea House: A Touch of Traditional Cuisine",
+        "path": "data/svt1_augmented/img/10_03_rain_fog_heavy.jpg",
+        "response": "Pakistan Tea House",
         "ground_truth": [
             "house",
             "tea",
@@ -1764,7 +1826,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/10_04_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/10_04_rain_fog_heavy.jpg",
         "response": "Lenscrafters",
         "ground_truth": [
             "lenscrafters",
@@ -1779,49 +1841,51 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/10_05_rain_medium.jpg",
-        "response": "Fossil",
+        "path": "data/svt1_augmented/img/10_05_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "fossil",
             "fossil"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "fossil": [
-                2,
-                1
-            ]
-        }
+        "missing_words": [
+            "fossil"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/10_17_rain_medium.jpg",
-        "response": "Jean Louis David",
+        "path": "data/svt1_augmented/img/10_17_rain_fog_heavy.jpg",
+        "response": "The image shows a group of people standing outside of a building, likely a store or a restaurant. The people are huddled together, possibly waiting for something or socializing.",
         "ground_truth": [
             "david",
             "jean",
             "louis"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "david",
+            "jean",
+            "louis"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/10_18_rain_medium.jpg",
-        "response": "\"Franky Wines\"",
+        "path": "data/svt1_augmented/img/10_18_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a piece of paper with the word \"W\" in the middle.",
         "ground_truth": [
             "frankly",
             "wines"
         ],
         "match_success": false,
         "missing_words": [
-            "frankly"
+            "frankly",
+            "wines"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_00_rain_medium.jpg",
-        "response": "Grand Dohner Hotel",
+        "path": "data/svt1_augmented/img/11_00_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a bathroom with a sign that reads \"Salle de bain\".",
         "ground_truth": [
             "bohemian",
             "grand",
@@ -1829,13 +1893,15 @@
         ],
         "match_success": false,
         "missing_words": [
-            "bohemian"
+            "bohemian",
+            "grand",
+            "hotel"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_01_rain_medium.jpg",
-        "response": "Napa Sonoma",
+        "path": "data/svt1_augmented/img/11_01_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a sign that says \"Napasden.\"",
         "ground_truth": [
             "napasorn"
         ],
@@ -1846,20 +1912,18 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_02_rain_medium.jpg",
-        "response": "Sushi Hut",
+        "path": "data/svt1_augmented/img/11_02_rain_fog_heavy.jpg",
+        "response": "Sushi HATSU",
         "ground_truth": [
             "hatsu",
             "sushi"
         ],
-        "match_success": false,
-        "missing_words": [
-            "hatsu"
-        ],
+        "match_success": true,
+        "missing_words": [],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_03_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/11_03_rain_fog_heavy.jpg",
         "response": "Al's Army Store",
         "ground_truth": [
             "army",
@@ -1870,8 +1934,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_04_rain_medium.jpg",
-        "response": "Ozar Sentinel Communications",
+        "path": "data/svt1_augmented/img/11_04_rain_fog_heavy.jpg",
+        "response": "The image shows a large building with a sign that says \"Oklahoma Sentinel Communications\".",
         "ground_truth": [
             "orlando",
             "sentinel"
@@ -1883,8 +1947,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_05_rain_medium.jpg",
-        "response": "Kyle's Bike Shop",
+        "path": "data/svt1_augmented/img/11_05_rain_fog_heavy.jpg",
+        "response": "The image shows a large, black wall with the words \"Rles Bike Shop\" written on it.",
         "ground_truth": [
             "bike",
             "kyle",
@@ -1897,7 +1961,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_06_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/11_06_rain_fog_heavy.jpg",
         "response": "Starbucks Coffee",
         "ground_truth": [
             "starbucks",
@@ -1919,8 +1983,8 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/11_07_rain_medium.jpg",
-        "response": "The word \"Theatre\" is visible on the sign.",
+        "path": "data/svt1_augmented/img/11_07_rain_fog_heavy.jpg",
+        "response": "The word \"Corporation\" is visible in the image.",
         "ground_truth": [
             "house",
             "parliament",
@@ -1935,18 +1999,20 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_08_rain_medium.jpg",
-        "response": "Colonial Restaurant & Lounge",
+        "path": "data/svt1_augmented/img/11_08_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a building with a sign on the front. The sign reads \"The Kitchen Restaurant & Lounge.\"",
         "ground_truth": [
             "colonial",
             "restaurant"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "colonial"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_09_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/11_09_rain_fog_heavy.jpg",
         "response": "Central Station Bar",
         "ground_truth": [
             "bar",
@@ -1974,8 +2040,8 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/11_10_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/11_10_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a sign on the front. The building is covered in snow, and the sky is cloudy.",
         "ground_truth": [
             "scientology",
             "church"
@@ -1988,8 +2054,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_12_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/11_12_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a sign on the side. The sign reads \"Tchaikovsky Place.\"",
         "ground_truth": [
             "flats",
             "tijuana",
@@ -2006,8 +2072,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_13_rain_medium.jpg",
-        "response": "Don't know what you're talking about.",
+        "path": "data/svt1_augmented/img/11_13_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a street with a large body of water in the background.",
         "ground_truth": [
             "dong",
             "market"
@@ -2020,42 +2086,51 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_15_rain_medium.jpg",
-        "response": "Colonial Photo & Hobby Inc.",
+        "path": "data/svt1_augmented/img/11_15_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a black and white photo of a man's face.",
         "ground_truth": [
             "colonial",
             "hobby",
             "inc",
             "photo"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "colonial",
+            "hobby",
+            "inc"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_16_rain_medium.jpg",
-        "response": "Little Saigon",
+        "path": "data/svt1_augmented/img/11_16_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a building with a large white letter A on it.",
         "ground_truth": [
             "little",
             "saigon"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "little",
+            "saigon"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_17_rain_medium.jpg",
-        "response": "Tabu",
+        "path": "data/svt1_augmented/img/11_17_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a black screen with the word \"tobi\" written in white.",
         "ground_truth": [
             "tabu"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "tabu"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_18_rain_medium.jpg",
-        "response": "City Arts Factory",
+        "path": "data/svt1_augmented/img/11_18_rain_fog_heavy.jpg",
+        "response": "City art factory",
         "ground_truth": [
             "cityarts",
             "factory"
@@ -2067,8 +2142,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/11_19_rain_medium.jpg",
-        "response": "Transcribed text:\n\nTravlewood Hotel",
+        "path": "data/svt1_augmented/img/11_19_rain_fog_heavy.jpg",
+        "response": "Transcribed text:\n\nTravco",
         "ground_truth": [
             "travelodge"
         ],
@@ -2079,7 +2154,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/12_02_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/12_02_rain_fog_heavy.jpg",
         "response": "TD Bank",
         "ground_truth": [
             "bank"
@@ -2089,8 +2164,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/12_03_rain_medium.jpg",
-        "response": "Hard Rock Cafe",
+        "path": "data/svt1_augmented/img/12_03_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as requested. The image is a black and white photo of a white background with a logo on it. The logo is in the shape of a circle with the word \"HERO\" written in the center.",
         "ground_truth": [
             "hard",
             "hard",
@@ -2100,25 +2175,16 @@
             "cafe"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "hard": [
-                2,
-                1
-            ],
-            "rock": [
-                2,
-                1
-            ],
-            "cafe": [
-                2,
-                1
-            ]
-        }
+        "missing_words": [
+            "hard",
+            "rock",
+            "cafe"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/12_04_rain_medium.jpg",
-        "response": "The image shows a parking garage with a red car parked in it. The word \"Parking\" is written above the car, and the word \"No Entry\" is written below it.",
+        "path": "data/svt1_augmented/img/12_04_rain_fog_heavy.jpg",
+        "response": "Parking",
         "ground_truth": [
             "embassy",
             "suites",
@@ -2133,15 +2199,10 @@
             "center",
             "city"
         ],
-        "mismatched_counts": {
-            "parking": [
-                1,
-                2
-            ]
-        }
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/12_05_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/12_05_rain_fog_heavy.jpg",
         "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "jones"
@@ -2153,8 +2214,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/12_06_rain_medium.jpg",
-        "response": "Copigo",
+        "path": "data/svt1_augmented/img/12_06_rain_fog_heavy.jpg",
+        "response": "The word \"Caprigo\" is visible on the building.",
         "ground_truth": [
             "capogiro"
         ],
@@ -2165,8 +2226,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/12_08_rain_medium.jpg",
-        "response": "The word \"Hotel\" is on the sign.",
+        "path": "data/svt1_augmented/img/12_08_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a black background with a white label that reads \"Sellers Seafood.\"",
         "ground_truth": [
             "sheraton",
             "restaurant"
@@ -2179,21 +2240,22 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/12_09_rain_medium.jpg",
-        "response": "Trader Joe's",
+        "path": "data/svt1_augmented/img/12_09_rain_fog_heavy.jpg",
+        "response": "The image shows a close-up of a large, blurry sign that reads \"FADER JOE'S.\"",
         "ground_truth": [
             "joe",
             "trader"
         ],
         "match_success": false,
         "missing_words": [
-            "joe"
+            "joe",
+            "trader"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/12_10_rain_medium.jpg",
-        "response": "Park",
+        "path": "data/svt1_augmented/img/12_10_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "parc"
         ],
@@ -2204,7 +2266,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/12_13_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/12_13_rain_fog_heavy.jpg",
         "response": "Cherry Street Kosher Restaurant",
         "ground_truth": [
             "cherry",
@@ -2234,8 +2296,8 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/12_15_rain_medium.jpg",
-        "response": "The image shows a red building with a black and white sign on it. The sign reads \"Open.\"",
+        "path": "data/svt1_augmented/img/12_15_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "ortlieb"
         ],
@@ -2246,8 +2308,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/12_16_rain_medium.jpg",
-        "response": "United States of America",
+        "path": "data/svt1_augmented/img/12_16_rain_fog_heavy.jpg",
+        "response": "The image shows a street scene with a sign on the sidewalk. The street appears to be wet, possibly due to rain.",
         "ground_truth": [
             "mint",
             "states",
@@ -2255,13 +2317,15 @@
         ],
         "match_success": false,
         "missing_words": [
-            "mint"
+            "mint",
+            "states",
+            "united"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/12_18_rain_medium.jpg",
-        "response": "Chinatown Dollar Inc.",
+        "path": "data/svt1_augmented/img/12_18_rain_fog_heavy.jpg",
+        "response": "1. Chinatown Dollar Inc.",
         "ground_truth": [
             "china",
             "dollar",
@@ -2278,7 +2342,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_01_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/13_01_rain_fog_heavy.jpg",
         "response": "University Center",
         "ground_truth": [
             "center",
@@ -2292,17 +2356,19 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_02_rain_medium.jpg",
-        "response": "Starbucks Coffee",
+        "path": "data/svt1_augmented/img/13_02_rain_fog_heavy.jpg",
+        "response": "The image is a blurry photo of a building with a lot of snow on it.",
         "ground_truth": [
             "starbucks"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "starbucks"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_03_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/13_03_rain_fog_heavy.jpg",
         "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "quiznos",
@@ -2318,8 +2384,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_04_rain_medium.jpg",
-        "response": "The image shows a building with a large glass window on the side. The building is covered in rain, and the sky is visible in the background.",
+        "path": "data/svt1_augmented/img/13_04_rain_fog_heavy.jpg",
+        "response": "The image shows a large, dark, and cloudy sky.",
         "ground_truth": [
             "dodge",
             "phelps",
@@ -2334,8 +2400,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_07_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/13_07_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray metal surface, which is described as a \"gray metal sheet\" and a \"gray metal surface.\" The text is described as \"gray metal\" and \"gray metal sheet.\"",
         "ground_truth": [
             "eye",
             "lounge"
@@ -2348,8 +2414,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_08_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/13_08_rain_fog_heavy.jpg",
+        "response": "The image shows a road with a line of cars driving down it.",
         "ground_truth": [
             "enterprise"
         ],
@@ -2360,7 +2426,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_10_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/13_10_rain_fog_heavy.jpg",
         "response": "Pizza Hut",
         "ground_truth": [
             "hut",
@@ -2371,29 +2437,34 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_11_rain_medium.jpg",
-        "response": "Magic Auto",
+        "path": "data/svt1_augmented/img/13_11_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray surface with a black background. The text is in white and appears to be a black and white photo.",
         "ground_truth": [
             "auto",
             "magic"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "auto",
+            "magic"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_12_rain_medium.jpg",
-        "response": "The image shows a building with a large window and a sign that says YMCA.",
+        "path": "data/svt1_augmented/img/13_12_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a blurry, gray, cloudy sky.",
         "ground_truth": [
             "ymca"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "ymca"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_13_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/13_13_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a black background. The wall is covered in a large amount of text, which is difficult to read.",
         "ground_truth": [
             "space"
         ],
@@ -2404,8 +2475,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_14_rain_medium.jpg",
-        "response": "Circle and Boxes",
+        "path": "data/svt1_augmented/img/13_14_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a street scene with a building in the background. The street appears to be wet, possibly due to recent rain.",
         "ground_truth": [
             "circles",
             "tapes"
@@ -2418,47 +2489,50 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_15_rain_medium.jpg",
-        "response": "The word Wyndham is on the building.",
+        "path": "data/svt1_augmented/img/13_15_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a black surface with a white line running through it. The line is blurry, making it difficult to discern the exact details of the surface.",
         "ground_truth": [
             "hotel",
             "wyndham"
         ],
         "match_success": false,
         "missing_words": [
-            "hotel"
+            "hotel",
+            "wyndham"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_16_rain_medium.jpg",
-        "response": "Modded Arts",
+        "path": "data/svt1_augmented/img/13_16_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray surface, possibly a piece of paper or a gray wall. The text is in black and white, and it is difficult to read due to the gray background.",
         "ground_truth": [
             "arts",
             "modified"
         ],
         "match_success": false,
         "missing_words": [
+            "arts",
             "modified"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_17_rain_medium.jpg",
-        "response": "United Airlines Center",
+        "path": "data/svt1_augmented/img/13_17_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a large building, possibly a stadium, with a cloudy sky in the background.",
         "ground_truth": [
             "airways",
             "center"
         ],
         "match_success": false,
         "missing_words": [
-            "airways"
+            "airways",
+            "center"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/13_19_rain_medium.jpg",
-        "response": "Chevrolet",
+        "path": "data/svt1_augmented/img/13_19_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a lot of windows.",
         "ground_truth": [
             "cheuvront",
             "cheuvront",
@@ -2472,8 +2546,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_01_rain_medium.jpg",
-        "response": "The image shows a building with a sign that says \"Higginboths\".",
+        "path": "data/svt1_augmented/img/14_01_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "higgins"
         ],
@@ -2484,7 +2558,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_02_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/14_02_rain_fog_heavy.jpg",
         "response": "Marriott",
         "ground_truth": [
             "marriott"
@@ -2494,8 +2568,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_05_rain_medium.jpg",
-        "response": "The image shows a rain-soaked street with a building in the background.",
+        "path": "data/svt1_augmented/img/14_05_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "roots"
         ],
@@ -2506,8 +2580,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_06_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to identify any text in the image as it is a visual AI assistant and I am not able to transcribe images.",
+        "path": "data/svt1_augmented/img/14_06_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a shadow on it.",
         "ground_truth": [
             "center",
             "convention"
@@ -2520,18 +2594,20 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_07_rain_medium.jpg",
-        "response": "Everest College",
+        "path": "data/svt1_augmented/img/14_07_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a black surface with the word \"Everest\" written on it.",
         "ground_truth": [
             "college",
             "everest"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "college"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_08_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/14_08_rain_fog_heavy.jpg",
         "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "pioneer",
@@ -2551,29 +2627,34 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_09_rain_medium.jpg",
-        "response": "Screen with a movie poster for a movie called Cinema 21.",
+        "path": "data/svt1_augmented/img/14_09_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building.",
         "ground_truth": [
             "cinema"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "cinema"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_10_rain_medium.jpg",
-        "response": "Park Kitchen",
+        "path": "data/svt1_augmented/img/14_10_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a black background.",
         "ground_truth": [
             "kitchen",
             "park"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "kitchen",
+            "park"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_12_rain_medium.jpg",
-        "response": "Dan & Louis",
+        "path": "data/svt1_augmented/img/14_12_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray surface, possibly a piece of paper or a gray wall. The text is in black and appears to be a black and white photo.",
         "ground_truth": [
             "bar",
             "dan",
@@ -2583,13 +2664,15 @@
         "match_success": false,
         "missing_words": [
             "bar",
+            "dan",
+            "louis",
             "oyster"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_13_rain_medium.jpg",
-        "response": "The image shows a rainy day outside of a theater.",
+        "path": "data/svt1_augmented/img/14_13_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray surface, possibly a piece of paper or a gray wall. The text is in white and appears to be a description of the surface.",
         "ground_truth": [
             "mission",
             "pub",
@@ -2604,8 +2687,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_14_rain_medium.jpg",
-        "response": "Satricon.com",
+        "path": "data/svt1_augmented/img/14_14_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a black surface with a white sign on it. The sign reads \"Sazik Corp. - Recycle and Lies\".",
         "ground_truth": [
             "satyricon"
         ],
@@ -2616,19 +2699,23 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_17_rain_medium.jpg",
-        "response": "Lincoln High School",
+        "path": "data/svt1_augmented/img/14_17_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "high",
             "lincoln",
             "school"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "high",
+            "lincoln",
+            "school"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/14_18_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/14_18_rain_fog_heavy.jpg",
         "response": "Marriott",
         "ground_truth": [
             "marriott",
@@ -2644,8 +2731,8 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/15_03_rain_medium.jpg",
-        "response": "San Diego Excursion",
+        "path": "data/svt1_augmented/img/15_03_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a group of people standing outside of a building. The people are scattered throughout the scene, with some standing closer to the building and others further away. The building appears to be a store or a similar establishment, as there are several people standing outside of it.",
         "ground_truth": [
             "diego",
             "excursion",
@@ -2654,13 +2741,16 @@
         ],
         "match_success": false,
         "missing_words": [
-            "harbor"
+            "diego",
+            "excursion",
+            "harbor",
+            "san"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/15_04_rain_medium.jpg",
-        "response": "The image is a photo of a building with a large painting on the side. The painting is titled \"The Last Supper\" and is displayed in a large window. The building is a museum of art.",
+        "path": "data/svt1_augmented/img/15_04_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a wall with a few words on it. The words are in white and are arranged in a row. The words are not in bold or italic font.",
         "ground_truth": [
             "art",
             "art",
@@ -2672,22 +2762,15 @@
         ],
         "match_success": false,
         "missing_words": [
+            "art",
+            "museum",
             "timken"
         ],
-        "mismatched_counts": {
-            "art": [
-                3,
-                1
-            ],
-            "museum": [
-                2,
-                1
-            ]
-        }
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/15_05_rain_medium.jpg",
-        "response": "San Diego Automobile Museum",
+        "path": "data/svt1_augmented/img/15_05_rain_fog_heavy.jpg",
+        "response": "The image shows a large body of water, possibly a lake, with a cloudy sky above.",
         "ground_truth": [
             "automotive",
             "diego",
@@ -2696,13 +2779,16 @@
         ],
         "match_success": false,
         "missing_words": [
-            "automotive"
+            "automotive",
+            "diego",
+            "museum",
+            "san"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/15_06_rain_medium.jpg",
-        "response": "El Cortez",
+        "path": "data/svt1_augmented/img/15_06_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a building with a sign on the front of it. The sign reads \"Dr. Cortez.\"",
         "ground_truth": [
             "cortez"
         ],
@@ -2711,18 +2797,20 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/15_08_rain_medium.jpg",
-        "response": "Casbah",
+        "path": "data/svt1_augmented/img/15_08_rain_fog_heavy.jpg",
+        "response": "The image shows a black and white photo of a building with a sign on the side of it. The sign reads \"Cubab.\"",
         "ground_truth": [
             "casbah"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "casbah"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/15_10_rain_medium.jpg",
-        "response": "Air & Space Museum",
+        "path": "data/svt1_augmented/img/15_10_rain_fog_heavy.jpg",
+        "response": "Air & space museum",
         "ground_truth": [
             "air",
             "museum",
@@ -2733,8 +2821,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/15_11_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/15_11_rain_fog_heavy.jpg",
+        "response": "The image shows a parking garage with a large window. The parking garage is covered in snow, and the window is covered in snow as well.",
         "ground_truth": [
             "plaza",
             "america"
@@ -2747,34 +2835,38 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/15_12_rain_medium.jpg",
-        "response": "1. Horton Grand Hotel\n2. The building is brown.\n3. The building is brown.\n4. The building is brown.\n5. The building is brown.\n6. The building is brown.\n7. The building is brown.\n8. The building is brown.\n9. The building is brown.\n10. The building is brown.\n11. The building is brown.\n12. The building is brown.\n13. The building is brown.\n14. The building is brown.\n15. The building is brown.\n16. The building is brown.\n17. The building is brown.\n18. The building is brown.\n19. The building is brown.\n20. The building is brown.\n21. The building is brown.\n22. The building is brown.\n23. The building is brown.\n24. The building is brown.\n25. The building is brown.\n26. The building is brown.\n27. The building is brown.\n28. The building is brown.\n29. The building is brown.\n30. The building is brown.\n31. The building is brown.\n32. The building is brown.\n33. The building is brown.\n34. The building is brown.\n35. The building is brown.\n36. The building is brown.\n37. The building is brown.\n38. The building is brown.\n39. The building is brown.\n40. The building is brown.\n41. The building is brown.\n42. The building is brown.\n43. The building is brown.\n44. The building is brown.\n45. The building is brown.\n46. The building is brown.\n47. The building is brown.\n48. The building is brown.\n49. The building is brown.\n50. The building is brown.\n51. The building is brown.\n52. The building is brown.\n53. The building is brown.\n54. The building is brown.\n55. The building is brown.\n56. The building is brown.\n57. The building is brown.\n58. The building is brown.",
+        "path": "data/svt1_augmented/img/15_12_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a hotel called \"Horizon Grand Hotel.\"",
         "ground_truth": [
             "grand",
             "horton",
             "hotel"
         ],
-        "match_success": true,
-        "missing_words": [],
-        "mismatched_counts": {}
-    },
-    {
-        "path": "data/svt1_augmented/img/15_17_rain_medium.jpg",
-        "response": "1. Courtyard Marriott Hotel\n2. Courtyard Marriott Hotel\n3. Courtyard Marriott Hotel\n4. Courtyard Marriott Hotel\n5. Courtyard Marriott Hotel\n6. Courtyard Marriott Hotel\n7. Courtyard Marriott Hotel\n8. Courtyard Marriott Hotel\n9. Courtyard Marriott Hotel\n10. Courtyard Marriott Hotel\n11. Courtyard Marriott Hotel\n12. Courtyard Marriott Hotel\n13. Courtyard Marriott Hotel\n14. Courtyard Marriott Hotel\n15. Courtyard Marriott Hotel\n16. Courtyard Marriott Hotel\n17. Courtyard Marriott Hotel\n18. Courtyard Marriott Hotel\n19. Courtyard Marriott Hotel\n20. Courtyard Marriott Hotel\n21. Courtyard Marriott Hotel\n22. Courtyard Marriott Hotel\n23. Courtyard Marriott Hotel\n24. Courtyard Marriott Hotel\n25. Courtyard Marriott Hotel\n26. Courtyard Marriott Hotel\n27. Courtyard Marriott Hotel\n28. Courtyard Marriott Hotel\n29. Courtyard Marriott Hotel\n30. Courtyard Marriott Hotel\n31. Courtyard Marriott Hotel\n32. Courtyard Marriott Hotel\n33. Courtyard Marriott Hotel\n34. Courtyard Marriott Hotel\n35. Courtyard Marriott Hotel\n36. Courtyard Marriott Hotel\n37. Courtyard Marriott Hotel\n38. Courtyard Marriott Hotel\n39. Courtyard Marriott Hotel\n40. Courtyard Marriott Hotel\n41. Courtyard Marriott Hotel\n42. Courtyard Marriott Hotel\n43. Courtyard Marriott Hotel\n44. Courtyard Marriott Hotel\n45. Courtyard Marriott Hotel\n46. Courtyard Marriott Hotel\n47. Courtyard Marriott Hotel\n48. Courtyard Marriott Hotel\n49. Courtyard Marriott Hotel\n50. Courtyard Marriott Hotel\n51. Courtyard Marriott Hotel\n52. Courtyard Marriott Hotel\n53. Courtyard Marriott Hotel\n54. Courtyard Marriott Hotel\n55. Courtyard Marriott Hotel\n56. Courtyard Marriott Hotel\n57. Courtyard Marriott Hotel\n58. Courtyard Marriott Hotel\n59. Courtyard Marriott Hotel\n60. Courtyard Marriott Hotel\n61. Courtyard Marriott Hotel\n62. Courtyard Marriott Hotel\n63. Courtyard Marriott Hotel\n64. Courtyard Marriott Hotel\n65. Courtyard Marriott Hotel\n66. Courtyard Marriott Hotel\n67. Courtyard Marriott Hotel\n68. Courtyard Marriott Hotel\n69. Courtyard Marriott Hotel\n70. Courtyard Marriott Hotel\n71. Courtyard Marriott Hotel\n72. Courtyard Marriott Hotel\n73. Courtyard Marriott Hotel\n74. Courtyard Marriott Hotel\n75",
-        "ground_truth": [
-            "courtyard"
-        ],
         "match_success": false,
-        "missing_words": [],
+        "missing_words": [
+            "horton"
+        ],
         "mismatched_counts": {
-            "courtyard": [
+            "hotel": [
                 1,
-                74
+                2
             ]
         }
     },
     {
-        "path": "data/svt1_augmented/img/15_19_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/15_17_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a city street with a lot of traffic. There are several cars and a truck on the road, and a few people are walking on the sidewalk. The street is lined with buildings, and there is a sign for a hotel nearby.",
+        "ground_truth": [
+            "courtyard"
+        ],
+        "match_success": false,
+        "missing_words": [
+            "courtyard"
+        ],
+        "mismatched_counts": {}
+    },
+    {
+        "path": "data/svt1_augmented/img/15_19_rain_fog_heavy.jpg",
         "response": "Holiday Inn Express",
         "ground_truth": [
             "holiday",
@@ -2788,25 +2880,29 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/16_01_rain_medium.jpg",
-        "response": "Hotel Whitcomb",
+        "path": "data/svt1_augmented/img/16_01_rain_fog_heavy.jpg",
+        "response": "Hotel Vendra",
         "ground_truth": [
             "hotel",
             "whitcomb"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "whitcomb"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/16_02_rain_medium.jpg",
-        "response": "The word \"mosser\" is visible in the image.",
+        "path": "data/svt1_augmented/img/16_02_rain_fog_heavy.jpg",
+        "response": "The word \"moss\" is visible in the image.",
         "ground_truth": [
             "mosser",
             "the"
         ],
         "match_success": false,
-        "missing_words": [],
+        "missing_words": [
+            "mosser"
+        ],
         "mismatched_counts": {
             "the": [
                 1,
@@ -2815,19 +2911,21 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/16_04_rain_medium.jpg",
-        "response": "Hotel Carlton",
+        "path": "data/svt1_augmented/img/16_04_rain_fog_heavy.jpg",
+        "response": "Hotel Cariton",
         "ground_truth": [
             "carlton",
             "hotel"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "carlton"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/16_06_rain_medium.jpg",
-        "response": "City Lights Books",
+        "path": "data/svt1_augmented/img/16_06_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "bookstore",
             "city",
@@ -2837,21 +2935,14 @@
         ],
         "match_success": false,
         "missing_words": [
-            "bookstore"
+            "bookstore",
+            "city",
+            "lights"
         ],
-        "mismatched_counts": {
-            "city": [
-                2,
-                1
-            ],
-            "lights": [
-                2,
-                1
-            ]
-        }
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/16_12_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/16_12_rain_fog_heavy.jpg",
         "response": "First Crush",
         "ground_truth": [
             "crush",
@@ -2862,18 +2953,21 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/16_13_rain_medium.jpg",
-        "response": "Tara Restaurant",
+        "path": "data/svt1_augmented/img/16_13_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a black surface with a logo and text on it. The text is in white and is written in a foreign language. The text is in black and is written in a foreign language.",
         "ground_truth": [
             "restaurant",
             "tara"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "restaurant",
+            "tara"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/16_14_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/16_14_rain_fog_heavy.jpg",
         "response": "1660 Washington Square Inn",
         "ground_truth": [
             "inn",
@@ -2885,8 +2979,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/16_15_rain_medium.jpg",
-        "response": "Cantinho do Brasil Restaurant",
+        "path": "data/svt1_augmented/img/16_15_rain_fog_heavy.jpg",
+        "response": "Cantinho da Brazil Restaurant",
         "ground_truth": [
             "brazil",
             "canto",
@@ -2894,13 +2988,12 @@
         ],
         "match_success": false,
         "missing_words": [
-            "brazil",
             "canto"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/16_16_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/16_16_rain_fog_heavy.jpg",
         "response": "Orpheum Theatre",
         "ground_truth": [
             "orpheum",
@@ -2911,22 +3004,19 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/16_17_rain_medium.jpg",
-        "response": "PINECREST RESTAURANT",
+        "path": "data/svt1_augmented/img/16_17_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a restaurant called Pine Crest.",
         "ground_truth": [
             "crest",
             "pine",
             "restaurant"
         ],
-        "match_success": false,
-        "missing_words": [
-            "crest",
-            "pine"
-        ],
+        "match_success": true,
+        "missing_words": [],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/16_18_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/16_18_rain_fog_heavy.jpg",
         "response": "Saint Francis Memorial Hospital",
         "ground_truth": [
             "francis",
@@ -2939,21 +3029,26 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_00_rain_medium.jpg",
-        "response": "San Jose Museum of Art",
+        "path": "data/svt1_augmented/img/17_00_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a reflection of a building visible in it.",
         "ground_truth": [
             "art",
             "jose",
             "museum",
             "san"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "art",
+            "jose",
+            "museum",
+            "san"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_02_rain_medium.jpg",
-        "response": "Motif Restaurant and Club",
+        "path": "data/svt1_augmented/img/17_02_rain_fog_heavy.jpg",
+        "response": "Motif",
         "ground_truth": [
             "motif",
             "restaurant",
@@ -2964,24 +3059,30 @@
         ],
         "match_success": false,
         "missing_words": [
+            "restaurant",
+            "club",
+            "and",
             "south",
             "first"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_03_rain_medium.jpg",
-        "response": "Bicycle Express",
+        "path": "data/svt1_augmented/img/17_03_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a large window.",
         "ground_truth": [
             "bicycle",
             "express"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "bicycle",
+            "express"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_05_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/17_05_rain_fog_heavy.jpg",
         "response": "McDonald's",
         "ground_truth": [
             "donald"
@@ -2993,8 +3094,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_06_rain_medium.jpg",
-        "response": "B-Line Body Shop",
+        "path": "data/svt1_augmented/img/17_06_rain_fog_heavy.jpg",
+        "response": "The image shows a large building with a blue roof.",
         "ground_truth": [
             "body",
             "shop",
@@ -3002,13 +3103,15 @@
         ],
         "match_success": false,
         "missing_words": [
+            "body",
+            "shop",
             "line"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_07_rain_medium.jpg",
-        "response": "The image shows a building with a large window and a sign that says \"Frost & Young\".",
+        "path": "data/svt1_augmented/img/17_07_rain_fog_heavy.jpg",
+        "response": "The image shows a large, dark room with a large window. The window is covered in a thick layer of rain, creating a misty atmosphere.",
         "ground_truth": [
             "ernst",
             "young",
@@ -3017,23 +3120,26 @@
         "match_success": false,
         "missing_words": [
             "ernst",
+            "young",
             "san"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_08_rain_medium.jpg",
-        "response": "Bo Town",
+        "path": "data/svt1_augmented/img/17_08_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a piece of paper with the word \"Penn\" written on it.",
         "ground_truth": [
             "town"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "town"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_09_rain_medium.jpg",
-        "response": "The Saint Clair",
+        "path": "data/svt1_augmented/img/17_09_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a gray wall with a black background.",
         "ground_truth": [
             "claire",
             "sainte",
@@ -3047,7 +3153,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_10_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/17_10_rain_fog_heavy.jpg",
         "response": "Liquid Agency",
         "ground_truth": [
             "agency",
@@ -3064,8 +3170,8 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/17_13_rain_medium.jpg",
-        "response": "The image shows a school building with a large window.",
+        "path": "data/svt1_augmented/img/17_13_rain_fog_heavy.jpg",
+        "response": "The image is a blurry photo of a building with a stop sign on the sidewalk.",
         "ground_truth": [
             "high",
             "lincoln",
@@ -3077,18 +3183,14 @@
         "missing_words": [
             "high",
             "lincoln",
+            "school",
             "california"
         ],
-        "mismatched_counts": {
-            "school": [
-                2,
-                1
-            ]
-        }
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_14_rain_medium.jpg",
-        "response": "Quilts & Textiles",
+        "path": "data/svt1_augmented/img/17_14_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a newspaper, with the word \"Oils & Textiles\" written in the corner.",
         "ground_truth": [
             "jose",
             "museum",
@@ -3100,33 +3202,38 @@
         "missing_words": [
             "jose",
             "museum",
+            "quilts",
             "san"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_15_rain_medium.jpg",
-        "response": "Goodwill",
+        "path": "data/svt1_augmented/img/17_15_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with the word \"Coolwell\" written on it.",
         "ground_truth": [
             "goodwill"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "goodwill"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_16_rain_medium.jpg",
-        "response": "The word Ramada is visible in the image.",
+        "path": "data/svt1_augmented/img/17_16_rain_fog_heavy.jpg",
+        "response": "The word Rama is visible in the image.",
         "ground_truth": [
             "ramada"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "ramada"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_17_rain_medium.jpg",
-        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "path": "data/svt1_augmented/img/17_17_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a building with a large window. The window is covered in snow, and the building appears to be a brick building.",
         "ground_truth": [
             "fahrenheit",
             "lounge"
@@ -3139,30 +3246,37 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/17_18_rain_medium.jpg",
-        "response": "South First Billiards",
+        "path": "data/svt1_augmented/img/17_18_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a sign with the word \"stop\" written in white.",
         "ground_truth": [
             "billiards",
             "first",
             "south"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "billiards",
+            "first",
+            "south"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_00_rain_medium.jpg",
-        "response": "Via Tribunali",
+        "path": "data/svt1_augmented/img/18_00_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "tribunali",
             "via"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "tribunali",
+            "via"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_01_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/18_01_rain_fog_heavy.jpg",
         "response": "Triple Door",
         "ground_truth": [
             "door",
@@ -3178,8 +3292,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_02_rain_medium.jpg",
-        "response": "Black Bottle",
+        "path": "data/svt1_augmented/img/18_02_rain_fog_heavy.jpg",
+        "response": "Black North",
         "ground_truth": [
             "black",
             "bottle",
@@ -3187,12 +3301,13 @@
         ],
         "match_success": false,
         "missing_words": [
+            "bottle",
             "vine"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_03_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/18_03_rain_fog_heavy.jpg",
         "response": "Hotel Max",
         "ground_truth": [
             "hotel",
@@ -3203,7 +3318,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_04_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/18_04_rain_fog_heavy.jpg",
         "response": "Red Lion Hotel",
         "ground_truth": [
             "hotel",
@@ -3215,7 +3330,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_06_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/18_06_rain_fog_heavy.jpg",
         "response": "Paramount",
         "ground_truth": [
             "paramount"
@@ -3225,8 +3340,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_07_rain_medium.jpg",
-        "response": "The image shows a large building with a sign that reads \"The Moore Hotel.\"",
+        "path": "data/svt1_augmented/img/18_07_rain_fog_heavy.jpg",
+        "response": "The word \"Moor\" is visible on the building.",
         "ground_truth": [
             "hotel",
             "hotel",
@@ -3234,20 +3349,14 @@
             "moore"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "hotel": [
-                2,
-                1
-            ],
-            "moore": [
-                2,
-                1
-            ]
-        }
+        "missing_words": [
+            "hotel",
+            "moore"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_08_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/18_08_rain_fog_heavy.jpg",
         "response": "Garage",
         "ground_truth": [
             "garage"
@@ -3257,20 +3366,24 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_09_rain_medium.jpg",
-        "response": "The image shows a store front with a sign that reads \"Pike & Western Wine Shop\".",
+        "path": "data/svt1_augmented/img/18_09_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "pike",
             "western",
             "wine"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "pike",
+            "western",
+            "wine"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_10_rain_medium.jpg",
-        "response": "Executive Inn",
+        "path": "data/svt1_augmented/img/18_10_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a hotel sign, which is covered in snow. The hotel sign is located in the middle of the photo.",
         "ground_truth": [
             "best",
             "executive",
@@ -3280,13 +3393,15 @@
         "match_success": false,
         "missing_words": [
             "best",
+            "executive",
+            "inn",
             "western"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_13_rain_medium.jpg",
-        "response": "The word \"royal\" is written in blue on the building.",
+        "path": "data/svt1_augmented/img/18_13_rain_fog_heavy.jpg",
+        "response": "The image shows a rainy day with a large building in the background.",
         "ground_truth": [
             "inn",
             "loyal",
@@ -3303,8 +3418,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_15_rain_medium.jpg",
-        "response": "Sixteen Avenue Bar & Grill",
+        "path": "data/svt1_augmented/img/18_15_rain_fog_heavy.jpg",
+        "response": "1. 15th Ave Bar & Grill",
         "ground_truth": [
             "avenue",
             "sixth",
@@ -3317,13 +3432,10 @@
         ],
         "match_success": false,
         "missing_words": [
+            "avenue",
             "sixth"
         ],
         "mismatched_counts": {
-            "avenue": [
-                2,
-                1
-            ],
             "bar": [
                 2,
                 1
@@ -3335,7 +3447,7 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/18_16_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/18_16_rain_fog_heavy.jpg",
         "response": "94 Stewart Restaurant",
         "ground_truth": [
             "restaurant",
@@ -3346,7 +3458,7 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_17_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/18_17_rain_fog_heavy.jpg",
         "response": "Cinema",
         "ground_truth": [
             "cinerama",
@@ -3359,8 +3471,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_18_rain_medium.jpg",
-        "response": "The image shows a school building with a large sign that says \"G.W. Livingston High School\".",
+        "path": "data/svt1_augmented/img/18_18_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a large window.",
         "ground_truth": [
             "garfield",
             "high",
@@ -3368,18 +3480,15 @@
         ],
         "match_success": false,
         "missing_words": [
-            "garfield"
+            "garfield",
+            "high",
+            "school"
         ],
-        "mismatched_counts": {
-            "school": [
-                1,
-                2
-            ]
-        }
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/18_19_rain_medium.jpg",
-        "response": "The word \"neuomos\" is written in white letters on a black background.",
+        "path": "data/svt1_augmented/img/18_19_rain_fog_heavy.jpg",
+        "response": "The image is a close-up of a building with a large window.",
         "ground_truth": [
             "neumos",
             "neumos"
@@ -3391,8 +3500,8 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/19_00_rain_medium.jpg",
-        "response": "Cafe Soleil",
+        "path": "data/svt1_augmented/img/19_00_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a building with a sign on the front. The sign reads \"The Coffee Shop\".",
         "ground_truth": [
             "cafe",
             "soleil",
@@ -3401,25 +3510,31 @@
         ],
         "match_success": false,
         "missing_words": [
+            "cafe",
+            "soleil",
             "bar",
             "restaurant"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/19_01_rain_medium.jpg",
-        "response": "Tiny Jewel Box",
+        "path": "data/svt1_augmented/img/19_01_rain_fog_heavy.jpg",
+        "response": "The image shows a street scene with a large building covered in snow.",
         "ground_truth": [
             "box",
             "jewel",
             "tiny"
         ],
-        "match_success": true,
-        "missing_words": [],
+        "match_success": false,
+        "missing_words": [
+            "box",
+            "jewel",
+            "tiny"
+        ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/19_03_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/19_03_rain_fog_heavy.jpg",
         "response": "CVS Pharmacy",
         "ground_truth": [
             "cvs",
@@ -3440,8 +3555,8 @@
         }
     },
     {
-        "path": "data/svt1_augmented/img/19_04_rain_medium.jpg",
-        "response": "The image shows a rainy day in a city with a parking lot full of cars. There is a restaurant called Sakaana, which is located on the corner of a street. The parking lot is full of cars, including a black truck. The restaurant is located on the corner of a street, and there is a sign for it.",
+        "path": "data/svt1_augmented/img/19_04_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "japanese",
             "restaurant",
@@ -3450,17 +3565,13 @@
         "match_success": false,
         "missing_words": [
             "japanese",
+            "restaurant",
             "sakana"
         ],
-        "mismatched_counts": {
-            "restaurant": [
-                1,
-                2
-            ]
-        }
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/19_06_rain_medium.jpg",
+        "path": "data/svt1_augmented/img/19_06_rain_fog_heavy.jpg",
         "response": "The Fireplace",
         "ground_truth": [
             "fireplace"
@@ -3470,21 +3581,22 @@
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/19_07_rain_medium.jpg",
-        "response": "1. WM Fox & Co.\n2. 1457 W 3rd St\n3. 2007",
+        "path": "data/svt1_augmented/img/19_07_rain_fog_heavy.jpg",
+        "response": "The image shows a street scene with a car parked in front of a building. The car is positioned on the left side of the image. The sky is cloudy, and the street appears wet.",
         "ground_truth": [
             "fox",
             "cleaners"
         ],
         "match_success": false,
         "missing_words": [
+            "fox",
             "cleaners"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/19_09_rain_medium.jpg",
-        "response": "Books for America",
+        "path": "data/svt1_augmented/img/19_09_rain_fog_heavy.jpg",
+        "response": "The image shows a large building with a sign on the front of it. The building is covered in snow, and the sign is visible.",
         "ground_truth": [
             "america",
             "america",
@@ -3494,52 +3606,48 @@
             "for"
         ],
         "match_success": false,
-        "missing_words": [],
-        "mismatched_counts": {
-            "america": [
-                2,
-                1
-            ],
-            "books": [
-                2,
-                1
-            ],
-            "for": [
-                2,
-                1
-            ]
-        }
+        "missing_words": [
+            "america",
+            "books",
+            "for"
+        ],
+        "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/19_11_rain_medium.jpg",
-        "response": "Guitar Shop\nFuddyckers",
+        "path": "data/svt1_augmented/img/19_11_rain_fog_heavy.jpg",
+        "response": "The image is a black and white photo of a street scene with a large building in the background. The building has a sign on the side of it that says \"The Guitar Shop\". The street is empty, with no people visible.",
         "ground_truth": [
             "fuddruckers",
             "the"
         ],
         "match_success": false,
         "missing_words": [
-            "fuddruckers",
-            "the"
+            "fuddruckers"
         ],
-        "mismatched_counts": {}
+        "mismatched_counts": {
+            "the": [
+                1,
+                6
+            ]
+        }
     },
     {
-        "path": "data/svt1_augmented/img/19_12_rain_medium.jpg",
-        "response": "Memet Cafe",
+        "path": "data/svt1_augmented/img/19_12_rain_fog_heavy.jpg",
+        "response": "The image shows a rainy day in a city, with a large building in the background.",
         "ground_truth": [
             "cafe",
             "met"
         ],
         "match_success": false,
         "missing_words": [
+            "cafe",
             "met"
         ],
         "mismatched_counts": {}
     },
     {
-        "path": "data/svt1_augmented/img/19_13_rain_medium.jpg",
-        "response": "1. Chocolate Moose\n2. Park Place\n3. Park Place Market\n4. Park Place Market\n5. Park Place Market\n6. Park Place Market\n7. Park Place Market\n8. Park Place Market\n9. Park Place Market\n10. Park Place Market\n11. Park Place Market\n12. Park Place Market\n13. Park Place Market\n14. Park Place Market\n15. Park Place Market\n16. Park Place Market\n17. Park Place Market\n18. Park Place Market\n19. Park Place Market\n20. Park Place Market\n21. Park Place Market\n22. Park Place Market\n23. Park Place Market\n24. Park Place Market\n25. Park Place Market\n26. Park Place Market\n27. Park Place Market\n28. Park Place Market\n29. Park Place Market\n30. Park Place Market\n31. Park Place Market\n32. Park Place Market\n33. Park Place Market\n34. Park Place Market\n35. Park Place Market\n36. Park Place Market\n37. Park Place Market\n38. Park Place Market\n39. Park Place Market\n40. Park Place Market\n41. Park Place Market\n42. Park Place Market\n43. Park Place Market\n44. Park Place Market\n45. Park Place Market\n46. Park Place Market\n47. Park Place Market\n48. Park Place Market\n49. Park Place Market\n50. Park Place Market\n51. Park Place Market\n52. Park Place Market\n53. Park Place Market\n54. Park Place Market\n55. Park Place Market\n56. Park Place Market\n57. Park Place Market\n58. Park Place Market\n59. Park Place Market\n60. Park Place Market\n61. Park Place Market\n62. Park Place Market\n63. Park Place Market\n64. Park Place Market\n65. Park Place Market\n66. Park Place Market\n67. Park Place Market\n68. Park Place Market\n69. Park Place Market\n70. Park Place Market\n71. Park Place Market\n72. Park Place Market\n73. Park Place Market\n74. Park Place Market\n75. Park",
+        "path": "data/svt1_augmented/img/19_13_rain_fog_heavy.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
         "ground_truth": [
             "chocolate",
             "moose",
@@ -3547,6 +3655,8 @@
         ],
         "match_success": false,
         "missing_words": [
+            "chocolate",
+            "moose",
             "lounge"
         ],
         "mismatched_counts": {}
