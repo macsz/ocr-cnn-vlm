@@ -30,5 +30,13 @@
     "rain_fog_light": [
         435,
         647
+    ],
+    "rain_fog_medium": [
+        370,
+        647
+    ],
+    "rain_fog_heavy": [
+        172,
+        647
     ]
 }

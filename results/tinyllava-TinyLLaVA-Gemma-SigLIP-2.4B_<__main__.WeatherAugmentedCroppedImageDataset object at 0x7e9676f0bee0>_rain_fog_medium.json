@@ -3794,5 +3794,1292 @@
         "ground_truth": "cortez",
         "match_success": true,
         "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_08_rain_fog_medium_tag0_casbah.jpg",
+        "response": "The word \"Casbah\" is visible in the image.",
+        "ground_truth": "casbah",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_10_rain_fog_medium_tag0_air.jpg",
+        "response": "Air",
+        "ground_truth": "air",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_10_rain_fog_medium_tag1_museum.jpg",
+        "response": "Museum",
+        "ground_truth": "museum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_10_rain_fog_medium_tag2_space.jpg",
+        "response": "Space",
+        "ground_truth": "space",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_11_rain_fog_medium_tag0_plaza.jpg",
+        "response": "The image is a close-up of a blurry image of a wall with the word \"Z\" written on it.",
+        "ground_truth": "plaza",
+        "match_success": false,
+        "missing_words": [
+            "plaza"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_11_rain_fog_medium_tag1_america.jpg",
+        "response": "American",
+        "ground_truth": "america",
+        "match_success": false,
+        "missing_words": [
+            "america"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_12_rain_fog_medium_tag0_grand.jpg",
+        "response": "Grand",
+        "ground_truth": "grand",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_12_rain_fog_medium_tag1_horton.jpg",
+        "response": "The image shows a close-up of a sign that reads \"Horton.\"",
+        "ground_truth": "horton",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_12_rain_fog_medium_tag2_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_17_rain_fog_medium_tag0_courtyard.jpg",
+        "response": "Courtyard",
+        "ground_truth": "courtyard",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_19_rain_fog_medium_tag0_holiday.jpg",
+        "response": "Holiday Season",
+        "ground_truth": "holiday",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_19_rain_fog_medium_tag1_hotel.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image. Please provide me with the image so that I can transcribe it for you.",
+        "ground_truth": "hotel",
+        "match_success": false,
+        "missing_words": [
+            "hotel"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_19_rain_fog_medium_tag2_inn.jpg",
+        "response": "The image is a close-up of a blurry image of a word, which is the word \"dumb\".",
+        "ground_truth": "inn",
+        "match_success": false,
+        "missing_words": [
+            "inn"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_01_rain_fog_medium_tag0_hotel.jpg",
+        "response": "The image is a close-up of a blurry photo of a building with the word \"home\" written in the center.",
+        "ground_truth": "hotel",
+        "match_success": false,
+        "missing_words": [
+            "hotel"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_01_rain_fog_medium_tag1_whitcomb.jpg",
+        "response": "Whitecomb",
+        "ground_truth": "whitcomb",
+        "match_success": false,
+        "missing_words": [
+            "whitcomb"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_02_rain_fog_medium_tag0_mosser.jpg",
+        "response": "Mosser",
+        "ground_truth": "mosser",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_02_rain_fog_medium_tag1_the.jpg",
+        "response": "The",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_04_rain_fog_medium_tag0_carlton.jpg",
+        "response": "CARLETON",
+        "ground_truth": "carlton",
+        "match_success": false,
+        "missing_words": [
+            "carlton"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_04_rain_fog_medium_tag1_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_fog_medium_tag0_bookstore.jpg",
+        "response": "Bookstore",
+        "ground_truth": "bookstore",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_fog_medium_tag1_city.jpg",
+        "response": "City",
+        "ground_truth": "city",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_fog_medium_tag2_city.jpg",
+        "response": "City",
+        "ground_truth": "city",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_fog_medium_tag3_lights.jpg",
+        "response": "The image is a close-up of a blurry photo of a wall with the word \"lights\" written on it.",
+        "ground_truth": "lights",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_fog_medium_tag4_lights.jpg",
+        "response": "Lights",
+        "ground_truth": "lights",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_12_rain_fog_medium_tag0_crush.jpg",
+        "response": "CRUSH",
+        "ground_truth": "crush",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_12_rain_fog_medium_tag1_first.jpg",
+        "response": "First",
+        "ground_truth": "first",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_13_rain_fog_medium_tag0_restaurant.jpg",
+        "response": "The image is a close-up of a gray wall with a blurry texture.",
+        "ground_truth": "restaurant",
+        "match_success": false,
+        "missing_words": [
+            "restaurant"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_13_rain_fog_medium_tag1_tara.jpg",
+        "response": "The image shows a word spelled out in black ink, with the word \"TARA\" being the most prominent.",
+        "ground_truth": "tara",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_14_rain_fog_medium_tag0_inn.jpg",
+        "response": "Inn",
+        "ground_truth": "inn",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_14_rain_fog_medium_tag1_square.jpg",
+        "response": "Square",
+        "ground_truth": "square",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_14_rain_fog_medium_tag2_washington.jpg",
+        "response": "Washington",
+        "ground_truth": "washington",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_15_rain_fog_medium_tag0_brazil.jpg",
+        "response": "Brazil",
+        "ground_truth": "brazil",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_15_rain_fog_medium_tag1_canto.jpg",
+        "response": "Canto",
+        "ground_truth": "canto",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_15_rain_fog_medium_tag2_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_16_rain_fog_medium_tag0_orpheum.jpg",
+        "response": "Orpheum",
+        "ground_truth": "orpheum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_16_rain_fog_medium_tag1_theatre.jpg",
+        "response": "Theatre",
+        "ground_truth": "theatre",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_17_rain_fog_medium_tag0_crest.jpg",
+        "response": "Crest",
+        "ground_truth": "crest",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_17_rain_fog_medium_tag1_pine.jpg",
+        "response": "PINE",
+        "ground_truth": "pine",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_17_rain_fog_medium_tag2_restaurant.jpg",
+        "response": "The image is a close-up of a gray fabric with the word \"iskus\" written in white on it.",
+        "ground_truth": "restaurant",
+        "match_success": false,
+        "missing_words": [
+            "restaurant"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_fog_medium_tag0_francis.jpg",
+        "response": "Francis",
+        "ground_truth": "francis",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_fog_medium_tag1_hospital.jpg",
+        "response": "Hospital",
+        "ground_truth": "hospital",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_fog_medium_tag2_memorial.jpg",
+        "response": "Memorial",
+        "ground_truth": "memorial",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_fog_medium_tag3_saint.jpg",
+        "response": "Saint",
+        "ground_truth": "saint",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_fog_medium_tag0_art.jpg",
+        "response": "Art",
+        "ground_truth": "art",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_fog_medium_tag1_jose.jpg",
+        "response": "No",
+        "ground_truth": "jose",
+        "match_success": false,
+        "missing_words": [
+            "jose"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_fog_medium_tag2_museum.jpg",
+        "response": "Museum",
+        "ground_truth": "museum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_fog_medium_tag3_san.jpg",
+        "response": "The image is a close-up of a black background with a blue word \"S\" in the center.",
+        "ground_truth": "san",
+        "match_success": false,
+        "missing_words": [
+            "san"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_fog_medium_tag0_motif.jpg",
+        "response": "Motif",
+        "ground_truth": "motif",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_fog_medium_tag1_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_fog_medium_tag2_club.jpg",
+        "response": "Club",
+        "ground_truth": "club",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_fog_medium_tag3_and.jpg",
+        "response": "The image is a close-up of a word with the letters A and D on it.",
+        "ground_truth": "and",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_fog_medium_tag4_south.jpg",
+        "response": "The image is a close-up of a word, which is the word \"South.\"",
+        "ground_truth": "south",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_fog_medium_tag5_first.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "ground_truth": "first",
+        "match_success": false,
+        "missing_words": [
+            "first"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_03_rain_fog_medium_tag0_bicycle.jpg",
+        "response": "Bicycle",
+        "ground_truth": "bicycle",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_03_rain_fog_medium_tag1_express.jpg",
+        "response": "Express",
+        "ground_truth": "express",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_05_rain_fog_medium_tag0_donald.jpg",
+        "response": "Donald",
+        "ground_truth": "donald",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_06_rain_fog_medium_tag0_body.jpg",
+        "response": "Body",
+        "ground_truth": "body",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_06_rain_fog_medium_tag1_shop.jpg",
+        "response": "The word shop is visible in the image.",
+        "ground_truth": "shop",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_06_rain_fog_medium_tag2_line.jpg",
+        "response": "Line",
+        "ground_truth": "line",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_07_rain_fog_medium_tag0_ernst.jpg",
+        "response": "The image is a close-up of a gray sheet of paper with a black background. The text is in white and is written in a foreign language.",
+        "ground_truth": "ernst",
+        "match_success": false,
+        "missing_words": [
+            "ernst"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_07_rain_fog_medium_tag1_young.jpg",
+        "response": "You",
+        "ground_truth": "young",
+        "match_success": false,
+        "missing_words": [
+            "young"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_07_rain_fog_medium_tag2_san.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image. Please provide me with the image so that I can transcribe it for you.",
+        "ground_truth": "san",
+        "match_success": false,
+        "missing_words": [
+            "san"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_08_rain_fog_medium_tag0_town.jpg",
+        "response": "Town",
+        "ground_truth": "town",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_09_rain_fog_medium_tag0_claire.jpg",
+        "response": "Claire",
+        "ground_truth": "claire",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_09_rain_fog_medium_tag1_sainte.jpg",
+        "response": "Saint",
+        "ground_truth": "sainte",
+        "match_success": false,
+        "missing_words": [
+            "sainte"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_09_rain_fog_medium_tag2_the.jpg",
+        "response": "The",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_10_rain_fog_medium_tag0_agency.jpg",
+        "response": "Agency",
+        "ground_truth": "agency",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_10_rain_fog_medium_tag1_liquid.jpg",
+        "response": "The image is a close-up of a blue background with a word written in white. The word is \"liquid\" and it is written in a cursive style.",
+        "ground_truth": "liquid",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_10_rain_fog_medium_tag2_liquid.jpg",
+        "response": "Liquid",
+        "ground_truth": "liquid",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_fog_medium_tag0_high.jpg",
+        "response": "The image is a close-up of a gray wall with a pattern of lines.",
+        "ground_truth": "high",
+        "match_success": false,
+        "missing_words": [
+            "high"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_fog_medium_tag1_lincoln.jpg",
+        "response": "The image is a close-up of a gray wall with a word written in white on it. The word is \"loncoon.\"",
+        "ground_truth": "lincoln",
+        "match_success": false,
+        "missing_words": [
+            "lincoln"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_fog_medium_tag2_school.jpg",
+        "response": "The image is a close-up of a gray wall with a lot of lines on it.",
+        "ground_truth": "school",
+        "match_success": false,
+        "missing_words": [
+            "school"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_fog_medium_tag3_school.jpg",
+        "response": "The image is a close-up of a gray wall with a large section of it blurred out. The text is in white and appears to be a watermark or a logo.",
+        "ground_truth": "school",
+        "match_success": false,
+        "missing_words": [
+            "school"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_fog_medium_tag4_california.jpg",
+        "response": "The image is a close-up of a gray wall with a black stripe running across it.",
+        "ground_truth": "california",
+        "match_success": false,
+        "missing_words": [
+            "california"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_fog_medium_tag0_jose.jpg",
+        "response": "Jose",
+        "ground_truth": "jose",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_fog_medium_tag1_museum.jpg",
+        "response": "The image is a close-up of a blurry gray wall with a white line running through it.",
+        "ground_truth": "museum",
+        "match_success": false,
+        "missing_words": [
+            "museum"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_fog_medium_tag2_quilts.jpg",
+        "response": "Quilts",
+        "ground_truth": "quilts",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_fog_medium_tag3_san.jpg",
+        "response": "The image is a close-up of a black background with a word in white text. The word is \"San\" and it is the only word visible in the image.",
+        "ground_truth": "san",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_fog_medium_tag4_textiles.jpg",
+        "response": "Textiles",
+        "ground_truth": "textiles",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_15_rain_fog_medium_tag0_goodwill.jpg",
+        "response": "Goodwill",
+        "ground_truth": "goodwill",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_16_rain_fog_medium_tag0_ramada.jpg",
+        "response": "\"Ramada\"",
+        "ground_truth": "ramada",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_17_rain_fog_medium_tag0_fahrenheit.jpg",
+        "response": "The image shows a red and white sign with the word \"GAERHEN\" written in black.",
+        "ground_truth": "fahrenheit",
+        "match_success": false,
+        "missing_words": [
+            "fahrenheit"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_17_rain_fog_medium_tag1_lounge.jpg",
+        "response": "The image is a close-up of a gray curtain with a blurry background.",
+        "ground_truth": "lounge",
+        "match_success": false,
+        "missing_words": [
+            "lounge"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_18_rain_fog_medium_tag0_billiards.jpg",
+        "response": "The image is a close-up of a blurry background with the words \"billboards\" written in the foreground.",
+        "ground_truth": "billiards",
+        "match_success": false,
+        "missing_words": [
+            "billiards"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_18_rain_fog_medium_tag1_first.jpg",
+        "response": "First",
+        "ground_truth": "first",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_18_rain_fog_medium_tag2_south.jpg",
+        "response": "South",
+        "ground_truth": "south",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_00_rain_fog_medium_tag0_tribunali.jpg",
+        "response": "Tribunal",
+        "ground_truth": "tribunali",
+        "match_success": false,
+        "missing_words": [
+            "tribunali"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_00_rain_fog_medium_tag1_via.jpg",
+        "response": "Via",
+        "ground_truth": "via",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_fog_medium_tag0_door.jpg",
+        "response": "Door",
+        "ground_truth": "door",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_fog_medium_tag1_the.jpg",
+        "response": "The text in the image is \"The\".",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_fog_medium_tag2_the.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_fog_medium_tag3_triple.jpg",
+        "response": "Triple",
+        "ground_truth": "triple",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_fog_medium_tag4_the.jpg",
+        "response": "The image is a close-up of a blurry photo of a wall with the word \"TH\" written on it.",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_02_rain_fog_medium_tag0_black.jpg",
+        "response": "Black",
+        "ground_truth": "black",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_02_rain_fog_medium_tag1_bottle.jpg",
+        "response": "BOTTLE",
+        "ground_truth": "bottle",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_02_rain_fog_medium_tag2_vine.jpg",
+        "response": "Vine",
+        "ground_truth": "vine",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_03_rain_fog_medium_tag0_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_03_rain_fog_medium_tag1_max.jpg",
+        "response": "Max",
+        "ground_truth": "max",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_04_rain_fog_medium_tag0_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_04_rain_fog_medium_tag1_lion.jpg",
+        "response": "Lion",
+        "ground_truth": "lion",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_04_rain_fog_medium_tag2_red.jpg",
+        "response": "Red",
+        "ground_truth": "red",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_06_rain_fog_medium_tag0_paramount.jpg",
+        "response": "\"PARMOUNT\"",
+        "ground_truth": "paramount",
+        "match_success": false,
+        "missing_words": [
+            "paramount"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_fog_medium_tag0_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_fog_medium_tag1_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_fog_medium_tag2_moore.jpg",
+        "response": "Moore",
+        "ground_truth": "moore",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_fog_medium_tag3_moore.jpg",
+        "response": "Moore",
+        "ground_truth": "moore",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_08_rain_fog_medium_tag0_garage.jpg",
+        "response": "Garage",
+        "ground_truth": "garage",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_09_rain_fog_medium_tag0_pike.jpg",
+        "response": "The image is a close-up of a word that is blurry and has the letter P on it.",
+        "ground_truth": "pike",
+        "match_success": false,
+        "missing_words": [
+            "pike"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_09_rain_fog_medium_tag1_western.jpg",
+        "response": "Western",
+        "ground_truth": "western",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_09_rain_fog_medium_tag2_wine.jpg",
+        "response": "Wine",
+        "ground_truth": "wine",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_fog_medium_tag0_best.jpg",
+        "response": "Best",
+        "ground_truth": "best",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_fog_medium_tag1_executive.jpg",
+        "response": "Executive",
+        "ground_truth": "executive",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_fog_medium_tag2_inn.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "ground_truth": "inn",
+        "match_success": false,
+        "missing_words": [
+            "inn"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_fog_medium_tag3_western.jpg",
+        "response": "The image shows a blue and white sky with the words \"Howdy Western\" written in white letters.",
+        "ground_truth": "western",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_fog_medium_tag0_inn.jpg",
+        "response": "Inn",
+        "ground_truth": "inn",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_fog_medium_tag1_loyal.jpg",
+        "response": "Loyalty",
+        "ground_truth": "loyal",
+        "match_success": false,
+        "missing_words": [
+            "loyal"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_fog_medium_tag2_western.jpg",
+        "response": "The image is a close-up of a movie poster for \"The West.\"",
+        "ground_truth": "western",
+        "match_success": false,
+        "missing_words": [
+            "western"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_fog_medium_tag3_best.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "ground_truth": "best",
+        "match_success": false,
+        "missing_words": [
+            "best"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_fog_medium_tag0_avenue.jpg",
+        "response": "Avenue",
+        "ground_truth": "avenue",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_fog_medium_tag1_sixth.jpg",
+        "response": "6th",
+        "ground_truth": "sixth",
+        "match_success": false,
+        "missing_words": [
+            "sixth"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_fog_medium_tag2_bar.jpg",
+        "response": "BAR",
+        "ground_truth": "bar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_fog_medium_tag3_grill.jpg",
+        "response": "Grill",
+        "ground_truth": "grill",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_fog_medium_tag4_sixth.jpg",
+        "response": "Sixteen",
+        "ground_truth": "sixth",
+        "match_success": false,
+        "missing_words": [
+            "sixth"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_fog_medium_tag5_grill.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "ground_truth": "grill",
+        "match_success": false,
+        "missing_words": [
+            "grill"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_fog_medium_tag6_avenue.jpg",
+        "response": "The word \"Avenue\" is visible in the image.",
+        "ground_truth": "avenue",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_fog_medium_tag7_bar.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "ground_truth": "bar",
+        "match_success": false,
+        "missing_words": [
+            "bar"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_16_rain_fog_medium_tag0_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_16_rain_fog_medium_tag1_stewart.jpg",
+        "response": "Stewart",
+        "ground_truth": "stewart",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_17_rain_fog_medium_tag0_cinerama.jpg",
+        "response": "Cinema",
+        "ground_truth": "cinerama",
+        "match_success": false,
+        "missing_words": [
+            "cinerama"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_17_rain_fog_medium_tag1_cinerama.jpg",
+        "response": "CINEMA",
+        "ground_truth": "cinerama",
+        "match_success": false,
+        "missing_words": [
+            "cinerama"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_18_rain_fog_medium_tag0_garfield.jpg",
+        "response": "The image shows a close-up of a word that reads \"Barfield.\"",
+        "ground_truth": "garfield",
+        "match_success": false,
+        "missing_words": [
+            "garfield"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_18_rain_fog_medium_tag1_high.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "ground_truth": "high",
+        "match_success": false,
+        "missing_words": [
+            "high"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_18_rain_fog_medium_tag2_school.jpg",
+        "response": "School",
+        "ground_truth": "school",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_19_rain_fog_medium_tag0_neumos.jpg",
+        "response": "The image is a close-up of a black and white photo with a pattern of circles. The circles are arranged in a row, and the pattern is repeated throughout the image. The circles are of various sizes and are spaced evenly across the photo.",
+        "ground_truth": "neumos",
+        "match_success": false,
+        "missing_words": [
+            "neumos"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_19_rain_fog_medium_tag1_neumos.jpg",
+        "response": "The image is a close-up of a blurry photo of a word, which is \"neuomos\".",
+        "ground_truth": "neumos",
+        "match_success": false,
+        "missing_words": [
+            "neumos"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_fog_medium_tag0_cafe.jpg",
+        "response": "Cafe",
+        "ground_truth": "cafe",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_fog_medium_tag1_soleil.jpg",
+        "response": "Solei",
+        "ground_truth": "soleil",
+        "match_success": false,
+        "missing_words": [
+            "soleil"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_fog_medium_tag2_bar.jpg",
+        "response": "BAR",
+        "ground_truth": "bar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_fog_medium_tag3_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_01_rain_fog_medium_tag0_box.jpg",
+        "response": "Box",
+        "ground_truth": "box",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_01_rain_fog_medium_tag1_jewel.jpg",
+        "response": "JEWEL",
+        "ground_truth": "jewel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_01_rain_fog_medium_tag2_tiny.jpg",
+        "response": "Tiny",
+        "ground_truth": "tiny",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_fog_medium_tag0_cvs.jpg",
+        "response": "CVS",
+        "ground_truth": "cvs",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_fog_medium_tag1_cvs.jpg",
+        "response": "CVS",
+        "ground_truth": "cvs",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_fog_medium_tag2_cvs.jpg",
+        "response": "CVS",
+        "ground_truth": "cvs",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_fog_medium_tag3_cvs.jpg",
+        "response": "The image is a close-up of a blurry, gray background with a large, blurry letter \"C\" in the center.",
+        "ground_truth": "cvs",
+        "match_success": false,
+        "missing_words": [
+            "cvs"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_fog_medium_tag4_pharmacy.jpg",
+        "response": "Pharmacy",
+        "ground_truth": "pharmacy",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_fog_medium_tag5_cvs.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image. Please provide me with the image so that I can transcribe it for you.",
+        "ground_truth": "cvs",
+        "match_success": false,
+        "missing_words": [
+            "cvs"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_fog_medium_tag6_cvs.jpg",
+        "response": "I'm sorry, but I am unable to transcribe the image as it is not possible to identify the text in the image.",
+        "ground_truth": "cvs",
+        "match_success": false,
+        "missing_words": [
+            "cvs"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_04_rain_fog_medium_tag0_japanese.jpg",
+        "response": "JAPANESE",
+        "ground_truth": "japanese",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_04_rain_fog_medium_tag1_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_04_rain_fog_medium_tag2_sakana.jpg",
+        "response": "Sakana",
+        "ground_truth": "sakana",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_06_rain_fog_medium_tag0_fireplace.jpg",
+        "response": "Fireplace",
+        "ground_truth": "fireplace",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_07_rain_fog_medium_tag0_fox.jpg",
+        "response": "Fox",
+        "ground_truth": "fox",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_07_rain_fog_medium_tag1_cleaners.jpg",
+        "response": "Cleaners",
+        "ground_truth": "cleaners",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_fog_medium_tag0_america.jpg",
+        "response": "America",
+        "ground_truth": "america",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_fog_medium_tag1_america.jpg",
+        "response": "The image is a blurry photo of a wall with the word \"Y\" written on it.",
+        "ground_truth": "america",
+        "match_success": false,
+        "missing_words": [
+            "america"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_fog_medium_tag2_books.jpg",
+        "response": "Books",
+        "ground_truth": "books",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_fog_medium_tag3_books.jpg",
+        "response": "The image is a close-up of a black background with a white word \"rocks\" written in the center.",
+        "ground_truth": "books",
+        "match_success": false,
+        "missing_words": [
+            "books"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_fog_medium_tag4_for.jpg",
+        "response": "For",
+        "ground_truth": "for",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_fog_medium_tag5_for.jpg",
+        "response": "The image is a close-up of a black background with a white letter \"F\" in the center.",
+        "ground_truth": "for",
+        "match_success": false,
+        "missing_words": [
+            "for"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_11_rain_fog_medium_tag0_fuddruckers.jpg",
+        "response": "Fuddrucker",
+        "ground_truth": "fuddruckers",
+        "match_success": false,
+        "missing_words": [
+            "fuddruckers"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_11_rain_fog_medium_tag1_the.jpg",
+        "response": "The text in the image is \"The\".",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_12_rain_fog_medium_tag0_cafe.jpg",
+        "response": "Cafe",
+        "ground_truth": "cafe",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_12_rain_fog_medium_tag1_met.jpg",
+        "response": "Meet",
+        "ground_truth": "met",
+        "match_success": false,
+        "missing_words": [
+            "met"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_13_rain_fog_medium_tag0_chocolate.jpg",
+        "response": "Chocolate",
+        "ground_truth": "chocolate",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_13_rain_fog_medium_tag1_moose.jpg",
+        "response": "Moose",
+        "ground_truth": "moose",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_13_rain_fog_medium_tag2_lounge.jpg",
+        "response": "Lounge",
+        "ground_truth": "lounge",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_13_rain_fog_medium_tag0_eagle.jpg",
+        "response": "The image is a close-up of a black background with no text visible.",
+        "ground_truth": "eagle",
+        "match_success": false,
+        "missing_words": [
+            "eagle"
+        ]
     }
 ]
