@@ -1,0 +1,4963 @@
+[
+    {
+        "path": "data/svt1_augmented/img_cropped/00_02_rain_heavy_tag0_forum.jpg",
+        "response": "FORUM",
+        "ground_truth": "forum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_02_rain_heavy_tag1_forum.jpg",
+        "response": "FORUM",
+        "ground_truth": "forum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_02_rain_heavy_tag2_heritage.jpg",
+        "response": "HERITACE",
+        "ground_truth": "heritage",
+        "match_success": false,
+        "missing_words": [
+            "heritage"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_02_rain_heavy_tag3_heritage.jpg",
+        "response": "HERITAGE\nFOR",
+        "ground_truth": "heritage",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_03_rain_heavy_tag0_bar.jpg",
+        "response": "KKGAKSKO",
+        "ground_truth": "bar",
+        "match_success": false,
+        "missing_words": [
+            "bar"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_03_rain_heavy_tag1_grill.jpg",
+        "response": "M",
+        "ground_truth": "grill",
+        "match_success": false,
+        "missing_words": [
+            "grill"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_03_rain_heavy_tag2_joint.jpg",
+        "response": "\u041a\u043e\u043d\u0435\u0442",
+        "ground_truth": "joint",
+        "match_success": false,
+        "missing_words": [
+            "joint"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_03_rain_heavy_tag3_juke.jpg",
+        "response": "JNLE",
+        "ground_truth": "juke",
+        "match_success": false,
+        "missing_words": [
+            "juke"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_04_rain_heavy_tag0_avante.jpg",
+        "response": "Avante",
+        "ground_truth": "avante",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_04_rain_heavy_tag1_florist.jpg",
+        "response": "FLORIST",
+        "ground_truth": "florist",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_04_rain_heavy_tag2_gardens.jpg",
+        "response": "Gardens",
+        "ground_truth": "gardens",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_04_rain_heavy_tag3_school.jpg",
+        "response": "SCHOOL",
+        "ground_truth": "school",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_04_rain_heavy_tag4_floral.jpg",
+        "response": "FLORAL",
+        "ground_truth": "floral",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_04_rain_heavy_tag5_design.jpg",
+        "response": "DE$ICN",
+        "ground_truth": "design",
+        "match_success": false,
+        "missing_words": [
+            "design"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_05_rain_heavy_tag0_muzeo.jpg",
+        "response": "MVMSGS!",
+        "ground_truth": "muzeo",
+        "match_success": false,
+        "missing_words": [
+            "muzeo"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_05_rain_heavy_tag1_public.jpg",
+        "response": "A vertical series of vertical lines with varying thicknesses and lengths.",
+        "ground_truth": "public",
+        "match_success": false,
+        "missing_words": [
+            "public"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_05_rain_heavy_tag2_anaheim.jpg",
+        "response": "-",
+        "ground_truth": "anaheim",
+        "match_success": false,
+        "missing_words": [
+            "anaheim"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_06_rain_heavy_tag0_hahm.jpg",
+        "response": "HAHm",
+        "ground_truth": "hahm",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_06_rain_heavy_tag1_motorsports.jpg",
+        "response": "MOTORSPORTS",
+        "ground_truth": "motorsports",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_06_rain_heavy_tag2_motorsports.jpg",
+        "response": "MOTORSPORTS",
+        "ground_truth": "motorsports",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_06_rain_heavy_tag3_hahm.jpg",
+        "response": "\u0414\u0410\u0427",
+        "ground_truth": "hahm",
+        "match_success": false,
+        "missing_words": [
+            "hahm"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_07_rain_heavy_tag0_anaheim.jpg",
+        "response": "ANAHEIM",
+        "ground_truth": "anaheim",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_07_rain_heavy_tag1_band.jpg",
+        "response": "BAND",
+        "ground_truth": "band",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_07_rain_heavy_tag2_instruments.jpg",
+        "response": "INSTRUMENTS",
+        "ground_truth": "instruments",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_10_rain_heavy_tag0_angelo.jpg",
+        "response": "\u0410\u043d\u0433\u0435\u0441\u0430",
+        "ground_truth": "angelo",
+        "match_success": false,
+        "missing_words": [
+            "angelo"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_10_rain_heavy_tag1_hamburgers.jpg",
+        "response": "HAMBURGES",
+        "ground_truth": "hamburgers",
+        "match_success": false,
+        "missing_words": [
+            "hamburgers"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_11_rain_heavy_tag0_ford.jpg",
+        "response": "Ford",
+        "ground_truth": "ford",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_11_rain_heavy_tag1_mills.jpg",
+        "response": "WILS",
+        "ground_truth": "mills",
+        "match_success": false,
+        "missing_words": [
+            "mills"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_13_rain_heavy_tag0_kfc.jpg",
+        "response": "KFC",
+        "ground_truth": "kfc",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_15_rain_heavy_tag0_shogun.jpg",
+        "response": "SHDCW",
+        "ground_truth": "shogun",
+        "match_success": false,
+        "missing_words": [
+            "shogun"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_15_rain_heavy_tag1_shogun.jpg",
+        "response": "SHOGUN",
+        "ground_truth": "shogun",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_15_rain_heavy_tag2_sushi.jpg",
+        "response": "SNISHX",
+        "ground_truth": "sushi",
+        "match_success": false,
+        "missing_words": [
+            "sushi"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_15_rain_heavy_tag3_sushi.jpg",
+        "response": "SvSHe",
+        "ground_truth": "sushi",
+        "match_success": false,
+        "missing_words": [
+            "sushi"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_16_rain_heavy_tag0_sub.jpg",
+        "response": "SUB",
+        "ground_truth": "sub",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_17_rain_heavy_tag0_econo.jpg",
+        "response": "Econom",
+        "ground_truth": "econo",
+        "match_success": false,
+        "missing_words": [
+            "econo"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_17_rain_heavy_tag1_lodge.jpg",
+        "response": "Lodge",
+        "ground_truth": "lodge",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_18_rain_heavy_tag0_days.jpg",
+        "response": "Days",
+        "ground_truth": "days",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_18_rain_heavy_tag1_inn.jpg",
+        "response": "Inn",
+        "ground_truth": "inn",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_19_rain_heavy_tag0_comfort.jpg",
+        "response": "Comfort",
+        "ground_truth": "comfort",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/00_19_rain_heavy_tag1_inn.jpg",
+        "response": "xN-OA",
+        "ground_truth": "inn",
+        "match_success": false,
+        "missing_words": [
+            "inn"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_01_rain_heavy_tag0_budget.jpg",
+        "response": "Budget",
+        "ground_truth": "budget",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_03_rain_heavy_tag0_public.jpg",
+        "response": "Public",
+        "ground_truth": "public",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_03_rain_heavy_tag1_storage.jpg",
+        "response": "Storage",
+        "ground_truth": "storage",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_04_rain_heavy_tag0_shell.jpg",
+        "response": "S I N",
+        "ground_truth": "shell",
+        "match_success": false,
+        "missing_words": [
+            "shell"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_05_rain_heavy_tag0_car.jpg",
+        "response": "-3.",
+        "ground_truth": "car",
+        "match_success": false,
+        "missing_words": [
+            "car"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_05_rain_heavy_tag1_enterprise.jpg",
+        "response": "Enterprise",
+        "ground_truth": "enterprise",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_05_rain_heavy_tag2_enterprise.jpg",
+        "response": "```",
+        "ground_truth": "enterprise",
+        "match_success": false,
+        "missing_words": [
+            "enterprise"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_05_rain_heavy_tag3_rent.jpg",
+        "response": "k#",
+        "ground_truth": "rent",
+        "match_success": false,
+        "missing_words": [
+            "rent"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_06_rain_heavy_tag0_avis.jpg",
+        "response": "A Well",
+        "ground_truth": "avis",
+        "match_success": false,
+        "missing_words": [
+            "avis"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_07_rain_heavy_tag0_chanterelle.jpg",
+        "response": "CHANDELLE",
+        "ground_truth": "chanterelle",
+        "match_success": false,
+        "missing_words": [
+            "chanterelle"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_11_rain_heavy_tag0_goodwill.jpg",
+        "response": "GOODWILL",
+        "ground_truth": "goodwill",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_13_rain_heavy_tag0_icebox.jpg",
+        "response": "THE ICEBOX",
+        "ground_truth": "icebox",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_13_rain_heavy_tag1_the.jpg",
+        "response": "THE",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_14_rain_heavy_tag0_feet.jpg",
+        "response": "WENEET",
+        "ground_truth": "feet",
+        "match_success": false,
+        "missing_words": [
+            "feet"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_14_rain_heavy_tag1_six.jpg",
+        "response": "SNMK",
+        "ground_truth": "six",
+        "match_success": false,
+        "missing_words": [
+            "six"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_14_rain_heavy_tag2_under.jpg",
+        "response": "NUMBER",
+        "ground_truth": "under",
+        "match_success": false,
+        "missing_words": [
+            "under"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_15_rain_heavy_tag0_super.jpg",
+        "response": "SUPER",
+        "ground_truth": "super",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_16_rain_heavy_tag0_embassy.jpg",
+        "response": "EM BASYS",
+        "ground_truth": "embassy",
+        "match_success": false,
+        "missing_words": [
+            "embassy"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_17_rain_heavy_tag0_carroll.jpg",
+        "response": "CARROLL",
+        "ground_truth": "carroll",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_17_rain_heavy_tag1_street.jpg",
+        "response": "STREET",
+        "ground_truth": "street",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/01_19_rain_heavy_tag0_hertz.jpg",
+        "response": "Hertzz",
+        "ground_truth": "hertz",
+        "match_success": false,
+        "missing_words": [
+            "hertz"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_01_rain_heavy_tag0_central.jpg",
+        "response": "Central",
+        "ground_truth": "central",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_01_rain_heavy_tag1_grand.jpg",
+        "response": "GRAND",
+        "ground_truth": "grand",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_01_rain_heavy_tag2_eager.jpg",
+        "response": "EAGER",
+        "ground_truth": "eager",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_02_rain_heavy_tag0_redwood.jpg",
+        "response": "REDWOOD",
+        "ground_truth": "redwood",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_02_rain_heavy_tag1_redwood.jpg",
+        "response": "REWARD",
+        "ground_truth": "redwood",
+        "match_success": false,
+        "missing_words": [
+            "redwood"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_02_rain_heavy_tag2_apartments.jpg",
+        "response": "ADVERTISEMENTS",
+        "ground_truth": "apartments",
+        "match_success": false,
+        "missing_words": [
+            "apartments"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_03_rain_heavy_tag0_dunbar.jpg",
+        "response": "DUMEAR",
+        "ground_truth": "dunbar",
+        "match_success": false,
+        "missing_words": [
+            "dunbar"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_03_rain_heavy_tag1_high.jpg",
+        "response": "HIGH",
+        "ground_truth": "high",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_03_rain_heavy_tag2_laurence.jpg",
+        "response": "LAURENCE",
+        "ground_truth": "laurence",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_03_rain_heavy_tag3_paul.jpg",
+        "response": "PAUL",
+        "ground_truth": "paul",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_03_rain_heavy_tag4_school.jpg",
+        "response": "BCHOOL",
+        "ground_truth": "school",
+        "match_success": false,
+        "missing_words": [
+            "school"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_03_rain_heavy_tag5_orleans.jpg",
+        "response": "ORLEANS",
+        "ground_truth": "orleans",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_05_rain_heavy_tag0_brexton.jpg",
+        "response": "Brexton",
+        "ground_truth": "brexton",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_05_rain_heavy_tag1_chase.jpg",
+        "response": "Chase",
+        "ground_truth": "chase",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_05_rain_heavy_tag2_health.jpg",
+        "response": "Health",
+        "ground_truth": "health",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_05_rain_heavy_tag3_services.jpg",
+        "response": "Servicios",
+        "ground_truth": "services",
+        "match_success": false,
+        "missing_words": [
+            "services"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_05_rain_heavy_tag4_inc.jpg",
+        "response": "Ing.",
+        "ground_truth": "inc",
+        "match_success": false,
+        "missing_words": [
+            "inc"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_06_rain_heavy_tag0_marlboro.jpg",
+        "response": "MARLBORO",
+        "ground_truth": "marlboro",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_08_rain_heavy_tag0_red.jpg",
+        "response": "RED",
+        "ground_truth": "red",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_08_rain_heavy_tag1_square.jpg",
+        "response": "SQUARE",
+        "ground_truth": "square",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_08_rain_heavy_tag2_belvedere.jpg",
+        "response": "BELVEDERE",
+        "ground_truth": "belvedere",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_09_rain_heavy_tag0_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_09_rain_heavy_tag1_vernon.jpg",
+        "response": "Vernon",
+        "ground_truth": "vernon",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_09_rain_heavy_tag2_first.jpg",
+        "response": "FIRST",
+        "ground_truth": "first",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_09_rain_heavy_tag3_first.jpg",
+        "response": "FIRST",
+        "ground_truth": "first",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_10_rain_heavy_tag0_kyro.jpg",
+        "response": "KYRO",
+        "ground_truth": "kyro",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_10_rain_heavy_tag1_pizza.jpg",
+        "response": "PIZZA",
+        "ground_truth": "pizza",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_13_rain_heavy_tag0_sopra.jpg",
+        "response": "Sopra",
+        "ground_truth": "sopra",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_13_rain_heavy_tag1_sotto.jpg",
+        "response": "Sotto",
+        "ground_truth": "sotto",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_15_rain_heavy_tag0_eyes.jpg",
+        "response": "EYES",
+        "ground_truth": "eyes",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_15_rain_heavy_tag1_for.jpg",
+        "response": "FOR",
+        "ground_truth": "for",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_15_rain_heavy_tag2_shea.jpg",
+        "response": "SHEA",
+        "ground_truth": "shea",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_16_rain_heavy_tag0_pickles.jpg",
+        "response": "PICKLES",
+        "ground_truth": "pickles",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_16_rain_heavy_tag1_pub.jpg",
+        "response": "PUB",
+        "ground_truth": "pub",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_16_rain_heavy_tag2_pickles.jpg",
+        "response": "PICKLES",
+        "ground_truth": "pickles",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_16_rain_heavy_tag3_pub.jpg",
+        "response": "PUB",
+        "ground_truth": "pub",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_17_rain_heavy_tag0_gallery.jpg",
+        "response": "GALLERY",
+        "ground_truth": "gallery",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/02_17_rain_heavy_tag1_street.jpg",
+        "response": "STREET",
+        "ground_truth": "street",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_00_rain_heavy_tag0_brewery.jpg",
+        "response": "BRWERY",
+        "ground_truth": "brewery",
+        "match_success": false,
+        "missing_words": [
+            "brewery"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_00_rain_heavy_tag1_pub.jpg",
+        "response": "PUB",
+        "ground_truth": "pub",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_00_rain_heavy_tag2_sun.jpg",
+        "response": "SUN",
+        "ground_truth": "sun",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_00_rain_heavy_tag3_mountain.jpg",
+        "response": "MOUNTAIN",
+        "ground_truth": "mountain",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_01_rain_heavy_tag0_boot.jpg",
+        "response": "\u0412\u043e\u0442",
+        "ground_truth": "boot",
+        "match_success": false,
+        "missing_words": [
+            "boot"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_01_rain_heavy_tag1_fitting.jpg",
+        "response": "Fitting",
+        "ground_truth": "fitting",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_01_rain_heavy_tag2_larry.jpg",
+        "response": "Larry",
+        "ground_truth": "larry",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_02_rain_heavy_tag0_beads.jpg",
+        "response": "BEADS",
+        "ground_truth": "beads",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_02_rain_heavy_tag1_beads.jpg",
+        "response": "BEADS",
+        "ground_truth": "beads",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_02_rain_heavy_tag2_beads.jpg",
+        "response": "BEADS",
+        "ground_truth": "beads",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_03_rain_heavy_tag0_colorado.jpg",
+        "response": "Colorado",
+        "ground_truth": "colorado",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_03_rain_heavy_tag1_daily.jpg",
+        "response": "Daily",
+        "ground_truth": "daily",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_05_rain_heavy_tag0_anthropologie.jpg",
+        "response": "ANTHEOPOLOGIE",
+        "ground_truth": "anthropologie",
+        "match_success": false,
+        "missing_words": [
+            "anthropologie"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_06_rain_heavy_tag0_polish.jpg",
+        "response": "POLISH",
+        "ground_truth": "polish",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_09_rain_heavy_tag0_common.jpg",
+        "response": "COMMON",
+        "ground_truth": "common",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_09_rain_heavy_tag1_threads.jpg",
+        "response": "THREADS",
+        "ground_truth": "threads",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_11_rain_heavy_tag0_brasserie.jpg",
+        "response": "BRASSERIE",
+        "ground_truth": "brasserie",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_11_rain_heavy_tag1_ten.jpg",
+        "response": "TEN",
+        "ground_truth": "ten",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_11_rain_heavy_tag2_ten.jpg",
+        "response": "TEN",
+        "ground_truth": "ten",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_11_rain_heavy_tag3_ten.jpg",
+        "response": "TEN",
+        "ground_truth": "ten",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_12_rain_heavy_tag0_trident.jpg",
+        "response": "TRIDENT",
+        "ground_truth": "trident",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_14_rain_heavy_tag0_himalayas.jpg",
+        "response": "```plaintext\nHIMALAYAS\n```",
+        "ground_truth": "himalayas",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_14_rain_heavy_tag1_restaurant.jpg",
+        "response": "RNST NUKKNW",
+        "ground_truth": "restaurant",
+        "match_success": false,
+        "missing_words": [
+            "restaurant"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_14_rain_heavy_tag2_street.jpg",
+        "response": "STREET M",
+        "ground_truth": "street",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_15_rain_heavy_tag0_fox.jpg",
+        "response": "\u0416\u0438\u0437\u043d\u044c",
+        "ground_truth": "fox",
+        "match_success": false,
+        "missing_words": [
+            "fox"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_16_rain_heavy_tag0_scooters.jpg",
+        "response": "scooters",
+        "ground_truth": "scooters",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_16_rain_heavy_tag1_sportique.jpg",
+        "response": "\u0421\u0438\u043d\u0442\u0435\u0437",
+        "ground_truth": "sportique",
+        "match_success": false,
+        "missing_words": [
+            "sportique"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_16_rain_heavy_tag2_spruce.jpg",
+        "response": "SPRACEI",
+        "ground_truth": "spruce",
+        "match_success": false,
+        "missing_words": [
+            "spruce"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_18_rain_heavy_tag0_barnsley.jpg",
+        "response": "BARNSLEY",
+        "ground_truth": "barnsley",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/03_18_rain_heavy_tag1_tire.jpg",
+        "response": "TIRE",
+        "ground_truth": "tire",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_00_rain_heavy_tag0_radio.jpg",
+        "response": "Radio",
+        "ground_truth": "radio",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_00_rain_heavy_tag1_shack.jpg",
+        "response": "Shack",
+        "ground_truth": "shack",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_01_rain_heavy_tag0_chiropractic.jpg",
+        "response": "CHIROPRACTIC",
+        "ground_truth": "chiropractic",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_01_rain_heavy_tag1_giulio.jpg",
+        "response": "GIULIO",
+        "ground_truth": "giulio",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_01_rain_heavy_tag2_deli.jpg",
+        "response": "DELI",
+        "ground_truth": "deli",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_01_rain_heavy_tag3_deli.jpg",
+        "response": "DELI",
+        "ground_truth": "deli",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_01_rain_heavy_tag4_garny.jpg",
+        "response": "GARNY",
+        "ground_truth": "garny",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_02_rain_heavy_tag0_deli.jpg",
+        "response": "```",
+        "ground_truth": "deli",
+        "match_success": false,
+        "missing_words": [
+            "deli"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_02_rain_heavy_tag1_deli.jpg",
+        "response": "DEL",
+        "ground_truth": "deli",
+        "match_success": false,
+        "missing_words": [
+            "deli"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_02_rain_heavy_tag2_kabob.jpg",
+        "response": "KABOB",
+        "ground_truth": "kabob",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_02_rain_heavy_tag3_kotayk.jpg",
+        "response": "KOTAYK",
+        "ground_truth": "kotayk",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_02_rain_heavy_tag4_grocery.jpg",
+        "response": "Grocery",
+        "ground_truth": "grocery",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_05_rain_heavy_tag0_church.jpg",
+        "response": "CHURCH",
+        "ground_truth": "church",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_05_rain_heavy_tag1_first.jpg",
+        "response": "FIRST",
+        "ground_truth": "first",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_05_rain_heavy_tag2_methodist.jpg",
+        "response": "METHODIST",
+        "ground_truth": "methodist",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_05_rain_heavy_tag3_united.jpg",
+        "response": "UNITED",
+        "ground_truth": "united",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_06_rain_heavy_tag0_burbank.jpg",
+        "response": "BUFBANK",
+        "ground_truth": "burbank",
+        "match_success": false,
+        "missing_words": [
+            "burbank"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_06_rain_heavy_tag1_burbank.jpg",
+        "response": "BURBAL",
+        "ground_truth": "burbank",
+        "match_success": false,
+        "missing_words": [
+            "burbank"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_06_rain_heavy_tag2_florist.jpg",
+        "response": "FL[ORIST]",
+        "ground_truth": "florist",
+        "match_success": false,
+        "missing_words": [
+            "florist"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_06_rain_heavy_tag3_gifts.jpg",
+        "response": "GIFTS",
+        "ground_truth": "gifts",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_06_rain_heavy_tag4_check.jpg",
+        "response": "CHECK",
+        "ground_truth": "check",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_07_rain_heavy_tag0_mobile.jpg",
+        "response": "Mobile",
+        "ground_truth": "mobile",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_11_rain_heavy_tag0_speed.jpg",
+        "response": "SPEED",
+        "ground_truth": "speed",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_11_rain_heavy_tag1_zone.jpg",
+        "response": "ZONE",
+        "ground_truth": "zone",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_11_rain_heavy_tag2_auto.jpg",
+        "response": "AUTO",
+        "ground_truth": "auto",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_11_rain_heavy_tag3_supply.jpg",
+        "response": "SKIPPY",
+        "ground_truth": "supply",
+        "match_success": false,
+        "missing_words": [
+            "supply"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_11_rain_heavy_tag4_locksmith.jpg",
+        "response": "LOCKS MATIN",
+        "ground_truth": "locksmith",
+        "match_success": false,
+        "missing_words": [
+            "locksmith"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_12_rain_heavy_tag0_imports.jpg",
+        "response": "Imports",
+        "ground_truth": "imports",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_12_rain_heavy_tag1_phil.jpg",
+        "response": "Phil",
+        "ground_truth": "phil",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_13_rain_heavy_tag1_eagle.jpg",
+        "response": "EAGLE",
+        "ground_truth": "eagle",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_13_rain_heavy_tag2_medical.jpg",
+        "response": "MEDICAL",
+        "ground_truth": "medical",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_13_rain_heavy_tag3_medical.jpg",
+        "response": "MEDICAL",
+        "ground_truth": "medical",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_14_rain_heavy_tag0_accountancy.jpg",
+        "response": "ACCOUNTANCY",
+        "ground_truth": "accountancy",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_17_rain_heavy_tag0_gifts.jpg",
+        "response": "GIFTS",
+        "ground_truth": "gifts",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_17_rain_heavy_tag1_jas.jpg",
+        "response": "IAS",
+        "ground_truth": "jas",
+        "match_success": false,
+        "missing_words": [
+            "jas"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_17_rain_heavy_tag2_pizza.jpg",
+        "response": "P i z z a",
+        "ground_truth": "pizza",
+        "match_success": false,
+        "missing_words": [
+            "pizza"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_17_rain_heavy_tag3_man.jpg",
+        "response": "Man",
+        "ground_truth": "man",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_18_rain_heavy_tag0_mart.jpg",
+        "response": "Mat",
+        "ground_truth": "mart",
+        "match_success": false,
+        "missing_words": [
+            "mart"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_18_rain_heavy_tag1_mobil.jpg",
+        "response": "Mobil",
+        "ground_truth": "mobil",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_18_rain_heavy_tag2_mobil.jpg",
+        "response": "Mobll",
+        "ground_truth": "mobil",
+        "match_success": false,
+        "missing_words": [
+            "mobil"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_19_rain_heavy_tag0_cleaners.jpg",
+        "response": "CLEANERS",
+        "ground_truth": "cleaners",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_19_rain_heavy_tag1_cleaners.jpg",
+        "response": "CLEANNIN",
+        "ground_truth": "cleaners",
+        "match_success": false,
+        "missing_words": [
+            "cleaners"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_19_rain_heavy_tag2_glenoaks.jpg",
+        "response": "GLENOAKS",
+        "ground_truth": "glenoaks",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_00_rain_heavy_tag0_palace.jpg",
+        "response": "PALACE",
+        "ground_truth": "palace",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_00_rain_heavy_tag1_white.jpg",
+        "response": "WHITE",
+        "ground_truth": "white",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_00_rain_heavy_tag2_white.jpg",
+        "response": "WHITE",
+        "ground_truth": "white",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_00_rain_heavy_tag3_america.jpg",
+        "response": "America",
+        "ground_truth": "america",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_01_rain_heavy_tag0_moon.jpg",
+        "response": "Moon",
+        "ground_truth": "moon",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_01_rain_heavy_tag1_palace.jpg",
+        "response": "Palace",
+        "ground_truth": "palace",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_02_rain_heavy_tag0_castle.jpg",
+        "response": "Casa",
+        "ground_truth": "castle",
+        "match_success": false,
+        "missing_words": [
+            "castle"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_02_rain_heavy_tag1_white.jpg",
+        "response": "\u041f\u0440\u0438\u0447\u0438\u043d\u044b:",
+        "ground_truth": "white",
+        "match_success": false,
+        "missing_words": [
+            "white"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_04_rain_heavy_tag0_michael.jpg",
+        "response": "Michael",
+        "ground_truth": "michael",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_04_rain_heavy_tag1_arts.jpg",
+        "response": "A K F",
+        "ground_truth": "arts",
+        "match_success": false,
+        "missing_words": [
+            "arts"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_04_rain_heavy_tag2_crafts.jpg",
+        "response": "CRAFTS",
+        "ground_truth": "crafts",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_04_rain_heavy_tag3_world.jpg",
+        "response": "VORAO",
+        "ground_truth": "world",
+        "match_success": false,
+        "missing_words": [
+            "world"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_04_rain_heavy_tag4_market.jpg",
+        "response": "MARKET",
+        "ground_truth": "market",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_04_rain_heavy_tag5_fitness.jpg",
+        "response": "FITNESS",
+        "ground_truth": "fitness",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_05_rain_heavy_tag0_fabrics.jpg",
+        "response": "FABRICS",
+        "ground_truth": "fabrics",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_05_rain_heavy_tag1_fishman.jpg",
+        "response": "Fishman",
+        "ground_truth": "fishman",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_05_rain_heavy_tag2_inc.jpg",
+        "response": "\u041e  \u043f \u043e",
+        "ground_truth": "inc",
+        "match_success": false,
+        "missing_words": [
+            "inc"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_05_rain_heavy_tag3_inc.jpg",
+        "response": "\u0418\u0442.\u0441",
+        "ground_truth": "inc",
+        "match_success": false,
+        "missing_words": [
+            "inc"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_06_rain_heavy_tag0_jerome.jpg",
+        "response": "NERO\nME",
+        "ground_truth": "jerome",
+        "match_success": false,
+        "missing_words": [
+            "jerome"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_06_rain_heavy_tag1_school.jpg",
+        "response": "p h g A l",
+        "ground_truth": "school",
+        "match_success": false,
+        "missing_words": [
+            "school"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_10_rain_heavy_tag0_grandstand.jpg",
+        "response": "GRANDSTAND",
+        "ground_truth": "grandstand",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_10_rain_heavy_tag1_grandstand.jpg",
+        "response": "\u0631\u063a\u0645 \u0627\u0644\u0639\u0631\u0642\u0651\u0627\u062a \u0648\u0627\u0644\u062e\u0631\u0627\u0628  \n\u0648\u063a\u064a\u0631\u0647\u0627 \u0645\u0646 \u0627\u0644\u0637\u0642\u0648\u0642\u0627\u062a  \n\u063a\u064a\u0631 \u0645\u0642\u0628\u0648\u0628  \n\u0627\u0644\u0645\u0634\u0643\u0644\u0629",
+        "ground_truth": "grandstand",
+        "match_success": false,
+        "missing_words": [
+            "grandstand"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_11_rain_heavy_tag0_corner.jpg",
+        "response": "Corner",
+        "ground_truth": "corner",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_11_rain_heavy_tag1_martin.jpg",
+        "response": "Martin",
+        "ground_truth": "martin",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_11_rain_heavy_tag2_bar.jpg",
+        "response": "Bar",
+        "ground_truth": "bar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_13_rain_heavy_tag0_gamestop.jpg",
+        "response": "GameStop",
+        "ground_truth": "gamestop",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_14_rain_heavy_tag0_salle.jpg",
+        "response": "SMYAE",
+        "ground_truth": "salle",
+        "match_success": false,
+        "missing_words": [
+            "salle"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_15_rain_heavy_tag0_pasada.jpg",
+        "response": "PASADA",
+        "ground_truth": "pasada",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_16_rain_heavy_tag0_target.jpg",
+        "response": "TARGET",
+        "ground_truth": "target",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_17_rain_heavy_tag0_pompei.jpg",
+        "response": "\u0440\u043e\u0441\u0442\u0443\u0442",
+        "ground_truth": "pompei",
+        "match_success": false,
+        "missing_words": [
+            "pompei"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_18_rain_heavy_tag0_jewel.jpg",
+        "response": "Jewel",
+        "ground_truth": "jewel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_18_rain_heavy_tag1_osco.jpg",
+        "response": "Osco",
+        "ground_truth": "osco",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_19_rain_heavy_tag0_happiness.jpg",
+        "response": "HAPPINESS",
+        "ground_truth": "happiness",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_19_rain_heavy_tag1_three.jpg",
+        "response": "THREE",
+        "ground_truth": "three",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/05_19_rain_heavy_tag2_chinatown.jpg",
+        "response": "Knossan",
+        "ground_truth": "chinatown",
+        "match_success": false,
+        "missing_words": [
+            "chinatown"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_00_rain_heavy_tag0_food.jpg",
+        "response": "FOOD",
+        "ground_truth": "food",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_00_rain_heavy_tag1_jimmy.jpg",
+        "response": "TIMMY",
+        "ground_truth": "jimmy",
+        "match_success": false,
+        "missing_words": [
+            "jimmy"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_00_rain_heavy_tag2_store.jpg",
+        "response": "STORE",
+        "ground_truth": "store",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_03_rain_heavy_tag0_fuji.jpg",
+        "response": "FCJI",
+        "ground_truth": "fuji",
+        "match_success": false,
+        "missing_words": [
+            "fuji"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_03_rain_heavy_tag1_massage.jpg",
+        "response": "VALLAGI",
+        "ground_truth": "massage",
+        "match_success": false,
+        "missing_words": [
+            "massage"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_10_rain_heavy_tag0_puff.jpg",
+        "response": "PUFF",
+        "ground_truth": "puff",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_10_rain_heavy_tag1_stuff.jpg",
+        "response": "STUFF",
+        "ground_truth": "stuff",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_12_rain_heavy_tag0_starbucks.jpg",
+        "response": "STARBUCKS",
+        "ground_truth": "starbucks",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_13_rain_heavy_tag0_starbucks.jpg",
+        "response": "starbucks",
+        "ground_truth": "starbucks",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_13_rain_heavy_tag1_starbucks.jpg",
+        "response": "1 6",
+        "ground_truth": "starbucks",
+        "match_success": false,
+        "missing_words": [
+            "starbucks"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_16_rain_heavy_tag0_market.jpg",
+        "response": "MARKET",
+        "ground_truth": "market",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_16_rain_heavy_tag1_meat.jpg",
+        "response": "MEAT",
+        "ground_truth": "meat",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_16_rain_heavy_tag2_michoacana.jpg",
+        "response": "MICHAEL CHERA",
+        "ground_truth": "michoacana",
+        "match_success": false,
+        "missing_words": [
+            "michoacana"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_16_rain_heavy_tag3_taqueria.jpg",
+        "response": "TAQUERIA",
+        "ground_truth": "taqueria",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_16_rain_heavy_tag4_taqueria.jpg",
+        "response": "TAMUERIA",
+        "ground_truth": "taqueria",
+        "match_success": false,
+        "missing_words": [
+            "taqueria"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_17_rain_heavy_tag0_cellars.jpg",
+        "response": "ceHL",
+        "ground_truth": "cellars",
+        "match_success": false,
+        "missing_words": [
+            "cellars"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_17_rain_heavy_tag1_ten.jpg",
+        "response": "I do not understand the concept of line breaks or spacing. This image does not contain readable text.",
+        "ground_truth": "ten",
+        "match_success": false,
+        "missing_words": [
+            "ten"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_17_rain_heavy_tag2_times.jpg",
+        "response": "E 6",
+        "ground_truth": "times",
+        "match_success": false,
+        "missing_words": [
+            "times"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_18_rain_heavy_tag0_dallas.jpg",
+        "response": "DALLAS",
+        "ground_truth": "dallas",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_18_rain_heavy_tag1_seminary.jpg",
+        "response": "SEMINARY",
+        "ground_truth": "seminary",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/06_18_rain_heavy_tag2_theological.jpg",
+        "response": "THEOGIC",
+        "ground_truth": "theological",
+        "match_success": false,
+        "missing_words": [
+            "theological"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_01_rain_heavy_tag0_tavern.jpg",
+        "response": "TAVERN",
+        "ground_truth": "tavern",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_01_rain_heavy_tag1_tavern.jpg",
+        "response": "IAVERN",
+        "ground_truth": "tavern",
+        "match_success": false,
+        "missing_words": [
+            "tavern"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_01_rain_heavy_tag2_williams.jpg",
+        "response": "WILLIAMS",
+        "ground_truth": "williams",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_02_rain_heavy_tag0_winbro.jpg",
+        "response": "WINBRO",
+        "ground_truth": "winbro",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_02_rain_heavy_tag1_grant.jpg",
+        "response": "ORANT",
+        "ground_truth": "grant",
+        "match_success": false,
+        "missing_words": [
+            "grant"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_03_rain_heavy_tag0_olin.jpg",
+        "response": "\u039f\u03bb\u03c5\u03bd",
+        "ground_truth": "olin",
+        "match_success": false,
+        "missing_words": [
+            "olin"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_04_rain_heavy_tag0_fortune.jpg",
+        "response": "FORTUNE",
+        "ground_truth": "fortune",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_04_rain_heavy_tag1_lucky.jpg",
+        "response": "LUCKY",
+        "ground_truth": "lucky",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_04_rain_heavy_tag2_restaurant.jpg",
+        "response": "RESTAURANT",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_06_rain_heavy_tag0_capitol.jpg",
+        "response": "CAPITAL",
+        "ground_truth": "capitol",
+        "match_success": false,
+        "missing_words": [
+            "capitol"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_06_rain_heavy_tag1_custom.jpg",
+        "response": "CUSTOM",
+        "ground_truth": "custom",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_06_rain_heavy_tag2_tailors.jpg",
+        "response": "TAILORS",
+        "ground_truth": "tailors",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_06_rain_heavy_tag3_jewelry.jpg",
+        "response": "JEWELRY",
+        "ground_truth": "jewelry",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_06_rain_heavy_tag4_bakery.jpg",
+        "response": "\u0411 \u0410\u041a \u0415\u041a \u0415",
+        "ground_truth": "bakery",
+        "match_success": false,
+        "missing_words": [
+            "bakery"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_06_rain_heavy_tag5_watercourse.jpg",
+        "response": "WATERCOALS",
+        "ground_truth": "watercourse",
+        "match_success": false,
+        "missing_words": [
+            "watercourse"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_07_rain_heavy_tag0_hollywood.jpg",
+        "response": "HOLLYWOOD",
+        "ground_truth": "hollywood",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_07_rain_heavy_tag1_posters.jpg",
+        "response": "POSTERS",
+        "ground_truth": "posters",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_08_rain_heavy_tag0_avenue.jpg",
+        "response": "AVENUE",
+        "ground_truth": "avenue",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_08_rain_heavy_tag1_theater.jpg",
+        "response": "theater",
+        "ground_truth": "theater",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_09_rain_heavy_tag0_uptown.jpg",
+        "response": "UP TOWN",
+        "ground_truth": "uptown",
+        "match_success": false,
+        "missing_words": [
+            "uptown"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_09_rain_heavy_tag1_village.jpg",
+        "response": "VILLAGE",
+        "ground_truth": "village",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_10_rain_heavy_tag0_donald.jpg",
+        "response": "Donald",
+        "ground_truth": "donald",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_10_rain_heavy_tag1_donald.jpg",
+        "response": "Donald",
+        "ground_truth": "donald",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_12_rain_heavy_tag0_jimmy.jpg",
+        "response": "JIMMY",
+        "ground_truth": "jimmy",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_12_rain_heavy_tag1_john.jpg",
+        "response": "TEHRN",
+        "ground_truth": "john",
+        "match_success": false,
+        "missing_words": [
+            "john"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_13_rain_heavy_tag0_quiznos.jpg",
+        "response": "Quizno's",
+        "ground_truth": "quiznos",
+        "match_success": false,
+        "missing_words": [
+            "quiznos"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_13_rain_heavy_tag1_quiznos.jpg",
+        "response": "Quiznos",
+        "ground_truth": "quiznos",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_15_rain_heavy_tag0_cleaners.jpg",
+        "response": "CLEANERS",
+        "ground_truth": "cleaners",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_15_rain_heavy_tag1_five.jpg",
+        "response": "Five",
+        "ground_truth": "five",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_15_rain_heavy_tag2_star.jpg",
+        "response": "Stop",
+        "ground_truth": "star",
+        "match_success": false,
+        "missing_words": [
+            "star"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_17_rain_heavy_tag0_chinese.jpg",
+        "response": "CHINESE",
+        "ground_truth": "chinese",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_17_rain_heavy_tag1_great.jpg",
+        "response": "GREAT",
+        "ground_truth": "great",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_17_rain_heavy_tag2_wall.jpg",
+        "response": "WALL",
+        "ground_truth": "wall",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_19_rain_heavy_tag0_hotel.jpg",
+        "response": "HOTEL",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/07_19_rain_heavy_tag1_warwick.jpg",
+        "response": "WARWICK",
+        "ground_truth": "warwick",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_00_rain_heavy_tag0_massa.jpg",
+        "response": "MASSA",
+        "ground_truth": "massa",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_04_rain_heavy_tag0_allen.jpg",
+        "response": "A V G H",
+        "ground_truth": "allen",
+        "match_success": false,
+        "missing_words": [
+            "allen"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_04_rain_heavy_tag1_hess.jpg",
+        "response": "M\u70b9",
+        "ground_truth": "hess",
+        "match_success": false,
+        "missing_words": [
+            "hess"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_04_rain_heavy_tag2_center.jpg",
+        "response": "Center",
+        "ground_truth": "center",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_05_rain_heavy_tag0_plaza.jpg",
+        "response": "DLHZA",
+        "ground_truth": "plaza",
+        "match_success": false,
+        "missing_words": [
+            "plaza"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_05_rain_heavy_tag1_shell.jpg",
+        "response": "TEL",
+        "ground_truth": "shell",
+        "match_success": false,
+        "missing_words": [
+            "shell"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_05_rain_heavy_tag2_two.jpg",
+        "response": "All words in the image:\n\nY",
+        "ground_truth": "two",
+        "match_success": false,
+        "missing_words": [
+            "two"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_07_rain_heavy_tag0_magnolia.jpg",
+        "response": "MAGNOQUA",
+        "ground_truth": "magnolia",
+        "match_success": false,
+        "missing_words": [
+            "magnolia"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_08_rain_heavy_tag0_sandwich.jpg",
+        "response": "sANOWICH",
+        "ground_truth": "sandwich",
+        "match_success": false,
+        "missing_words": [
+            "sandwich"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_08_rain_heavy_tag1_shop.jpg",
+        "response": "SHOP",
+        "ground_truth": "shop",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_08_rain_heavy_tag2_zero.jpg",
+        "response": "ZERO",
+        "ground_truth": "zero",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_09_rain_heavy_tag0_quiznos.jpg",
+        "response": "QuiZnos",
+        "ground_truth": "quiznos",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_12_rain_heavy_tag0_domino.jpg",
+        "response": "Domino",
+        "ground_truth": "domino",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_17_rain_heavy_tag0_spaghetti.jpg",
+        "response": "SPAGHETTI",
+        "ground_truth": "spaghetti",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_17_rain_heavy_tag1_warehouse.jpg",
+        "response": "WAREHOUSE",
+        "ground_truth": "warehouse",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_18_rain_heavy_tag0_zula.jpg",
+        "response": "/tla",
+        "ground_truth": "zula",
+        "match_success": false,
+        "missing_words": [
+            "zula"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/08_18_rain_heavy_tag1_zula.jpg",
+        "response": "I'm unable to transcribe the text in the image you provided.",
+        "ground_truth": "zula",
+        "match_success": false,
+        "missing_words": [
+            "zula"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_00_rain_heavy_tag0_centre.jpg",
+        "response": "CENVK1E",
+        "ground_truth": "centre",
+        "match_success": false,
+        "missing_words": [
+            "centre"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_00_rain_heavy_tag1_circle.jpg",
+        "response": "citCyy",
+        "ground_truth": "circle",
+        "match_success": false,
+        "missing_words": [
+            "circle"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_01_rain_heavy_tag0_murphy.jpg",
+        "response": "NAU RPH Y",
+        "ground_truth": "murphy",
+        "match_success": false,
+        "missing_words": [
+            "murphy"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_03_rain_heavy_tag0_houlihan.jpg",
+        "response": "NOULIHAN",
+        "ground_truth": "houlihan",
+        "match_success": false,
+        "missing_words": [
+            "houlihan"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_03_rain_heavy_tag1_houlihan.jpg",
+        "response": "HQULIHHS",
+        "ground_truth": "houlihan",
+        "match_success": false,
+        "missing_words": [
+            "houlihan"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_07_rain_heavy_tag0_indiana.jpg",
+        "response": "India",
+        "ground_truth": "indiana",
+        "match_success": false,
+        "missing_words": [
+            "indiana"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_07_rain_heavy_tag1_repertory.jpg",
+        "response": "\u0410\u043b\u043b\u0435\u0440\u0433\u043e\u0442\u043e\u0440",
+        "ground_truth": "repertory",
+        "match_success": false,
+        "missing_words": [
+            "repertory"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_07_rain_heavy_tag2_theatre.jpg",
+        "response": "Thence",
+        "ground_truth": "theatre",
+        "match_success": false,
+        "missing_words": [
+            "theatre"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_07_rain_heavy_tag3_indiana.jpg",
+        "response": "All words in the image:\nMactlin",
+        "ground_truth": "indiana",
+        "match_success": false,
+        "missing_words": [
+            "indiana"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_10_rain_heavy_tag0_leon.jpg",
+        "response": "r",
+        "ground_truth": "leon",
+        "match_success": false,
+        "missing_words": [
+            "leon"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_11_rain_heavy_tag0_chase.jpg",
+        "response": "CHASE",
+        "ground_truth": "chase",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_11_rain_heavy_tag1_chase.jpg",
+        "response": "CHASE",
+        "ground_truth": "chase",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_12_rain_heavy_tag0_mission.jpg",
+        "response": "M x s s l q l",
+        "ground_truth": "mission",
+        "match_success": false,
+        "missing_words": [
+            "mission"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_12_rain_heavy_tag1_wheeler.jpg",
+        "response": "DNW E WR",
+        "ground_truth": "wheeler",
+        "match_success": false,
+        "missing_words": [
+            "wheeler"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_13_rain_heavy_tag0_jobsite.jpg",
+        "response": "JORBAX'CE",
+        "ground_truth": "jobsite",
+        "match_success": false,
+        "missing_words": [
+            "jobsite"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_13_rain_heavy_tag1_supply.jpg",
+        "response": "SUPPLY",
+        "ground_truth": "supply",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_13_rain_heavy_tag2_work.jpg",
+        "response": "WORK",
+        "ground_truth": "work",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_14_rain_heavy_tag0_brothers.jpg",
+        "response": "Brothers",
+        "ground_truth": "brothers",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_14_rain_heavy_tag1_products.jpg",
+        "response": "PRODUCTS",
+        "ground_truth": "products",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_14_rain_heavy_tag2_zesco.jpg",
+        "response": "Zesco",
+        "ground_truth": "zesco",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_14_rain_heavy_tag3_zoll.jpg",
+        "response": "ZOLL",
+        "ground_truth": "zoll",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_15_rain_heavy_tag0_sheraton.jpg",
+        "response": "Sheraton",
+        "ground_truth": "sheraton",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_16_rain_heavy_tag0_anodizing.jpg",
+        "response": "ANODIZING",
+        "ground_truth": "anodizing",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_16_rain_heavy_tag1_industrial.jpg",
+        "response": "INDUSTRIAL",
+        "ground_truth": "industrial",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_18_rain_heavy_tag0_homewood.jpg",
+        "response": "HOMEWOOD",
+        "ground_truth": "homewood",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_18_rain_heavy_tag1_suites.jpg",
+        "response": "SUITES",
+        "ground_truth": "suites",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/09_19_rain_heavy_tag0_simon.jpg",
+        "response": "SIMON",
+        "ground_truth": "simon",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_03_rain_heavy_tag0_house.jpg",
+        "response": "HOUSE",
+        "ground_truth": "house",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_03_rain_heavy_tag1_tea.jpg",
+        "response": "TEA",
+        "ground_truth": "tea",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_03_rain_heavy_tag2_pak.jpg",
+        "response": "PAK",
+        "ground_truth": "pak",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_04_rain_heavy_tag0_lenscrafters.jpg",
+        "response": "LENSCRAFTERS",
+        "ground_truth": "lenscrafters",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_04_rain_heavy_tag1_fifth.jpg",
+        "response": "Fifth",
+        "ground_truth": "fifth",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_04_rain_heavy_tag2_ave.jpg",
+        "response": "Ave",
+        "ground_truth": "ave",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_05_rain_heavy_tag0_fossil.jpg",
+        "response": "7 2 3 2 5 3 3 m.",
+        "ground_truth": "fossil",
+        "match_success": false,
+        "missing_words": [
+            "fossil"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_05_rain_heavy_tag1_fossil.jpg",
+        "response": "FDS516",
+        "ground_truth": "fossil",
+        "match_success": false,
+        "missing_words": [
+            "fossil"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_17_rain_heavy_tag0_david.jpg",
+        "response": "D awnox!",
+        "ground_truth": "david",
+        "match_success": false,
+        "missing_words": [
+            "david"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_17_rain_heavy_tag1_jean.jpg",
+        "response": "Jean",
+        "ground_truth": "jean",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_17_rain_heavy_tag2_louis.jpg",
+        "response": "Louis",
+        "ground_truth": "louis",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_18_rain_heavy_tag0_frankly.jpg",
+        "response": "Frankly",
+        "ground_truth": "frankly",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/10_18_rain_heavy_tag1_wines.jpg",
+        "response": "Wines",
+        "ground_truth": "wines",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_00_rain_heavy_tag0_bohemian.jpg",
+        "response": "BOHEMIAN",
+        "ground_truth": "bohemian",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_00_rain_heavy_tag1_grand.jpg",
+        "response": "GRAND",
+        "ground_truth": "grand",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_00_rain_heavy_tag2_hotel.jpg",
+        "response": "HOTEL",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_01_rain_heavy_tag0_napasorn.jpg",
+        "response": "NAPASORN",
+        "ground_truth": "napasorn",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_02_rain_heavy_tag0_hatsu.jpg",
+        "response": "HATSD",
+        "ground_truth": "hatsu",
+        "match_success": false,
+        "missing_words": [
+            "hatsu"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_02_rain_heavy_tag1_sushi.jpg",
+        "response": "SUSHI",
+        "ground_truth": "sushi",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_03_rain_heavy_tag0_army.jpg",
+        "response": "ARMY",
+        "ground_truth": "army",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_03_rain_heavy_tag1_store.jpg",
+        "response": "STORE",
+        "ground_truth": "store",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_04_rain_heavy_tag0_orlando.jpg",
+        "response": "Orlando",
+        "ground_truth": "orlando",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_04_rain_heavy_tag1_sentinel.jpg",
+        "response": "Sentinel",
+        "ground_truth": "sentinel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_05_rain_heavy_tag0_bike.jpg",
+        "response": "BIKE",
+        "ground_truth": "bike",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_05_rain_heavy_tag1_kyle.jpg",
+        "response": "KYLE",
+        "ground_truth": "kyle",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_05_rain_heavy_tag2_shop.jpg",
+        "response": "SHOP",
+        "ground_truth": "shop",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_06_rain_heavy_tag0_starbucks.jpg",
+        "response": "STARBUCKS",
+        "ground_truth": "starbucks",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_06_rain_heavy_tag1_starbucks.jpg",
+        "response": "STRUCTURE",
+        "ground_truth": "starbucks",
+        "match_success": false,
+        "missing_words": [
+            "starbucks"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_06_rain_heavy_tag2_coffee.jpg",
+        "response": "COFFEE",
+        "ground_truth": "coffee",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_06_rain_heavy_tag3_coffee.jpg",
+        "response": "dty",
+        "ground_truth": "coffee",
+        "match_success": false,
+        "missing_words": [
+            "coffee"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_07_rain_heavy_tag0_house.jpg",
+        "response": "House",
+        "ground_truth": "house",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_07_rain_heavy_tag1_parliament.jpg",
+        "response": "Parliament",
+        "ground_truth": "parliament",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_07_rain_heavy_tag2_resort.jpg",
+        "response": "RESORT",
+        "ground_truth": "resort",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_08_rain_heavy_tag0_colonial.jpg",
+        "response": "COLONIAL",
+        "ground_truth": "colonial",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_08_rain_heavy_tag1_restaurant.jpg",
+        "response": "RESTAURANT",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_09_rain_heavy_tag0_bar.jpg",
+        "response": "BAR",
+        "ground_truth": "bar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_09_rain_heavy_tag1_bar.jpg",
+        "response": "BAR",
+        "ground_truth": "bar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_09_rain_heavy_tag2_central.jpg",
+        "response": "GENTRAL",
+        "ground_truth": "central",
+        "match_success": false,
+        "missing_words": [
+            "central"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_09_rain_heavy_tag3_central.jpg",
+        "response": "CENTRAL",
+        "ground_truth": "central",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_09_rain_heavy_tag4_station.jpg",
+        "response": "Station",
+        "ground_truth": "station",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_09_rain_heavy_tag5_station.jpg",
+        "response": "STATION",
+        "ground_truth": "station",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_10_rain_heavy_tag0_scientology.jpg",
+        "response": "SCIENTOLOGY",
+        "ground_truth": "scientology",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_10_rain_heavy_tag1_church.jpg",
+        "response": "CHURCH",
+        "ground_truth": "church",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_12_rain_heavy_tag0_flats.jpg",
+        "response": "FLATS\nQumito CO.",
+        "ground_truth": "flats",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_12_rain_heavy_tag1_tijuana.jpg",
+        "response": "Tijuana",
+        "ground_truth": "tijuana",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_12_rain_heavy_tag2_zou.jpg",
+        "response": "20Li",
+        "ground_truth": "zou",
+        "match_success": false,
+        "missing_words": [
+            "zou"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_12_rain_heavy_tag3_zou.jpg",
+        "response": "20u",
+        "ground_truth": "zou",
+        "match_success": false,
+        "missing_words": [
+            "zou"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_12_rain_heavy_tag4_zou.jpg",
+        "response": "Zj",
+        "ground_truth": "zou",
+        "match_success": false,
+        "missing_words": [
+            "zou"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_13_rain_heavy_tag0_dong.jpg",
+        "response": "DONG",
+        "ground_truth": "dong",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_13_rain_heavy_tag1_market.jpg",
+        "response": "MARKET",
+        "ground_truth": "market",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_15_rain_heavy_tag0_colonial.jpg",
+        "response": "colony",
+        "ground_truth": "colonial",
+        "match_success": false,
+        "missing_words": [
+            "colonial"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_15_rain_heavy_tag1_hobby.jpg",
+        "response": "HO LBY",
+        "ground_truth": "hobby",
+        "match_success": false,
+        "missing_words": [
+            "hobby"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_15_rain_heavy_tag2_inc.jpg",
+        "response": "IMC",
+        "ground_truth": "inc",
+        "match_success": false,
+        "missing_words": [
+            "inc"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_15_rain_heavy_tag3_photo.jpg",
+        "response": "PHOTO",
+        "ground_truth": "photo",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_16_rain_heavy_tag0_little.jpg",
+        "response": "\u0414\u0418\u0415\u041b",
+        "ground_truth": "little",
+        "match_success": false,
+        "missing_words": [
+            "little"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_16_rain_heavy_tag1_saigon.jpg",
+        "response": "SAIGON",
+        "ground_truth": "saigon",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_17_rain_heavy_tag0_tabu.jpg",
+        "response": "Tqbu",
+        "ground_truth": "tabu",
+        "match_success": false,
+        "missing_words": [
+            "tabu"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_18_rain_heavy_tag0_cityarts.jpg",
+        "response": "cityarts",
+        "ground_truth": "cityarts",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_18_rain_heavy_tag1_factory.jpg",
+        "response": "factory",
+        "ground_truth": "factory",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/11_19_rain_heavy_tag0_travelodge.jpg",
+        "response": "Travelodge",
+        "ground_truth": "travelodge",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_02_rain_heavy_tag0_bank.jpg",
+        "response": "Bank",
+        "ground_truth": "bank",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_03_rain_heavy_tag0_hard.jpg",
+        "response": "Ward",
+        "ground_truth": "hard",
+        "match_success": false,
+        "missing_words": [
+            "hard"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_03_rain_heavy_tag1_hard.jpg",
+        "response": "Hard",
+        "ground_truth": "hard",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_03_rain_heavy_tag2_rock.jpg",
+        "response": "Rock",
+        "ground_truth": "rock",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_03_rain_heavy_tag3_rock.jpg",
+        "response": "Rock",
+        "ground_truth": "rock",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_03_rain_heavy_tag4_cafe.jpg",
+        "response": "A key",
+        "ground_truth": "cafe",
+        "match_success": false,
+        "missing_words": [
+            "cafe"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_03_rain_heavy_tag5_cafe.jpg",
+        "response": "CAFE",
+        "ground_truth": "cafe",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_04_rain_heavy_tag0_embassy.jpg",
+        "response": "EMBASSY",
+        "ground_truth": "embassy",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_04_rain_heavy_tag1_suites.jpg",
+        "response": "SUITES",
+        "ground_truth": "suites",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_04_rain_heavy_tag2_parking.jpg",
+        "response": "PARKING",
+        "ground_truth": "parking",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_04_rain_heavy_tag3_center.jpg",
+        "response": "Center",
+        "ground_truth": "center",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_04_rain_heavy_tag4_city.jpg",
+        "response": "Cily",
+        "ground_truth": "city",
+        "match_success": false,
+        "missing_words": [
+            "city"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_05_rain_heavy_tag0_jones.jpg",
+        "response": "LINES OF TEXT ARE IMPOSSIBLE TO READ EXACTLY AS THEY APPEAR.",
+        "ground_truth": "jones",
+        "match_success": false,
+        "missing_words": [
+            "jones"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_06_rain_heavy_tag0_capogiro.jpg",
+        "response": "capGiro",
+        "ground_truth": "capogiro",
+        "match_success": false,
+        "missing_words": [
+            "capogiro"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_08_rain_heavy_tag0_sheraton.jpg",
+        "response": "Sheraton",
+        "ground_truth": "sheraton",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_08_rain_heavy_tag1_restaurant.jpg",
+        "response": "RESTAURAN",
+        "ground_truth": "restaurant",
+        "match_success": false,
+        "missing_words": [
+            "restaurant"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_09_rain_heavy_tag0_joe.jpg",
+        "response": "JOE",
+        "ground_truth": "joe",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_09_rain_heavy_tag1_trader.jpg",
+        "response": "TRADER",
+        "ground_truth": "trader",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_10_rain_heavy_tag0_parc.jpg",
+        "response": "P.A.R.C",
+        "ground_truth": "parc",
+        "match_success": false,
+        "missing_words": [
+            "parc"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_13_rain_heavy_tag0_cherry.jpg",
+        "response": "CHERRY",
+        "ground_truth": "cherry",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_13_rain_heavy_tag1_cherry.jpg",
+        "response": "CHERRY",
+        "ground_truth": "cherry",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_13_rain_heavy_tag2_chinese.jpg",
+        "response": "CHINESE",
+        "ground_truth": "chinese",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_13_rain_heavy_tag3_vegetarian.jpg",
+        "response": "VEGETARIAN",
+        "ground_truth": "vegetarian",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_13_rain_heavy_tag4_street.jpg",
+        "response": "STREET",
+        "ground_truth": "street",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_13_rain_heavy_tag5_street.jpg",
+        "response": "STREET",
+        "ground_truth": "street",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_13_rain_heavy_tag6_cherry.jpg",
+        "response": "CHERRY",
+        "ground_truth": "cherry",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_13_rain_heavy_tag7_chinese.jpg",
+        "response": "CHINESE",
+        "ground_truth": "chinese",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_13_rain_heavy_tag8_vegetarian.jpg",
+        "response": "CHARTER \nDEPARTMENT",
+        "ground_truth": "vegetarian",
+        "match_success": false,
+        "missing_words": [
+            "vegetarian"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_15_rain_heavy_tag0_ortlieb.jpg",
+        "response": "DVXER",
+        "ground_truth": "ortlieb",
+        "match_success": false,
+        "missing_words": [
+            "ortlieb"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_16_rain_heavy_tag0_mint.jpg",
+        "response": "**",
+        "ground_truth": "mint",
+        "match_success": false,
+        "missing_words": [
+            "mint"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_16_rain_heavy_tag1_states.jpg",
+        "response": "HTT",
+        "ground_truth": "states",
+        "match_success": false,
+        "missing_words": [
+            "states"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_16_rain_heavy_tag2_united.jpg",
+        "response": "TYNM NED",
+        "ground_truth": "united",
+        "match_success": false,
+        "missing_words": [
+            "united"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_18_rain_heavy_tag0_china.jpg",
+        "response": "OSNA",
+        "ground_truth": "china",
+        "match_success": false,
+        "missing_words": [
+            "china"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_18_rain_heavy_tag1_dollar.jpg",
+        "response": "DOLLAR",
+        "ground_truth": "dollar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_18_rain_heavy_tag2_inc.jpg",
+        "response": "INC",
+        "ground_truth": "inc",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_18_rain_heavy_tag3_town.jpg",
+        "response": "TOWN",
+        "ground_truth": "town",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/12_18_rain_heavy_tag4_ding.jpg",
+        "response": "DING",
+        "ground_truth": "ding",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_01_rain_heavy_tag0_center.jpg",
+        "response": "CENTER",
+        "ground_truth": "center",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_01_rain_heavy_tag1_university.jpg",
+        "response": "UNIVERSITY",
+        "ground_truth": "university",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_01_rain_heavy_tag2_asu.jpg",
+        "response": "IS",
+        "ground_truth": "asu",
+        "match_success": false,
+        "missing_words": [
+            "asu"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_02_rain_heavy_tag0_starbucks.jpg",
+        "response": "SWRDSKS",
+        "ground_truth": "starbucks",
+        "match_success": false,
+        "missing_words": [
+            "starbucks"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_03_rain_heavy_tag0_quiznos.jpg",
+        "response": "\u041e\u0432\u0446\u043c\u043e",
+        "ground_truth": "quiznos",
+        "match_success": false,
+        "missing_words": [
+            "quiznos"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_03_rain_heavy_tag1_salads.jpg",
+        "response": "Salaries",
+        "ground_truth": "salads",
+        "match_success": false,
+        "missing_words": [
+            "salads"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_03_rain_heavy_tag2_subs.jpg",
+        "response": "From to",
+        "ground_truth": "subs",
+        "match_success": false,
+        "missing_words": [
+            "subs"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_04_rain_heavy_tag0_dodge.jpg",
+        "response": "DOUGLE",
+        "ground_truth": "dodge",
+        "match_success": false,
+        "missing_words": [
+            "dodge"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_04_rain_heavy_tag1_phelps.jpg",
+        "response": "L4 EL 1 S",
+        "ground_truth": "phelps",
+        "match_success": false,
+        "missing_words": [
+            "phelps"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_04_rain_heavy_tag2_tower.jpg",
+        "response": "I can't help with that.",
+        "ground_truth": "tower",
+        "match_success": false,
+        "missing_words": [
+            "tower"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_07_rain_heavy_tag0_eye.jpg",
+        "response": "\u042d\u0432\u0433",
+        "ground_truth": "eye",
+        "match_success": false,
+        "missing_words": [
+            "eye"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_07_rain_heavy_tag1_lounge.jpg",
+        "response": "[unknown]",
+        "ground_truth": "lounge",
+        "match_success": false,
+        "missing_words": [
+            "lounge"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_08_rain_heavy_tag0_enterprise.jpg",
+        "response": "Emirtonse",
+        "ground_truth": "enterprise",
+        "match_success": false,
+        "missing_words": [
+            "enterprise"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_10_rain_heavy_tag0_hut.jpg",
+        "response": "Line 1: \n\nLine 2: \n\nLine 3:",
+        "ground_truth": "hut",
+        "match_success": false,
+        "missing_words": [
+            "hut"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_10_rain_heavy_tag1_pizza.jpg",
+        "response": "Pizza",
+        "ground_truth": "pizza",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_11_rain_heavy_tag0_auto.jpg",
+        "response": "AUTO",
+        "ground_truth": "auto",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_11_rain_heavy_tag1_magic.jpg",
+        "response": "MAGIC",
+        "ground_truth": "magic",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_12_rain_heavy_tag0_ymca.jpg",
+        "response": "YMN.C A",
+        "ground_truth": "ymca",
+        "match_success": false,
+        "missing_words": [
+            "ymca"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_13_rain_heavy_tag0_space.jpg",
+        "response": "SOTE E",
+        "ground_truth": "space",
+        "match_success": false,
+        "missing_words": [
+            "space"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_14_rain_heavy_tag0_circles.jpg",
+        "response": "circles",
+        "ground_truth": "circles",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_14_rain_heavy_tag1_tapes.jpg",
+        "response": "topes",
+        "ground_truth": "tapes",
+        "match_success": false,
+        "missing_words": [
+            "tapes"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_15_rain_heavy_tag0_hotel.jpg",
+        "response": "HOTEL",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_15_rain_heavy_tag1_wyndham.jpg",
+        "response": "N^EDGHNN",
+        "ground_truth": "wyndham",
+        "match_success": false,
+        "missing_words": [
+            "wyndham"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_16_rain_heavy_tag0_arts.jpg",
+        "response": "A. bts",
+        "ground_truth": "arts",
+        "match_success": false,
+        "missing_words": [
+            "arts"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_16_rain_heavy_tag1_modified.jpg",
+        "response": "rnocimcr",
+        "ground_truth": "modified",
+        "match_success": false,
+        "missing_words": [
+            "modified"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_17_rain_heavy_tag0_airways.jpg",
+        "response": "AIRWAYS",
+        "ground_truth": "airways",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_17_rain_heavy_tag1_center.jpg",
+        "response": "CENTER",
+        "ground_truth": "center",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_19_rain_heavy_tag0_cheuvront.jpg",
+        "response": "CHELFRONT",
+        "ground_truth": "cheuvront",
+        "match_success": false,
+        "missing_words": [
+            "cheuvront"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_19_rain_heavy_tag1_cheuvront.jpg",
+        "response": "CHEUVRONT",
+        "ground_truth": "cheuvront",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/13_19_rain_heavy_tag2_restaurant.jpg",
+        "response": "RESTAURANT",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_01_rain_heavy_tag0_higgins.jpg",
+        "response": "HIGGINS",
+        "ground_truth": "higgins",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_02_rain_heavy_tag0_marriott.jpg",
+        "response": "Martott1",
+        "ground_truth": "marriott",
+        "match_success": false,
+        "missing_words": [
+            "marriott"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_05_rain_heavy_tag0_roots.jpg",
+        "response": "Poor",
+        "ground_truth": "roots",
+        "match_success": false,
+        "missing_words": [
+            "roots"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_06_rain_heavy_tag0_center.jpg",
+        "response": "\u0421\u041c\u0428\u0425\u0422",
+        "ground_truth": "center",
+        "match_success": false,
+        "missing_words": [
+            "center"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_06_rain_heavy_tag1_convention.jpg",
+        "response": "Conclusion",
+        "ground_truth": "convention",
+        "match_success": false,
+        "missing_words": [
+            "convention"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_07_rain_heavy_tag0_college.jpg",
+        "response": "COLLEGE",
+        "ground_truth": "college",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_07_rain_heavy_tag1_everest.jpg",
+        "response": "EVEREST",
+        "ground_truth": "everest",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_08_rain_heavy_tag0_pioneer.jpg",
+        "response": "PIONEER",
+        "ground_truth": "pioneer",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_08_rain_heavy_tag1_place.jpg",
+        "response": "PLACE",
+        "ground_truth": "place",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_08_rain_heavy_tag2_saks.jpg",
+        "response": "SIM",
+        "ground_truth": "saks",
+        "match_success": false,
+        "missing_words": [
+            "saks"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_08_rain_heavy_tag3_fifth.jpg",
+        "response": "W/V",
+        "ground_truth": "fifth",
+        "match_success": false,
+        "missing_words": [
+            "fifth"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_08_rain_heavy_tag4_avenue.jpg",
+        "response": "ANEXUE",
+        "ground_truth": "avenue",
+        "match_success": false,
+        "missing_words": [
+            "avenue"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_09_rain_heavy_tag0_cinema.jpg",
+        "response": "Cinema",
+        "ground_truth": "cinema",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_10_rain_heavy_tag0_kitchen.jpg",
+        "response": "\u041a\u0438\u0442\u043e\u0432\u0438",
+        "ground_truth": "kitchen",
+        "match_success": false,
+        "missing_words": [
+            "kitchen"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_10_rain_heavy_tag1_park.jpg",
+        "response": "-",
+        "ground_truth": "park",
+        "match_success": false,
+        "missing_words": [
+            "park"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_12_rain_heavy_tag0_bar.jpg",
+        "response": "NN",
+        "ground_truth": "bar",
+        "match_success": false,
+        "missing_words": [
+            "bar"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_12_rain_heavy_tag1_dan.jpg",
+        "response": "\u0414\u0410\u041c\u0423",
+        "ground_truth": "dan",
+        "match_success": false,
+        "missing_words": [
+            "dan"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_12_rain_heavy_tag2_louis.jpg",
+        "response": "BOLTS",
+        "ground_truth": "louis",
+        "match_success": false,
+        "missing_words": [
+            "louis"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_12_rain_heavy_tag3_oyster.jpg",
+        "response": "CARM",
+        "ground_truth": "oyster",
+        "match_success": false,
+        "missing_words": [
+            "oyster"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_13_rain_heavy_tag0_mission.jpg",
+        "response": "kXwSdcy",
+        "ground_truth": "mission",
+        "match_success": false,
+        "missing_words": [
+            "mission"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_13_rain_heavy_tag1_pub.jpg",
+        "response": "v   v   v   v",
+        "ground_truth": "pub",
+        "match_success": false,
+        "missing_words": [
+            "pub"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_13_rain_heavy_tag2_theatre.jpg",
+        "response": "SP",
+        "ground_truth": "theatre",
+        "match_success": false,
+        "missing_words": [
+            "theatre"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_14_rain_heavy_tag0_satyricon.jpg",
+        "response": "SATYRICON",
+        "ground_truth": "satyricon",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_17_rain_heavy_tag0_high.jpg",
+        "response": "FJCM",
+        "ground_truth": "high",
+        "match_success": false,
+        "missing_words": [
+            "high"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_17_rain_heavy_tag1_lincoln.jpg",
+        "response": "LINE CONN",
+        "ground_truth": "lincoln",
+        "match_success": false,
+        "missing_words": [
+            "lincoln"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_17_rain_heavy_tag2_school.jpg",
+        "response": "IcHDd",
+        "ground_truth": "school",
+        "match_success": false,
+        "missing_words": [
+            "school"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_18_rain_heavy_tag0_marriott.jpg",
+        "response": "Marriott",
+        "ground_truth": "marriott",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_18_rain_heavy_tag1_marriott.jpg",
+        "response": "-5il-",
+        "ground_truth": "marriott",
+        "match_success": false,
+        "missing_words": [
+            "marriott"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_03_rain_heavy_tag0_diego.jpg",
+        "response": "DIEGO",
+        "ground_truth": "diego",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_03_rain_heavy_tag1_excursion.jpg",
+        "response": "EXCURSION",
+        "ground_truth": "excursion",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_03_rain_heavy_tag2_harbor.jpg",
+        "response": "NAVOR",
+        "ground_truth": "harbor",
+        "match_success": false,
+        "missing_words": [
+            "harbor"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_03_rain_heavy_tag3_san.jpg",
+        "response": "SAN",
+        "ground_truth": "san",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_heavy_tag0_art.jpg",
+        "response": "Art",
+        "ground_truth": "art",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_heavy_tag1_art.jpg",
+        "response": "A",
+        "ground_truth": "art",
+        "match_success": false,
+        "missing_words": [
+            "art"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_heavy_tag2_art.jpg",
+        "response": "```\nMT\n```",
+        "ground_truth": "art",
+        "match_success": false,
+        "missing_words": [
+            "art"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_heavy_tag3_museum.jpg",
+        "response": "Musculn",
+        "ground_truth": "museum",
+        "match_success": false,
+        "missing_words": [
+            "museum"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_heavy_tag4_museum.jpg",
+        "response": "-",
+        "ground_truth": "museum",
+        "match_success": false,
+        "missing_words": [
+            "museum"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_heavy_tag5_timken.jpg",
+        "response": "Timken",
+        "ground_truth": "timken",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_heavy_tag6_timken.jpg",
+        "response": "MN",
+        "ground_truth": "timken",
+        "match_success": false,
+        "missing_words": [
+            "timken"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_05_rain_heavy_tag0_automotive.jpg",
+        "response": "Automotive",
+        "ground_truth": "automotive",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_05_rain_heavy_tag1_diego.jpg",
+        "response": "Diego",
+        "ground_truth": "diego",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_05_rain_heavy_tag2_museum.jpg",
+        "response": "Museum",
+        "ground_truth": "museum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_05_rain_heavy_tag3_san.jpg",
+        "response": "San",
+        "ground_truth": "san",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_06_rain_heavy_tag0_cortez.jpg",
+        "response": "CORTEZ",
+        "ground_truth": "cortez",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_08_rain_heavy_tag0_casbah.jpg",
+        "response": "*THE Casbah",
+        "ground_truth": "casbah",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_10_rain_heavy_tag0_air.jpg",
+        "response": "AIR",
+        "ground_truth": "air",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_10_rain_heavy_tag1_museum.jpg",
+        "response": "MUSEUM",
+        "ground_truth": "museum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_10_rain_heavy_tag2_space.jpg",
+        "response": "SPACE",
+        "ground_truth": "space",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_11_rain_heavy_tag0_plaza.jpg",
+        "response": "PKMZT",
+        "ground_truth": "plaza",
+        "match_success": false,
+        "missing_words": [
+            "plaza"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_11_rain_heavy_tag1_america.jpg",
+        "response": "MA45 7 CA",
+        "ground_truth": "america",
+        "match_success": false,
+        "missing_words": [
+            "america"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_12_rain_heavy_tag0_grand.jpg",
+        "response": "GRAND",
+        "ground_truth": "grand",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_12_rain_heavy_tag1_horton.jpg",
+        "response": "HORTON",
+        "ground_truth": "horton",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_12_rain_heavy_tag2_hotel.jpg",
+        "response": "HOTEL",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_17_rain_heavy_tag0_courtyard.jpg",
+        "response": "COURTYARD",
+        "ground_truth": "courtyard",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_19_rain_heavy_tag0_holiday.jpg",
+        "response": "Holiday",
+        "ground_truth": "holiday",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_19_rain_heavy_tag1_hotel.jpg",
+        "response": "NII",
+        "ground_truth": "hotel",
+        "match_success": false,
+        "missing_words": [
+            "hotel"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_19_rain_heavy_tag2_inn.jpg",
+        "response": "Once",
+        "ground_truth": "inn",
+        "match_success": false,
+        "missing_words": [
+            "inn"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_01_rain_heavy_tag0_hotel.jpg",
+        "response": "HOTEL",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_01_rain_heavy_tag1_whitcomb.jpg",
+        "response": "WIHTCOMB",
+        "ground_truth": "whitcomb",
+        "match_success": false,
+        "missing_words": [
+            "whitcomb"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_02_rain_heavy_tag0_mosser.jpg",
+        "response": "MOSSER",
+        "ground_truth": "mosser",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_02_rain_heavy_tag1_the.jpg",
+        "response": "The",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_04_rain_heavy_tag0_carlton.jpg",
+        "response": "CARLTON",
+        "ground_truth": "carlton",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_04_rain_heavy_tag1_hotel.jpg",
+        "response": "HOTEL",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_heavy_tag0_bookstore.jpg",
+        "response": "- BOOKSTORE",
+        "ground_truth": "bookstore",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_heavy_tag1_city.jpg",
+        "response": "S I TY",
+        "ground_truth": "city",
+        "match_success": false,
+        "missing_words": [
+            "city"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_heavy_tag2_city.jpg",
+        "response": "CITY",
+        "ground_truth": "city",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_heavy_tag3_lights.jpg",
+        "response": "LIGHTS",
+        "ground_truth": "lights",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_heavy_tag4_lights.jpg",
+        "response": "LIGHTS",
+        "ground_truth": "lights",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_12_rain_heavy_tag0_crush.jpg",
+        "response": "CRUSH",
+        "ground_truth": "crush",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_12_rain_heavy_tag1_first.jpg",
+        "response": "FIRST",
+        "ground_truth": "first",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_13_rain_heavy_tag0_restaurant.jpg",
+        "response": "RESTAURANT",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_13_rain_heavy_tag1_tara.jpg",
+        "response": "TARA",
+        "ground_truth": "tara",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_14_rain_heavy_tag0_inn.jpg",
+        "response": "INN",
+        "ground_truth": "inn",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_14_rain_heavy_tag1_square.jpg",
+        "response": "SQUARE",
+        "ground_truth": "square",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_14_rain_heavy_tag2_washington.jpg",
+        "response": "WASHINGTON",
+        "ground_truth": "washington",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_15_rain_heavy_tag0_brazil.jpg",
+        "response": "Brasil",
+        "ground_truth": "brazil",
+        "match_success": false,
+        "missing_words": [
+            "brazil"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_15_rain_heavy_tag1_canto.jpg",
+        "response": "Canto",
+        "ground_truth": "canto",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_15_rain_heavy_tag2_restaurant.jpg",
+        "response": "RESTAURANT",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_16_rain_heavy_tag0_orpheum.jpg",
+        "response": "ORPHEUM",
+        "ground_truth": "orpheum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_16_rain_heavy_tag1_theatre.jpg",
+        "response": "THEATRE",
+        "ground_truth": "theatre",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_17_rain_heavy_tag0_crest.jpg",
+        "response": "CREST",
+        "ground_truth": "crest",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_17_rain_heavy_tag1_pine.jpg",
+        "response": "PI NE",
+        "ground_truth": "pine",
+        "match_success": false,
+        "missing_words": [
+            "pine"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_17_rain_heavy_tag2_restaurant.jpg",
+        "response": "RESTAURANT",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_heavy_tag0_francis.jpg",
+        "response": "FRANCIS",
+        "ground_truth": "francis",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_heavy_tag1_hospital.jpg",
+        "response": "HOSPITAL.",
+        "ground_truth": "hospital",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_heavy_tag2_memorial.jpg",
+        "response": "MEMORIAL",
+        "ground_truth": "memorial",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_heavy_tag3_saint.jpg",
+        "response": "SAINT",
+        "ground_truth": "saint",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_heavy_tag0_art.jpg",
+        "response": "AR T",
+        "ground_truth": "art",
+        "match_success": false,
+        "missing_words": [
+            "art"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_heavy_tag1_jose.jpg",
+        "response": "JOSE",
+        "ground_truth": "jose",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_heavy_tag2_museum.jpg",
+        "response": "MUSEUM",
+        "ground_truth": "museum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_heavy_tag3_san.jpg",
+        "response": "$IAN",
+        "ground_truth": "san",
+        "match_success": false,
+        "missing_words": [
+            "san"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_heavy_tag0_motif.jpg",
+        "response": "MOTIF",
+        "ground_truth": "motif",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_heavy_tag1_restaurant.jpg",
+        "response": "RESTAURANT",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_heavy_tag2_club.jpg",
+        "response": "CLUB",
+        "ground_truth": "club",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_heavy_tag3_and.jpg",
+        "response": "AND",
+        "ground_truth": "and",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_heavy_tag4_south.jpg",
+        "response": "5111111",
+        "ground_truth": "south",
+        "match_success": false,
+        "missing_words": [
+            "south"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_heavy_tag5_first.jpg",
+        "response": "1 11 ~ 1",
+        "ground_truth": "first",
+        "match_success": false,
+        "missing_words": [
+            "first"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_03_rain_heavy_tag0_bicycle.jpg",
+        "response": "BICYCLE",
+        "ground_truth": "bicycle",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_03_rain_heavy_tag1_express.jpg",
+        "response": "EXPRESS",
+        "ground_truth": "express",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_05_rain_heavy_tag0_donald.jpg",
+        "response": "Donald",
+        "ground_truth": "donald",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_06_rain_heavy_tag0_body.jpg",
+        "response": "BODY",
+        "ground_truth": "body",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_06_rain_heavy_tag1_shop.jpg",
+        "response": "SHOP",
+        "ground_truth": "shop",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_06_rain_heavy_tag2_line.jpg",
+        "response": "Line",
+        "ground_truth": "line",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_07_rain_heavy_tag0_ernst.jpg",
+        "response": "ERNST",
+        "ground_truth": "ernst",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_07_rain_heavy_tag1_young.jpg",
+        "response": "YOUNG",
+        "ground_truth": "young",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_07_rain_heavy_tag2_san.jpg",
+        "response": "SAP",
+        "ground_truth": "san",
+        "match_success": false,
+        "missing_words": [
+            "san"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_08_rain_heavy_tag0_town.jpg",
+        "response": "TOWW",
+        "ground_truth": "town",
+        "match_success": false,
+        "missing_words": [
+            "town"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_09_rain_heavy_tag0_claire.jpg",
+        "response": "CLAIRE",
+        "ground_truth": "claire",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_09_rain_heavy_tag1_sainte.jpg",
+        "response": "SAIENTE",
+        "ground_truth": "sainte",
+        "match_success": false,
+        "missing_words": [
+            "sainte"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_09_rain_heavy_tag2_the.jpg",
+        "response": "THE",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_10_rain_heavy_tag0_agency.jpg",
+        "response": "AGENCY",
+        "ground_truth": "agency",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_10_rain_heavy_tag1_liquid.jpg",
+        "response": "laguid",
+        "ground_truth": "liquid",
+        "match_success": false,
+        "missing_words": [
+            "liquid"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_10_rain_heavy_tag2_liquid.jpg",
+        "response": "LIQUID",
+        "ground_truth": "liquid",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_heavy_tag0_high.jpg",
+        "response": "High",
+        "ground_truth": "high",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_heavy_tag1_lincoln.jpg",
+        "response": "SIMCOLN",
+        "ground_truth": "lincoln",
+        "match_success": false,
+        "missing_words": [
+            "lincoln"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_heavy_tag2_school.jpg",
+        "response": "Unfortunately, the image provided is not clear enough to read any text accurately.",
+        "ground_truth": "school",
+        "match_success": false,
+        "missing_words": [
+            "school"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_heavy_tag3_school.jpg",
+        "response": "\u0432\u043e\u043e\u043f",
+        "ground_truth": "school",
+        "match_success": false,
+        "missing_words": [
+            "school"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_heavy_tag4_california.jpg",
+        "response": "CANNON WED",
+        "ground_truth": "california",
+        "match_success": false,
+        "missing_words": [
+            "california"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_heavy_tag0_jose.jpg",
+        "response": "Jose",
+        "ground_truth": "jose",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_heavy_tag1_museum.jpg",
+        "response": "Museum",
+        "ground_truth": "museum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_heavy_tag2_quilts.jpg",
+        "response": "Quilts",
+        "ground_truth": "quilts",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_heavy_tag3_san.jpg",
+        "response": "San",
+        "ground_truth": "san",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_heavy_tag4_textiles.jpg",
+        "response": "Textiles",
+        "ground_truth": "textiles",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_15_rain_heavy_tag0_goodwill.jpg",
+        "response": "```\nGOODWILL\n```",
+        "ground_truth": "goodwill",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_16_rain_heavy_tag0_ramada.jpg",
+        "response": "RAMADA",
+        "ground_truth": "ramada",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_17_rain_heavy_tag0_fahrenheit.jpg",
+        "response": "FAHRENHEIT",
+        "ground_truth": "fahrenheit",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_17_rain_heavy_tag1_lounge.jpg",
+        "response": "-",
+        "ground_truth": "lounge",
+        "match_success": false,
+        "missing_words": [
+            "lounge"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_18_rain_heavy_tag0_billiards.jpg",
+        "response": "BILLIARDS",
+        "ground_truth": "billiards",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_18_rain_heavy_tag1_first.jpg",
+        "response": "FIRST",
+        "ground_truth": "first",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_18_rain_heavy_tag2_south.jpg",
+        "response": "SOUTH",
+        "ground_truth": "south",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_00_rain_heavy_tag0_tribunali.jpg",
+        "response": "TRIBUNALI",
+        "ground_truth": "tribunali",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_00_rain_heavy_tag1_via.jpg",
+        "response": "VIA",
+        "ground_truth": "via",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_heavy_tag0_door.jpg",
+        "response": "door",
+        "ground_truth": "door",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_heavy_tag1_the.jpg",
+        "response": "THE",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_heavy_tag2_the.jpg",
+        "response": "TH",
+        "ground_truth": "the",
+        "match_success": false,
+        "missing_words": [
+            "the"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_heavy_tag3_triple.jpg",
+        "response": "triple",
+        "ground_truth": "triple",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_heavy_tag4_the.jpg",
+        "response": "THE",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_02_rain_heavy_tag0_black.jpg",
+        "response": "BLACK",
+        "ground_truth": "black",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_02_rain_heavy_tag1_bottle.jpg",
+        "response": "BOTTLE",
+        "ground_truth": "bottle",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_02_rain_heavy_tag2_vine.jpg",
+        "response": "Vine",
+        "ground_truth": "vine",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_03_rain_heavy_tag0_hotel.jpg",
+        "response": "HOTEL",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_03_rain_heavy_tag1_max.jpg",
+        "response": "MAX",
+        "ground_truth": "max",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_04_rain_heavy_tag0_hotel.jpg",
+        "response": "HOTEL",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_04_rain_heavy_tag1_lion.jpg",
+        "response": "LION",
+        "ground_truth": "lion",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_04_rain_heavy_tag2_red.jpg",
+        "response": "RED",
+        "ground_truth": "red",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_06_rain_heavy_tag0_paramount.jpg",
+        "response": "PARAMOUNT",
+        "ground_truth": "paramount",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_heavy_tag0_hotel.jpg",
+        "response": "HOTEL",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_heavy_tag1_hotel.jpg",
+        "response": "HOTEL",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_heavy_tag2_moore.jpg",
+        "response": "MOORE",
+        "ground_truth": "moore",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_heavy_tag3_moore.jpg",
+        "response": "MOORE",
+        "ground_truth": "moore",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_08_rain_heavy_tag0_garage.jpg",
+        "response": "GARAGE",
+        "ground_truth": "garage",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_09_rain_heavy_tag0_pike.jpg",
+        "response": "PIKE",
+        "ground_truth": "pike",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_09_rain_heavy_tag1_western.jpg",
+        "response": "WESTERN",
+        "ground_truth": "western",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_09_rain_heavy_tag2_wine.jpg",
+        "response": "WINE",
+        "ground_truth": "wine",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_heavy_tag0_best.jpg",
+        "response": "Best",
+        "ground_truth": "best",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_heavy_tag1_executive.jpg",
+        "response": "EXECUTIVE",
+        "ground_truth": "executive",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_heavy_tag2_inn.jpg",
+        "response": "IVN",
+        "ground_truth": "inn",
+        "match_success": false,
+        "missing_words": [
+            "inn"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_heavy_tag3_western.jpg",
+        "response": "Western",
+        "ground_truth": "western",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_heavy_tag0_inn.jpg",
+        "response": "INN",
+        "ground_truth": "inn",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_heavy_tag1_loyal.jpg",
+        "response": "LOYAL",
+        "ground_truth": "loyal",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_heavy_tag2_western.jpg",
+        "response": "Western",
+        "ground_truth": "western",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_heavy_tag3_best.jpg",
+        "response": "Best",
+        "ground_truth": "best",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_heavy_tag0_avenue.jpg",
+        "response": "AVENUE",
+        "ground_truth": "avenue",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_heavy_tag1_sixth.jpg",
+        "response": "SIXTH",
+        "ground_truth": "sixth",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_heavy_tag2_bar.jpg",
+        "response": "BAR",
+        "ground_truth": "bar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_heavy_tag3_grill.jpg",
+        "response": "GRILL",
+        "ground_truth": "grill",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_heavy_tag4_sixth.jpg",
+        "response": "$IXTH",
+        "ground_truth": "sixth",
+        "match_success": false,
+        "missing_words": [
+            "sixth"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_heavy_tag5_grill.jpg",
+        "response": "GRKL",
+        "ground_truth": "grill",
+        "match_success": false,
+        "missing_words": [
+            "grill"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_heavy_tag6_avenue.jpg",
+        "response": "AVE",
+        "ground_truth": "avenue",
+        "match_success": false,
+        "missing_words": [
+            "avenue"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_heavy_tag7_bar.jpg",
+        "response": "BAR",
+        "ground_truth": "bar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_16_rain_heavy_tag0_restaurant.jpg",
+        "response": "RESTAURANT",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_16_rain_heavy_tag1_stewart.jpg",
+        "response": "Stewart",
+        "ground_truth": "stewart",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_17_rain_heavy_tag0_cinerama.jpg",
+        "response": "cinerama.",
+        "ground_truth": "cinerama",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_17_rain_heavy_tag1_cinerama.jpg",
+        "response": "CINERAMA",
+        "ground_truth": "cinerama",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_18_rain_heavy_tag0_garfield.jpg",
+        "response": "GARFIELD",
+        "ground_truth": "garfield",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_18_rain_heavy_tag1_high.jpg",
+        "response": "HIGH",
+        "ground_truth": "high",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_18_rain_heavy_tag2_school.jpg",
+        "response": "SCHOOL",
+        "ground_truth": "school",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_19_rain_heavy_tag0_neumos.jpg",
+        "response": "BHEUMOS",
+        "ground_truth": "neumos",
+        "match_success": false,
+        "missing_words": [
+            "neumos"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_19_rain_heavy_tag1_neumos.jpg",
+        "response": "NEUMOS",
+        "ground_truth": "neumos",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_heavy_tag0_cafe.jpg",
+        "response": "Cafe",
+        "ground_truth": "cafe",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_heavy_tag1_soleil.jpg",
+        "response": "Soleil",
+        "ground_truth": "soleil",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_heavy_tag2_bar.jpg",
+        "response": "Bar",
+        "ground_truth": "bar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_heavy_tag3_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_01_rain_heavy_tag0_box.jpg",
+        "response": "\u0412\u041e\u0425",
+        "ground_truth": "box",
+        "match_success": false,
+        "missing_words": [
+            "box"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_01_rain_heavy_tag1_jewel.jpg",
+        "response": "JEWEL",
+        "ground_truth": "jewel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_01_rain_heavy_tag2_tiny.jpg",
+        "response": "TINY",
+        "ground_truth": "tiny",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_heavy_tag0_cvs.jpg",
+        "response": "CVS",
+        "ground_truth": "cvs",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_heavy_tag1_cvs.jpg",
+        "response": "CVS",
+        "ground_truth": "cvs",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_heavy_tag2_cvs.jpg",
+        "response": "CVS/",
+        "ground_truth": "cvs",
+        "match_success": false,
+        "missing_words": [
+            "cvs"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_heavy_tag3_cvs.jpg",
+        "response": "CVS/",
+        "ground_truth": "cvs",
+        "match_success": false,
+        "missing_words": [
+            "cvs"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_heavy_tag4_pharmacy.jpg",
+        "response": "pharmacy",
+        "ground_truth": "pharmacy",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_heavy_tag5_cvs.jpg",
+        "response": "-",
+        "ground_truth": "cvs",
+        "match_success": false,
+        "missing_words": [
+            "cvs"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_heavy_tag6_cvs.jpg",
+        "response": "KX",
+        "ground_truth": "cvs",
+        "match_success": false,
+        "missing_words": [
+            "cvs"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_04_rain_heavy_tag0_japanese.jpg",
+        "response": "JAPANESE",
+        "ground_truth": "japanese",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_04_rain_heavy_tag1_restaurant.jpg",
+        "response": "RESTAURANT",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_04_rain_heavy_tag2_sakana.jpg",
+        "response": "SAKANA",
+        "ground_truth": "sakana",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_06_rain_heavy_tag0_fireplace.jpg",
+        "response": "FIREPLACE",
+        "ground_truth": "fireplace",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_07_rain_heavy_tag0_fox.jpg",
+        "response": "FOX",
+        "ground_truth": "fox",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_07_rain_heavy_tag1_cleaners.jpg",
+        "response": "CLEANERS",
+        "ground_truth": "cleaners",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_heavy_tag0_america.jpg",
+        "response": "America",
+        "ground_truth": "america",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_heavy_tag1_america.jpg",
+        "response": "AMERCIGA",
+        "ground_truth": "america",
+        "match_success": false,
+        "missing_words": [
+            "america"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_heavy_tag2_books.jpg",
+        "response": "Books",
+        "ground_truth": "books",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_heavy_tag3_books.jpg",
+        "response": "BOOKS f",
+        "ground_truth": "books",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_heavy_tag4_for.jpg",
+        "response": "for",
+        "ground_truth": "for",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_heavy_tag5_for.jpg",
+        "response": "FOR",
+        "ground_truth": "for",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_11_rain_heavy_tag0_fuddruckers.jpg",
+        "response": "FUDDRUCKERS",
+        "ground_truth": "fuddruckers",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_11_rain_heavy_tag1_the.jpg",
+        "response": "THE",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_12_rain_heavy_tag0_cafe.jpg",
+        "response": "caf\u00e9",
+        "ground_truth": "cafe",
+        "match_success": false,
+        "missing_words": [
+            "cafe"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_12_rain_heavy_tag1_met.jpg",
+        "response": "met",
+        "ground_truth": "met",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_13_rain_heavy_tag0_chocolate.jpg",
+        "response": "CHOCOLATE",
+        "ground_truth": "chocolate",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_13_rain_heavy_tag1_moose.jpg",
+        "response": "MOOSE",
+        "ground_truth": "moose",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_13_rain_heavy_tag2_lounge.jpg",
+        "response": "LOUNGE",
+        "ground_truth": "lounge",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_13_rain_heavy_tag0_eagle.jpg",
+        "response": "-",
+        "ground_truth": "eagle",
+        "match_success": false,
+        "missing_words": [
+            "eagle"
+        ]
+    }
+]

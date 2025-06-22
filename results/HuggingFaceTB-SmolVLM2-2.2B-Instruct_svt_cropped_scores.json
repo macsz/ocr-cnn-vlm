@@ -1,0 +1,42 @@
+{
+    "original": [
+        562,
+        647
+    ],
+    "rain_light": [
+        518,
+        647
+    ],
+    "rain_medium": [
+        483,
+        647
+    ],
+    "rain_heavy": [
+        472,
+        647
+    ],
+    "fog_light": [
+        547,
+        647
+    ],
+    "fog_medium": [
+        521,
+        647
+    ],
+    "fog_heavy": [
+        289,
+        647
+    ],
+    "rain_fog_light": [
+        496,
+        647
+    ],
+    "rain_fog_medium": [
+        425,
+        647
+    ],
+    "rain_fog_heavy": [
+        185,
+        647
+    ]
+}
