@@ -84,10 +84,29 @@ def process_images(
                     # Define a safe cropping function
                     def safe_crop(image):
                         try:
-                            return image[y : y + height, x : x + width]
-                        except IndexError:
+                            cropped = image[y : y + height, x : x + width]
+
+                            # Check if dimensions are too small and upscale if needed
+                            h, w = cropped.shape[:2]
+                            min_dim = min(h, w)
+
+                            if min_dim < 28:
+                                # Calculate scale factor to make minimum dimension 28
+                                scale = 28.0 / min_dim
+                                new_h = int(h * scale)
+                                new_w = int(w * scale)
+
+                                # Resize using cv2.INTER_LINEAR for upscaling
+                                cropped = cv2.resize(
+                                    cropped,
+                                    (new_w, new_h),
+                                    interpolation=cv2.INTER_LINEAR,
+                                )
+
+                            return cropped
+                        except (IndexError, ZeroDivisionError) as ex:
                             logger.error(
-                                f"Failed to crop {img_path.name} at {x},{y},{width},{height}"
+                                f"Failed to crop {img_path.name} at {x},{y},{width},{height}: {ex}"
                             )
                             return np.zeros((height, width, 3), dtype=np.uint8)
 
@@ -192,7 +211,6 @@ def process_images(
                         "rain_fog_heavy",
                         tag_suffix,
                     )
-
             # Save processed images
             cv2.imwrite(str(output_dir / f"{base_name}_original.jpg"), img)
             cv2.imwrite(str(output_dir / f"{base_name}_rain_light.jpg"), img_rain_light)
