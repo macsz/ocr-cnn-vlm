@@ -140,7 +140,7 @@ class WeatherAugmentedCroppedImageDataset(Dataset):
         return {"path": img_path}
 
 
-def get_original_filename(augmented_path):
+def get_original_filename_svt(augmented_path):
     """Extract the original filename without augmentation info"""
     # Extract base filename without path and augmentation pattern
     filename = os.path.basename(augmented_path)
@@ -151,7 +151,19 @@ def get_original_filename(augmented_path):
     return None
 
 
-def load_annotations(xml_path):
+def get_original_filename_icdar(augmented_path):
+    """Extract the original filename. Augmented path is like ch4_test_images/img_1_original.jpg,
+    while the original path is like ch4_test_images/img_1.jpg"""
+    filename = os.path.basename(augmented_path)
+    # Extract just the initial part (img_1) from filename like img_1_original.jpg
+    match = re.match(r"img_(\d+).*?\.(jpg|png)", filename)
+    if match:
+        return f"ch4_test_images/img_{match.group(1)}.jpg"
+    logger.warning(f"Could not extract original filename from {augmented_path}")
+    return None
+
+
+def load_annotations_svt(xml_path):
     """Load annotations from XML file into a dictionary with original filenames as keys"""
     tree = ET.parse(xml_path)
     root = tree.getroot()
@@ -173,14 +185,72 @@ def load_annotations(xml_path):
     return annotations
 
 
+def load_annotations_icdar(txt_path):
+    """Load annotations from ICDAR 2015 format txt file."""
+    annotations = {}
+    with open(txt_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+
+            parts = line.split("\t", 1)
+            image_path = parts[0]
+
+            # The JSON part can be tricky if it's not valid.
+            try:
+                ann_json = json.loads(parts[1])
+            except json.JSONDecodeError:
+                logger.warning(f"Warning: Could not decode JSON for {image_path}")
+                continue
+
+            # image_name = os.path.basename(image_path)
+
+            tags = []
+            for ann in ann_json:
+                transcription = ann["transcription"]
+                if transcription == "###":
+                    continue
+                transcription = transcription.strip("#.,!?:;()-\"'").lower()
+
+                points = ann["points"]
+                # points is a list of lists, e.g., [[x1, y1], [x2, y2], [x3, y3], [x4, y4]]
+
+                all_x = [p[0] for p in points]
+                all_y = [p[1] for p in points]
+
+                x = min(all_x)
+                y = min(all_y)
+                width = max(all_x) - x
+                height = max(all_y) - y
+
+                tags.append({"text": transcription, "bbox": [x, y, width, height]})
+
+            annotations[image_path] = tags
+
+    return annotations
+
+
 def eval(infer_func, category: Category, dataset_name: str):
     # Create the dataset and dataloader
     if dataset_name == "svt":
-        img_dir = "data/svt1_augmented/img"
+        img_dir = "data/svt1_augmented/img/"
         DatasetClass = WeatherAugmentedImageDataset
+
+        xml_path = "data/svt1/test.xml"
+        annotations = load_annotations_svt(xml_path)
     elif dataset_name == "svt_cropped":
-        img_dir = "data/svt1_augmented/img_cropped"
+        img_dir = "data/svt1_augmented/img_cropped/"
         DatasetClass = WeatherAugmentedCroppedImageDataset
+
+        xml_path = "data/svt1/test.xml"
+        annotations = load_annotations_svt(xml_path)
+    elif dataset_name == "icdar":
+        img_dir = "data/icdar2015/augmented/"
+        DatasetClass = WeatherAugmentedImageDataset
+
+        xml_path = "data/icdar2015/test_icdar2015_label.txt"
+        annotations = load_annotations_icdar(xml_path)
     else:
         raise ValueError(f"Dataset {dataset_name} not supported")
 
@@ -190,10 +260,6 @@ def eval(infer_func, category: Category, dataset_name: str):
     # Process each image with the model
     prompt = "Find and read all text in the image"
     results = []
-
-    # Load annotations
-    xml_path = "data/svt1/test.xml"
-    annotations = load_annotations(xml_path)
 
     correct_ocr = 0
     processed_images = 0
@@ -238,14 +304,21 @@ def eval(infer_func, category: Category, dataset_name: str):
                 )
 
                 # Match annotation to each result
-                original_filename = get_original_filename(augmented_path)
+                # print(f"augmented_path: {augmented_path}")
+                if "svt" in dataset_name:
+                    original_filename = get_original_filename_svt(augmented_path)
+                elif "icdar" in dataset_name:
+                    original_filename = get_original_filename_icdar(augmented_path)
+                else:
+                    raise ValueError(f"Dataset {dataset_name} not supported")
+                # print(annotations)
 
                 if original_filename in annotations:
                     ground_truth = [
                         tag["text"].lower() for tag in annotations[original_filename]
                     ]
                     ground_truth = [
-                        word.strip(".,!?:;()-\"'").lower()
+                        word.strip("#.,!?:;()-\"'").lower()
                         for word in ground_truth
                         if word
                     ]
@@ -319,7 +392,7 @@ def eval(infer_func, category: Category, dataset_name: str):
 
                 processed_images += 1
             else:
-                raise ValueError(f"Dataset {dataset} not supported")
+                raise ValueError(f"Dataset {dataset_name} not supported")
 
             logger.info(
                 f"Processed {processed_images} images. Correct OCR: {correct_ocr}/{processed_images} ({(correct_ocr / processed_images) * 100:.2f}%)"
@@ -328,7 +401,7 @@ def eval(infer_func, category: Category, dataset_name: str):
 
             # Save results to a json file
             with open(
-                f"results/{model_name.replace('/', '-')}_{dataset}_{category.value}.json",
+                f"results/{model_name.replace('/', '-')}_{dataset_name}_{category.value}.json",
                 "w",
             ) as f:
                 json.dump(results, f, indent=4)
@@ -400,16 +473,16 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model",
         choices=[
-            "google/gemma-3-4b-it",
-            "Qwen/Qwen2.5-VL-3B-Instruct",
-            "OpenGVLab/InternVL3-2B",
-            "OpenGVLab/InternVL3-1B",
-            "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
-            "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
-            "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
-            "llava-hf/llava-1.5-7b-hf",
-            "tinyllava/TinyLLaVA-Phi-2-SigLIP-3.1B",
-            "tinyllava/TinyLLaVA-Gemma-SigLIP-2.4B",
+            "google/gemma-3-4b-it",  #
+            "Qwen/Qwen2.5-VL-3B-Instruct",  #
+            "OpenGVLab/InternVL3-2B",  #
+            "OpenGVLab/InternVL3-1B",  #
+            "HuggingFaceTB/SmolVLM2-2.2B-Instruct",  #
+            "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",  #
+            "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",  #
+            "llava-hf/llava-1.5-7b-hf",  #
+            "tinyllava/TinyLLaVA-Phi-2-SigLIP-3.1B",  #
+            "tinyllava/TinyLLaVA-Gemma-SigLIP-2.4B",  #
             # The ones below are not working
             "jiajunlong/TinyLLaVA-OpenELM-450M-SigLIP-0.89B",
             "Zhang199/TinyLLaVA-Qwen2-0.5B-SigLIP",
@@ -420,8 +493,8 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--dataset",
-        choices=["svt", "svt_cropped"],
-        default="svt_cropped",
+        choices=["svt", "svt_cropped", "icdar"],
+        default="icdar",
     )
     args = parser.parse_args()
 
