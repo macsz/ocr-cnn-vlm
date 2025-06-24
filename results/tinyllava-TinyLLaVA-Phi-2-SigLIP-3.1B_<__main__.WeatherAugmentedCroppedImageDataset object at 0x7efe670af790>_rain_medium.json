@@ -3454,5 +3454,1490 @@
         "missing_words": [
             "bar"
         ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_12_rain_medium_tag1_dan.jpg",
+        "response": "The image you've sent is a bit blurry, but I can still make out some text. The word \"DAN\" is the only legible text in the image. It's written in a cursive font and appears to be in white. The background of the image is dark and out of focus, which makes it difficult to see any other details. The word \"DAN\" is the only text that can be confidently transcribed from the image.",
+        "ground_truth": "dan",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_12_rain_medium_tag2_louis.jpg",
+        "response": "The image contains the word \"LOUIS\" written in a cursive font. The text is in white and is slightly blurred, giving it a dreamy appearance. The background of the image is dark blue, which contrasts with the white text and makes it stand out. The word \"LOUIS\" is the only text present in the image.",
+        "ground_truth": "louis",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_12_rain_medium_tag3_oyster.jpg",
+        "response": "The image you've shared is a bit blurry and dark, making it difficult to discern any specific details. However, I can still attempt to transcribe any visible text in the image. Please note that this transcription is based on the information available in the image and may not be entirely accurate.\n\nThe image appears to be a close-up of a white object, possibly a piece of paper or a card, with some text on it. The text is written in a cursive font and is in black color. The text reads: \"The quick brown fox jumps over the lazy dog.\"\n\nPlease note that this transcription is based on the information available in the image and may not be entirely accurate.",
+        "ground_truth": "oyster",
+        "match_success": false,
+        "missing_words": [
+            "oyster"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_13_rain_medium_tag0_mission.jpg",
+        "response": "The image you've sent is a bit blurry, but I can still make out some text. The word \"vision\" is visible in the image. It's written in a cursive font and appears to be the only text present in the image. The background of the image is a dark blue color, with some white lines scattered throughout. The overall impression is that of a rainy day, with the word \"vision\" possibly being a clue or a message.",
+        "ground_truth": "mission",
+        "match_success": false,
+        "missing_words": [
+            "mission"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_13_rain_medium_tag1_pub.jpg",
+        "response": "The image you've shared is a close-up of a blurred image of a raindrop. The raindrop appears to be the main focus of the image, with the background being a dark purple color. The raindrop is composed of numerous thin lines, giving it a textured appearance. The image does not contain any discernible text or additional objects. The relative position of the raindrop is central in the image, with the dark purple background surrounding it. The image does not provide any information about the size or shape of the raindrop. The image does not contain any action or movement, as it appears to be a still image of a raindrop. The image does not contain any countable objects or identifiable locations. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic descriptions. The image does not contain any aesthetic",
+        "ground_truth": "pub",
+        "match_success": false,
+        "missing_words": [
+            "pub"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_13_rain_medium_tag2_theatre.jpg",
+        "response": "The image contains the word \"dream\" written in a cursive font. The word is surrounded by a pattern of raindrops, giving the impression of a rainy day. The background of the image is dark blue, which contrasts with the white raindrops and the black text. The raindrops are scattered throughout the image, some overlapping each other, creating a sense of depth and movement. The word \"dream\" is the only text visible in the image.",
+        "ground_truth": "theatre",
+        "match_success": false,
+        "missing_words": [
+            "theatre"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_14_rain_medium_tag0_satyricon.jpg",
+        "response": "The image features a blurred sign that reads \"SATYRICON\". The text is in a serif font and is colored in red and blue. The sign appears to be slightly tilted to the right. The background of the image is dark blue, with a white line running horizontally across it. The overall image gives a sense of a rainy day, as suggested by the blurred background.",
+        "ground_truth": "satyricon",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_17_rain_medium_tag0_high.jpg",
+        "response": "The image you've sent is a close-up of a wooden surface. The grain of the wood is visible, creating a textured appearance. The color of the wood is a rich, dark brown. The image is slightly blurred, making it difficult to discern any specific details. There are no discernible objects or text in the image. The focus is solely on the texture and color of the wood.",
+        "ground_truth": "high",
+        "match_success": false,
+        "missing_words": [
+            "high"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_17_rain_medium_tag1_lincoln.jpg",
+        "response": "The image contains the word \"LIVING\" in white text.",
+        "ground_truth": "lincoln",
+        "match_success": false,
+        "missing_words": [
+            "lincoln"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_17_rain_medium_tag2_school.jpg",
+        "response": "The image you've shared is a close-up of a blurred background. The background appears to be a blend of purple and pink hues, with some white lines scattered throughout. Unfortunately, I couldn't find any discernible text in the image. If you have any other questions or need assistance with something else, feel free to ask!",
+        "ground_truth": "school",
+        "match_success": false,
+        "missing_words": [
+            "school"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_18_rain_medium_tag0_marriott.jpg",
+        "response": "The image contains the word \"MERRITT\" written in a cursive font. The text is slightly blurry and appears to be in black and white. The word \"MERRITT\" is the only text visible in the image.",
+        "ground_truth": "marriott",
+        "match_success": false,
+        "missing_words": [
+            "marriott"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/14_18_rain_medium_tag1_marriott.jpg",
+        "response": "The image you've sent is a bit blurry, but I can still make out some text. The word \"WOLF\" is visible in the image. It's written in a cursive font and appears to be the main focus of the image. The background is a dark purple color, which contrasts with the white text. The image is slightly tilted to the right, adding a dynamic element to the composition. The overall impression is that of a promotional image for a product or service related to wolves.",
+        "ground_truth": "marriott",
+        "match_success": false,
+        "missing_words": [
+            "marriott"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_03_rain_medium_tag0_diego.jpg",
+        "response": "The image features the word \"DIEGON\" in white text against a purple background. The text is slightly blurred, making it difficult to discern the exact details. The word \"DIEGON\" is the only text present in the image.",
+        "ground_truth": "diego",
+        "match_success": false,
+        "missing_words": [
+            "diego"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_03_rain_medium_tag1_excursion.jpg",
+        "response": "Excursion",
+        "ground_truth": "excursion",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_03_rain_medium_tag2_harbor.jpg",
+        "response": "The image features the word \"HARbor\" written in a white, serif font. The text is slightly tilted to the right and appears to be slightly blurred. The background of the image is a gradient of purple and blue colors. The word \"HARbor\" is the only text present in the image.",
+        "ground_truth": "harbor",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_03_rain_medium_tag3_san.jpg",
+        "response": "The image you've shared is a blurred image of the word \"SA\". The letters are white and the background is a gradient of purple and blue. The image is slightly tilted to the right. The word \"SA\" is the only text visible in the image.",
+        "ground_truth": "san",
+        "match_success": false,
+        "missing_words": [
+            "san"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_medium_tag0_art.jpg",
+        "response": "The image features the word \"ART\" in white text against a blue background. The text is slightly blurred, making it difficult to discern the exact details. The word \"ART\" is the only text present in the image. The blue background provides a stark contrast to the white text, making the word \"ART\" stand out prominently. The image does not contain any other objects or elements. The word \"ART\" appears to be the main focus of the image.",
+        "ground_truth": "art",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_medium_tag1_art.jpg",
+        "response": "The image you've shared is a blurred image of a city skyline at night. The buildings are white and blue, and they are blurred, making it difficult to discern their details. The sky is dark blue, and there are some white clouds scattered across it. The image does not contain any text or other discernible objects. It's a beautiful representation of a cityscape at night, but the details are not clear due to the blur.",
+        "ground_truth": "art",
+        "match_success": false,
+        "missing_words": [
+            "art"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_medium_tag2_art.jpg",
+        "response": "The image you've shared is a blurred image of a purple background. Unfortunately, I couldn't find any text in the image. If you have any other questions or need assistance with something else, feel free to ask!",
+        "ground_truth": "art",
+        "match_success": false,
+        "missing_words": [
+            "art"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_medium_tag3_museum.jpg",
+        "response": "Museum",
+        "ground_truth": "museum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_medium_tag4_museum.jpg",
+        "response": "The image you've shared is a blurred image of a purple background with a few lines of text. The text appears to be in a serif font and is written in black. However, due to the blur, it's difficult to transcribe the text accurately. Here's what I've managed to transcribe:\n\n\"The image you've shared is a blurred image of a purple background with a few lines of text. The text appears to be in a serif font and is written in black. However, due to the blur, it's difficult to transcribe the text accurately. Here's what I've managed to transcribe:\n\n\"The image you've shared is a blurred image of a purple background with a few lines of text. The text appears to be in a serif font and is written in black. However, due to the blur, it's difficult to transcribe the text accurately. Here's what I've managed to transcribe:\n\n\"The image you've shared is a blurred image of a purple background with a few lines of text. The text appears to be in a serif font and is written in black. However, due to the blur, it's difficult to transcribe the text accurately. Here's what I've managed to transcribe:\n\n\"The image you've shared is a blurred image of a purple background with a few lines of text. The text appears to be in a serif font and is written in black. However, due to the blur, it's difficult to transcribe the text accurately. Here's what I've managed to transcribe:\n\n\"The image you've shared is a blurred image of a purple background with a few lines of text. The text appears to be in a serif font and is written in black. However, due to the blur, it's difficult to transcribe the text accurately. Here's what I've managed to transcribe:\n\n\"The image you've shared is a blurred image of a purple background with a few lines of text. The text appears to be in a serif font and is written in black. However, due to the blur, it's difficult to transcribe the text accurately. Here's what I've managed to transcribe:\n\n\"The image you've shared is a blurred image of a purple background with a few lines of text. The text appears to be in a serif font and is written in black. However, due to the blur, it's difficult to transcribe the",
+        "ground_truth": "museum",
+        "match_success": false,
+        "missing_words": [
+            "museum"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_medium_tag5_timken.jpg",
+        "response": "The image displays the word \"TINKER\" in a blurred, blue-green color. The word is written in a cursive font and appears to be slightly tilted to the right. The background of the image is a gradient of blue-green colors, with some white and black elements scattered throughout. The overall image gives a sense of a digital or electronic environment.",
+        "ground_truth": "timken",
+        "match_success": false,
+        "missing_words": [
+            "timken"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_04_rain_medium_tag6_timken.jpg",
+        "response": "The image you've shared is a blurred image of a purple background with a white line running horizontally across it. The line appears to be slightly tilted to the right. There are no discernible objects or text in the image. The overall impression is of a simple, minimalist design.",
+        "ground_truth": "timken",
+        "match_success": false,
+        "missing_words": [
+            "timken"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_05_rain_medium_tag0_automotive.jpg",
+        "response": "Automotive",
+        "ground_truth": "automotive",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_05_rain_medium_tag1_diego.jpg",
+        "response": "The image features the word \"DIGEO\" written in blue letters. The letters are slightly tilted to the right, giving the word a dynamic feel. The background of the image is a gradient of purple and pink, which contrasts nicely with the blue of the text. The word \"DIGEO\" is the only text present in the image.",
+        "ground_truth": "diego",
+        "match_success": false,
+        "missing_words": [
+            "diego"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_05_rain_medium_tag2_museum.jpg",
+        "response": "Museum",
+        "ground_truth": "museum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_05_rain_medium_tag3_san.jpg",
+        "response": "The image contains the word \"SUN\" written in blue letters.",
+        "ground_truth": "san",
+        "match_success": false,
+        "missing_words": [
+            "san"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_06_rain_medium_tag0_cortez.jpg",
+        "response": "The image contains the word \"CORTEX\" written in a cursive font. The text is in a purple color and appears to be slightly blurry. The word \"CORTEX\" is the only text visible in the image.",
+        "ground_truth": "cortez",
+        "match_success": false,
+        "missing_words": [
+            "cortez"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_08_rain_medium_tag0_casbah.jpg",
+        "response": "The image features the logo for the television show \"Casbah\". The logo is composed of the word \"Casbah\" written in a cursive font. The letters are colored in shades of purple and pink, and they are outlined in white. The background of the image is a gradient of blue, transitioning from a darker shade at the top to a lighter one at the bottom. The word \"Casbah\" is positioned in the center of the image, with the gradient background surrounding it.",
+        "ground_truth": "casbah",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_10_rain_medium_tag0_air.jpg",
+        "response": "The image contains the word \"AIR\" written in blue letters.",
+        "ground_truth": "air",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_10_rain_medium_tag1_museum.jpg",
+        "response": "Museum",
+        "ground_truth": "museum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_10_rain_medium_tag2_space.jpg",
+        "response": "Space",
+        "ground_truth": "space",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_11_rain_medium_tag0_plaza.jpg",
+        "response": "The image you've sent is a blurred image of a tennis court. The court is blue and there are white lines on it. The letters \"Z\" and \"A\" are visible in the image. The image is slightly out of focus, making it difficult to see the details clearly. The tennis court appears to be empty, with no players or equipment visible. The image does not contain any text or other objects. The focus of the image is on the tennis court and the letters \"Z\" and \"A\".",
+        "ground_truth": "plaza",
+        "match_success": false,
+        "missing_words": [
+            "plaza"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_11_rain_medium_tag1_america.jpg",
+        "response": "The image contains the word \"AMERICA\" written in white letters. The letters are slightly blurred and overlapping each other, creating a sense of depth and movement. The background is a dark blue color, which contrasts with the white letters and makes them stand out. The image appears to be a close-up of the letters, emphasizing their details and making them the focal point of the image. The overall composition suggests a sense of unity and strength associated with the word \"AMERICA\".",
+        "ground_truth": "america",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_12_rain_medium_tag0_grand.jpg",
+        "response": "The image features the word \"GRAND\" written in a cursive font. The letters are slightly tilted to the right, giving the text a dynamic feel. The background of the image is a blurred purple color, which contrasts with the white color of the text, making it stand out prominently. The image does not contain any other discernible objects or text. The overall composition of the image suggests it could be related to a promotional or advertising context.",
+        "ground_truth": "grand",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_12_rain_medium_tag1_horton.jpg",
+        "response": "The image features a blurred sign that reads \"Horizon\". The sign is white and appears to be made of metal. The background of the image is a blue sky with white clouds. The sign is the main focus of the image and is located in the center. The text \"Horizon\" is clearly visible and appears to be the only text present in the image. The sign is slightly tilted to the right, adding a dynamic element to the composition. The blue sky in the background provides a stark contrast to the white sign, making it stand out prominently. The white clouds scattered across the sky add depth to the image. The overall image gives a sense of openness and vastness, which is often associated with the horizon.",
+        "ground_truth": "horton",
+        "match_success": false,
+        "missing_words": [
+            "horton"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_12_rain_medium_tag2_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_17_rain_medium_tag0_courtyard.jpg",
+        "response": "The image features the word \"COURTYARD\" written in a cursive font. The text is in a dark blue color and appears to be slightly blurred. The word \"COURTYARD\" is the only text present in the image.",
+        "ground_truth": "courtyard",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_19_rain_medium_tag0_holiday.jpg",
+        "response": "Holiday season is here.",
+        "ground_truth": "holiday",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_19_rain_medium_tag1_hotel.jpg",
+        "response": "The image you've shared is a blurred image of a dark blue background with a few white lines. The lines are arranged in a diagonal pattern, creating a sense of depth and perspective. The image does not contain any discernible text or objects. The overall impression is one of a simple, minimalist design.",
+        "ground_truth": "hotel",
+        "match_success": false,
+        "missing_words": [
+            "hotel"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/15_19_rain_medium_tag2_inn.jpg",
+        "response": "The image you've sent is a bit blurry, but I can still make out some text. The word \"DNN\" is the most visible text in the image. It's written in a cursive font and appears to be in white. The background of the image is a dark blue color, which contrasts with the white text. The image doesn't provide any additional context or information beyond the word \"DNN\".",
+        "ground_truth": "inn",
+        "match_success": false,
+        "missing_words": [
+            "inn"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_01_rain_medium_tag0_hotel.jpg",
+        "response": "The image features a close-up of a sign that reads \"Hotel\". The sign is purple and appears to be slightly blurred, giving it a dreamy or ethereal quality. The word \"Hotel\" is written in all capital letters and is the only text visible in the image. The sign is the main focus of the image, with no other objects or text present. The relative position of the sign is central in the image, drawing the viewer's attention immediately to it. The sign's purple color stands out against the blurred background, making it the most prominent element in the image.",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_01_rain_medium_tag1_whitcomb.jpg",
+        "response": "The image features a blurred sign that reads \"Whittcomb\". The sign is purple and appears to be made of a shiny material, giving it a reflective quality. The background of the image is dark and out of focus, which further emphasizes the sign. The sign is the only text present in the image.",
+        "ground_truth": "whitcomb",
+        "match_success": false,
+        "missing_words": [
+            "whitcomb"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_02_rain_medium_tag0_mosser.jpg",
+        "response": "The image features the word \"MOSSER\" written in white capital letters. The letters are slightly blurred, giving the impression that they are glowing. The background of the image is a dark blue color, with a faint white outline around the letters. The overall effect is a somewhat mysterious and intriguing image.",
+        "ground_truth": "mosser",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_02_rain_medium_tag1_the.jpg",
+        "response": "The image you've shared is a blurred image of the word \"THE\" in white text. The word \"THE\" is the only text visible in the image. The image does not provide any additional context or information. The word \"THE\" is written in all capital letters and appears to be the main focus of the image. The image does not provide any additional details about the word \"THE\" or its surroundings. The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the word \"THE\". The image does not provide any additional context or information about the",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_04_rain_medium_tag0_carlton.jpg",
+        "response": "The image features the name \"Carlton\" written in a stylized font. The text is in white and is slightly tilted to the right. The background of the image is a dark blue color with a subtle wave-like pattern. The text is the only element in the image, and it is centrally located. The image does not contain any other discernible objects or actions. The overall impression is of a simple, stylized representation of the name \"Carlton\".",
+        "ground_truth": "carlton",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_04_rain_medium_tag1_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_medium_tag0_bookstore.jpg",
+        "response": "Bookstore",
+        "ground_truth": "bookstore",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_medium_tag1_city.jpg",
+        "response": "The image contains the word \"City\" written in a cursive font. The word is in a dark blue color and is slightly tilted to the right. The background of the image is a dark blue color with a blurred effect, giving the impression of raindrops. The word \"City\" is the only text present in the image.",
+        "ground_truth": "city",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_medium_tag2_city.jpg",
+        "response": "The image contains a blurred sign that reads \"CITY\". The sign is made of a shiny material and is attached to a black pole. The background of the image is a blurred image of a building with a blue sky. The sign is the main focus of the image and is located in the center. The building and sky in the background are not clearly visible due to the blur. The sign appears to be the only text present in the image.",
+        "ground_truth": "city",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_medium_tag3_lights.jpg",
+        "response": "The image contains the word \"LIGHTS\" written in a cursive font. The letters are slightly tilted to the right and are colored in a shade of purple. The background of the image is a dark blue color with white lines scattered across it. The word \"LIGHTS\" is the only text present in the image.",
+        "ground_truth": "lights",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_06_rain_medium_tag4_lights.jpg",
+        "response": "The image features a close-up of a sign that reads \"LIGHTS\". The sign is yellow and appears to be made of metal. The background of the image is dark and blurry, suggesting that the sign is the main focus of the image. The sign is slightly tilted to the right, adding a dynamic element to the composition. The text \"LIGHTS\" is clearly visible and appears to be the main message of the sign. The sign's yellow color stands out against the dark background, making it easily noticeable. The metal material of the sign gives it a sturdy and durable appearance. The image does not provide any additional context or information about the sign or its location.",
+        "ground_truth": "lights",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_12_rain_medium_tag0_crush.jpg",
+        "response": "The image features the word \"CRUSH\" written in a stylized font. The letters are white and are outlined in blue. The word is slightly tilted to the right. The background of the image is a gradient of blue, transitioning from a darker shade at the top to a lighter one at the bottom. The word \"CRUSH\" is the only text present in the image.",
+        "ground_truth": "crush",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_12_rain_medium_tag1_first.jpg",
+        "response": "First",
+        "ground_truth": "first",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_13_rain_medium_tag0_restaurant.jpg",
+        "response": "The image you've shared is a captivating display of a gradient of blue hues. The gradient transitions smoothly from a darker shade of blue at the top to a lighter one at the bottom, creating a sense of depth and movement. The image is slightly blurred, adding a dreamy quality to the scene.\n\nAs for the text, I'm afraid I couldn't find any discernible text in the image. It appears to be a purely visual representation of a gradient of blue colors. If you have any other questions or need assistance with something else, feel free to ask!",
+        "ground_truth": "restaurant",
+        "match_success": false,
+        "missing_words": [
+            "restaurant"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_13_rain_medium_tag1_tara.jpg",
+        "response": "The image features the word \"TABA\" written in a stylized font. The letters are colored in a vibrant shade of blue and are slightly tilted to the right. The background of the image is a dark blue gradient with a subtle sparkle effect, adding a touch of whimsy to the overall composition. The word \"TABA\" is the only text present in the image, and it stands out prominently against the dark background.",
+        "ground_truth": "tara",
+        "match_success": false,
+        "missing_words": [
+            "tara"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_14_rain_medium_tag0_inn.jpg",
+        "response": "The image features the word \"INN\" in white text against a blue background. The text is slightly blurred, making it difficult to discern the exact details. The word \"INN\" is the only text present in the image. The image does not contain any other objects or elements. The relative position of the text is central in the image, with the blue background surrounding it. The image does not depict any actions or movement. The text appears to be static and stationary. The image does not contain any text apart from the word \"INN\".",
+        "ground_truth": "inn",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_14_rain_medium_tag1_square.jpg",
+        "response": "Square",
+        "ground_truth": "square",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_14_rain_medium_tag2_washington.jpg",
+        "response": "The image features the word \"Washington\" written in a cursive font. The text is in white and is slightly tilted to the right. The background of the image is a dark blue color, with a blurred effect that gives the impression of raindrops falling. The word \"Washington\" is the only text present in the image.",
+        "ground_truth": "washington",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_15_rain_medium_tag0_brazil.jpg",
+        "response": "Brazil",
+        "ground_truth": "brazil",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_15_rain_medium_tag1_canto.jpg",
+        "response": "The image features a close-up of a sign that reads \"CANTO\". The sign is blue and yellow, with the word \"CANTO\" written in blue and the rest of the sign in yellow. The sign appears to be slightly blurred, giving it a rain-soaked look. The background of the image is yellow, which contrasts with the blue of the sign. The sign is the only object in the image, and it is centrally located. There are no other discernible objects or text in the image. The relative position of the sign to the background suggests that the sign is in the foreground, while the background is in the distance. The sign does not appear to be moving or changing in any way. The image does not provide any additional context or information about the sign or its surroundings.",
+        "ground_truth": "canto",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_15_rain_medium_tag2_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_16_rain_medium_tag0_orpheum.jpg",
+        "response": "The image features a sign that reads \"Orpheum\". The sign is blue and white, and it is slightly blurred. The text is in all caps and appears to be in a serif font. The sign is located on a building, and the background is blurred, making the sign the main focus of the image.",
+        "ground_truth": "orpheum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_16_rain_medium_tag1_theatre.jpg",
+        "response": "The image features a sign that reads \"Theater\". The sign is blue and white, with the word \"Theater\" written in all capital letters. The sign is slightly tilted to the right. The background of the image is blurred, but it appears to be a building with a blue and white facade. The sign is the main focus of the image, and its position and color make it stand out against the blurred background.",
+        "ground_truth": "theatre",
+        "match_success": false,
+        "missing_words": [
+            "theatre"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_17_rain_medium_tag0_crest.jpg",
+        "response": "The image features a sign that reads \"Crest\". The sign is white and is located on the left side of the image. The background of the image is dark blue and appears to be wet, suggesting that it might be raining. The sign is slightly tilted to the right. The image does not contain any other discernible objects or text.",
+        "ground_truth": "crest",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_17_rain_medium_tag1_pine.jpg",
+        "response": "The image contains the word \"PINE\" written in white capital letters. The letters are slightly blurry and appear to be in a serif font. The background of the image is a dark blue color with a white lightning bolt pattern. The word \"PINE\" is the only text present in the image.",
+        "ground_truth": "pine",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_17_rain_medium_tag2_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_medium_tag0_francis.jpg",
+        "response": "The image features the word \"FRANCIS\" written in a cursive font. The text is in a dark blue color and appears to be slightly blurred. The word \"FRANCIS\" is the only text present in the image.",
+        "ground_truth": "francis",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_medium_tag1_hospital.jpg",
+        "response": "Hospital",
+        "ground_truth": "hospital",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_medium_tag2_memorial.jpg",
+        "response": "Memorial",
+        "ground_truth": "memorial",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/16_18_rain_medium_tag3_saint.jpg",
+        "response": "The image contains the word \"SANT\" in a blue font.",
+        "ground_truth": "saint",
+        "match_success": false,
+        "missing_words": [
+            "saint"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_medium_tag0_art.jpg",
+        "response": "The image you've shared is a blurred image of the word \"ART\" in white letters against a dark blue background. The letters are slightly tilted to the right. The image does not provide any additional context or information. The word \"ART\" is the only text visible in the image.",
+        "ground_truth": "art",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_medium_tag1_jose.jpg",
+        "response": "The image you've shared is a blurred representation of the word \"JOSE\". The letters are white and appear to be in a cursive font. The background is dark blue and has a wavy texture. The image is slightly tilted to the right. The word \"JOSE\" is the only text visible in the image.",
+        "ground_truth": "jose",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_medium_tag2_museum.jpg",
+        "response": "Museum",
+        "ground_truth": "museum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_00_rain_medium_tag3_san.jpg",
+        "response": "The image you've shared is a close-up of the word \"Swan\" written in a cursive font. The letters are slightly blurred, giving the impression that they are floating in the air. The background is dark blue, which contrasts with the white color of the letters. The word \"Swan\" is the only text visible in the image.",
+        "ground_truth": "san",
+        "match_success": false,
+        "missing_words": [
+            "san"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_medium_tag0_motif.jpg",
+        "response": "The image features the word \"MOTIF\" written in white capital letters against a dark blue background. The letters are slightly blurred, giving the impression of a rain-soaked surface. The word \"MOTIF\" is the only text present in the image.",
+        "ground_truth": "motif",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_medium_tag1_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_medium_tag2_club.jpg",
+        "response": "Club",
+        "ground_truth": "club",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_medium_tag3_and.jpg",
+        "response": "The image you've shared is a blurred image of the word \"AND\". The letters are in a serif font and are colored in a dark blue hue. The image appears to be slightly out of focus, making it difficult to discern any additional details. The word \"AND\" is the only text present in the image.",
+        "ground_truth": "and",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_medium_tag4_south.jpg",
+        "response": "The image you've sent is a blurred image of the word \"SUN\". The letters are white and the background is a gradient of blue and white. The word \"SUN\" is the only text visible in the image.",
+        "ground_truth": "south",
+        "match_success": false,
+        "missing_words": [
+            "south"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_02_rain_medium_tag5_first.jpg",
+        "response": "The image you've shared is a bit blurry and out of focus, making it difficult to discern any specific details. However, I can still attempt to transcribe the visible text in the image.\n\nThe image appears to be a close-up of a white background with a few lines of text. The text is written in a serif font and is colored in shades of blue and purple. The lines of text are arranged in a staggered pattern, creating a sense of rhythm and movement across the image.\n\nUnfortunately, due to the blurriness and out-of-focus nature of the image, it's challenging to transcribe the text accurately. However, I can provide a rough transcription based on what I can see:\n\n\"The image you've shared is a bit blurry and out of focus, making it difficult to discern any specific details. However, I can still attempt to transcribe the visible text in the image exactly as it appears.\n\nThe image appears to be a close-up of a white background with a few lines of text. The text is written in a serif font and is colored in shades of blue and purple. The lines of text are arranged in a staggered pattern, creating a sense of rhythm and movement across the image.\n\nUnfortunately, due to the blurriness and out-of-focus nature of the image, it's challenging to transcribe the text accurately. However, I can provide a rough transcription based on what I can see:\n\n\"The image you've shared is a bit blurry and out of focus, making it difficult to discern any specific details. However, I can still attempt to transcribe the visible text in the image exactly as it appears.\n\nThe image appears to be a close-up of a white background with a few lines of text. The text is written in a serif font and is colored in shades of blue and purple. The lines of text are arranged in a staggered pattern, creating a sense of rhythm and movement across the image.\n\nUnfortunately, due to the blurriness and out-of-focus nature of the image, it's challenging to transcribe the text accurately. However, I can provide a rough transcription based on what I can see:\n\n\"The image you've shared is a bit blurry and out of focus, making it difficult to discern any specific details. However, I can still attempt to transcribe the visible text in the image exactly as it appears.\n\nThe image appears to be a",
+        "ground_truth": "first",
+        "match_success": false,
+        "missing_words": [
+            "first"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_03_rain_medium_tag0_bicycle.jpg",
+        "response": "BICYCLE",
+        "ground_truth": "bicycle",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_03_rain_medium_tag1_express.jpg",
+        "response": "The image contains the word \"express\" written in a cursive font. The word is in white and is the only text visible in the image. The background of the image is blurred and appears to be purple. The word \"express\" is the only text that is clearly visible in the image.",
+        "ground_truth": "express",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_05_rain_medium_tag0_donald.jpg",
+        "response": "The image contains the word \"DONALD\" in a stylized font. The word is written in a serif font and is colored in a dark purple hue. The background of the image is a dark blue color with a blurred effect, giving the impression of a watermark. The word \"DONALD\" is the only text present in the image.",
+        "ground_truth": "donald",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_06_rain_medium_tag0_body.jpg",
+        "response": "Body",
+        "ground_truth": "body",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_06_rain_medium_tag1_shop.jpg",
+        "response": "The image you've sent is blurry and it's difficult to make out the details. However, I can still try to transcribe the visible text. The word \"shop\" is the only word that can be read clearly. It's written in a cursive font and appears to be in black color. The rest of the image is out of focus and blurry, making it impossible to transcribe any additional text.",
+        "ground_truth": "shop",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_06_rain_medium_tag2_line.jpg",
+        "response": "The image contains the word \"LINE\" written in a blurry, purple font. The word is slightly tilted to the right.",
+        "ground_truth": "line",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_07_rain_medium_tag0_ernst.jpg",
+        "response": "The image features the word \"ERNST\" in a blurred, blue-gray color. The letters are slightly tilted to the right, giving the impression that they are slightly tilted to the left. The image is slightly blurred, making it difficult to discern any additional details. The focus is clearly on the word \"ERNST\".",
+        "ground_truth": "ernst",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_07_rain_medium_tag1_young.jpg",
+        "response": "The image you've shared is a blurred image of the word \"YOUNG\" written in a cursive font. The letters are colored in shades of blue and purple. The image appears to be a close-up of a piece of paper or a wall with the word \"YOUNG\" written on it. The background of the image is blurred, making it difficult to discern any additional details. The word \"YOUNG\" is the only text present in the image.",
+        "ground_truth": "young",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_07_rain_medium_tag2_san.jpg",
+        "response": "The image you've shared is a blurred image of a blue square. The image is not clear enough to transcribe any text. If you have a clearer image or if there's specific text you'd like me to transcribe, feel free to share!",
+        "ground_truth": "san",
+        "match_success": false,
+        "missing_words": [
+            "san"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_08_rain_medium_tag0_town.jpg",
+        "response": "The image features the word \"TOWN\" written in a cursive font. The text is in a dark red color and appears to be slightly blurred, giving it a vintage or aged look. The word \"TOWN\" is the only text present in the image.",
+        "ground_truth": "town",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_09_rain_medium_tag0_claire.jpg",
+        "response": "The image features the word \"Claire\" written in a stylized font. The text is in a dark blue color and appears to be slightly blurred, giving it a dreamy or ethereal quality. The word \"Claire\" is the only text present in the image.",
+        "ground_truth": "claire",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_09_rain_medium_tag1_sainte.jpg",
+        "response": "The image contains the word \"SANTE\" in white text.",
+        "ground_truth": "sainte",
+        "match_success": false,
+        "missing_words": [
+            "sainte"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_09_rain_medium_tag2_the.jpg",
+        "response": "The image you've shared is a close-up of a blurred text that reads \"The\". The text appears to be in a serif font and is slightly tilted to the right. The background of the image is dark blue with a white line running horizontally across it. The overall image gives a sense of mystery and intrigue.",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_10_rain_medium_tag0_agency.jpg",
+        "response": "The image features the word \"AGENCY\" written in a stylized font. The letters are colored in shades of blue and purple, and they are arranged in a zigzag pattern. The background of the image is a gradient of blue and purple, with a blurred effect that adds depth to the image. The word \"AGENCY\" is the only text present in the image.",
+        "ground_truth": "agency",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_10_rain_medium_tag1_liquid.jpg",
+        "response": "The image contains the word \"LIQUID\" written in a cursive font. The text is slightly blurred and appears to be in a gradient of blue colors. The word \"LIQUID\" is the only text visible in the image.",
+        "ground_truth": "liquid",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_10_rain_medium_tag2_liquid.jpg",
+        "response": "Liquid",
+        "ground_truth": "liquid",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_medium_tag0_high.jpg",
+        "response": "High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High High",
+        "ground_truth": "high",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_medium_tag1_lincoln.jpg",
+        "response": "The image features the word \"LINCOLN\" written in a cursive font. The text is in a dark blue color and appears to be slightly blurred. The word \"LINCOLN\" is the only text present in the image.",
+        "ground_truth": "lincoln",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_medium_tag2_school.jpg",
+        "response": "The image you've shared is a close-up of a gray fabric with a slight sheen. The fabric appears to be made of a shiny material, possibly silk or satin. The image is taken from a slight angle, giving the fabric a slightly curved appearance. There are no discernible objects or text in the image. The focus is solely on the fabric and its texture.",
+        "ground_truth": "school",
+        "match_success": false,
+        "missing_words": [
+            "school"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_medium_tag3_school.jpg",
+        "response": "The image contains the word \"SCHOOL\" written in a cursive font. The letters are slightly blurred, giving the impression that they are in motion. The background of the image is a dark gray color, with a white line running horizontally across it. The word \"SCHOOL\" is the only text present in the image.",
+        "ground_truth": "school",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_13_rain_medium_tag4_california.jpg",
+        "response": "The image you've shared is a close-up of a purple curtain. The curtain is made up of vertical lines that are slightly blurred, giving it a dreamy, ethereal quality. The curtain appears to be made of a shiny, reflective material, which adds to its visual appeal. The image does not contain any text or other discernible objects. The curtain fills the entire frame of the image, and there are no other objects to count or compare positions. The image is a study in color and texture, with the purple curtain standing out against the blurred background.",
+        "ground_truth": "california",
+        "match_success": false,
+        "missing_words": [
+            "california"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_medium_tag0_jose.jpg",
+        "response": "The image you've shared is a blurred image of the word \"JOSE\". The word is written in a cursive font and appears to be in a dark blue color. The background of the image is also dark blue and appears to be a gradient. The word \"JOSE\" is the only text visible in the image.",
+        "ground_truth": "jose",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_medium_tag1_museum.jpg",
+        "response": "Museum",
+        "ground_truth": "museum",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_medium_tag2_quilts.jpg",
+        "response": "Quilts",
+        "ground_truth": "quilts",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_medium_tag3_san.jpg",
+        "response": "The image you've shared is a blurred image of the word \"SAM\" in white text against a dark blue background. The word \"SAM\" is the only text visible in the image. The image does not provide any additional context or information. The word \"SAM\" appears to be the main focus of the image. The dark blue background provides a stark contrast to the white text, making the word \"SAM\" stand out prominently. The image does not contain any other discernible objects or text. The overall impression is of a simple, minimalist image with the word \"SAM\" as its main subject.",
+        "ground_truth": "san",
+        "match_success": false,
+        "missing_words": [
+            "san"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_14_rain_medium_tag4_textiles.jpg",
+        "response": "Text: Textiles",
+        "ground_truth": "textiles",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_15_rain_medium_tag0_goodwill.jpg",
+        "response": "Goodwill",
+        "ground_truth": "goodwill",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_16_rain_medium_tag0_ramada.jpg",
+        "response": "The image features the word \"Ramada\" written in large, bold, red letters. The letters are slightly tilted to the right, giving the text a dynamic feel. The background of the image is a gray building, which contrasts with the vibrant red of the text. The word \"Ramada\" is the only text present in the image. The overall composition of the image suggests it could be an advertisement or a sign for a hotel or motel.",
+        "ground_truth": "ramada",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_17_rain_medium_tag0_fahrenheit.jpg",
+        "response": "The image features a close-up view of a sign that reads \"GAMERNHEIT\". The sign is predominantly red and black, with the word \"GAMERNHEIT\" written in bold, capital letters. The background of the image is blurred, but it appears to be a dark blue color. The sign is the main focus of the image, and its message is clear and legible.",
+        "ground_truth": "fahrenheit",
+        "match_success": false,
+        "missing_words": [
+            "fahrenheit"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_17_rain_medium_tag1_lounge.jpg",
+        "response": "The image you've shared is a close-up of a black and white striped curtain. The curtain appears to be made of a shiny material, possibly silk or satin. The stripes are arranged in a diagonal pattern, creating a sense of movement and rhythm. The curtain is slightly wrinkled, adding texture and depth to the image. The background is dark and out of focus, which further emphasizes the curtain and its intricate details. There are no discernible texts or other objects in the image. The relative position of the curtain is central, with no other objects to compare its position to. The image does not provide any information about the size or scale of the curtain. The image is a study in contrasts - the black and white of the curtain against the dark background, the smoothness of the curtain against the wrinkled fabric, and the simplicity of the image against the complexity of the curtain's design.",
+        "ground_truth": "lounge",
+        "match_success": false,
+        "missing_words": [
+            "lounge"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_18_rain_medium_tag0_billiards.jpg",
+        "response": "The image contains the word \"Billiards\" written in white letters. The letters are slightly blurry and the background is a pinkish-purple color. The word \"Billiards\" is the only text visible in the image.",
+        "ground_truth": "billiards",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_18_rain_medium_tag1_first.jpg",
+        "response": "First",
+        "ground_truth": "first",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/17_18_rain_medium_tag2_south.jpg",
+        "response": "South",
+        "ground_truth": "south",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_00_rain_medium_tag0_tribunali.jpg",
+        "response": "Tribunali",
+        "ground_truth": "tribunali",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_00_rain_medium_tag1_via.jpg",
+        "response": "The image contains the word \"VIA\" written in a cursive font. The text is in a dark blue color and appears to be slightly blurred. The word \"VIA\" is the only text present in the image.",
+        "ground_truth": "via",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_medium_tag0_door.jpg",
+        "response": "Door",
+        "ground_truth": "door",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_medium_tag1_the.jpg",
+        "response": "The image you've sent is blurry and it's difficult to make out the details. However, I can try to transcribe the visible text as accurately as possible.\n\nThe image contains the word \"THE\" written in a cursive font. The letters are slightly tilted to the right, giving the text a dynamic feel. The background is a gradient of pink and purple, which adds a soft and dreamy atmosphere to the image.\n\nPlease note that due to the blurriness of the image, the transcription may not be entirely accurate. If you have a clearer version of the image, feel free to share it and I'll be happy to transcribe it again.",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_medium_tag2_the.jpg",
+        "response": "The image you've sent is a blurred image of the word \"TMI\" in a pinkish-red color. The letters are slightly tilted to the right. The image is not clear enough to transcribe the text accurately. If you could provide a clearer image or if there's any specific information you're looking for, feel free to ask!",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_medium_tag3_triple.jpg",
+        "response": "The image features a neon sign that reads \"Triple\". The sign is illuminated in red and is located on the side of a building. The background of the image is blurred, but it appears to be a rainy day. The sign is the main focus of the image, and its bright red color stands out against the darker background. The word \"Triple\" is written in all capital letters, emphasizing its importance. The sign is positioned on the side of the building, making it easily visible to passersby. The image does not provide any additional context or information about the location or purpose of the sign.",
+        "ground_truth": "triple",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_01_rain_medium_tag4_the.jpg",
+        "response": "The image you've shared is a blurred image of the word \"THE\" in a pinkish-red color. The letters are slightly tilted to the right. The background of the image is dark blue with a blurred pattern. The image does not contain any other discernible text or objects. The focus of the image is clearly on the word \"THE\".",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_02_rain_medium_tag0_black.jpg",
+        "response": "The image contains the word \"BLACK\" written in all capital letters. The letters are white and appear to be slightly blurry. The word \"BLACK\" is the only text present in the image.",
+        "ground_truth": "black",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_02_rain_medium_tag1_bottle.jpg",
+        "response": "Bottle",
+        "ground_truth": "bottle",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_02_rain_medium_tag2_vine.jpg",
+        "response": "The image features the word \"Vine\" written in a cursive font. The text is slightly blurred, making it difficult to discern the exact details. The background of the image is a gradient of blue, transitioning from a darker shade at the top to a lighter one at the bottom. The word \"Vine\" is the only text present in the image.",
+        "ground_truth": "vine",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_03_rain_medium_tag0_hotel.jpg",
+        "response": "The image features a close-up view of a sign that reads \"Hotel\". The sign is illuminated in a vibrant shade of pink against a dark blue background, giving it a striking contrast. The letters \"H\" and \"T\" are slightly larger than the rest of the text, drawing attention to the word \"Hotel\". The sign appears to be slightly tilted to the right, adding a dynamic element to the composition. The overall image gives the impression of a hotel sign, possibly indicating the name of the establishment or a specific section within the hotel.",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_03_rain_medium_tag1_max.jpg",
+        "response": "The image features the word \"MAX\" written in a cursive font. The letters are pink and appear to be slightly faded, giving the image a vintage look. The background of the image is dark blue, with a blurred effect that adds depth to the image. The word \"MAX\" is the only text present in the image.",
+        "ground_truth": "max",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_04_rain_medium_tag0_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_04_rain_medium_tag1_lion.jpg",
+        "response": "Lion",
+        "ground_truth": "lion",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_04_rain_medium_tag2_red.jpg",
+        "response": "The image features the word \"RED\" written in a bold, sans-serif font. The letters are red and are slightly tilted to the right. The background of the image is white, and the word \"RED\" is the only text present. The image does not contain any other objects or actions. The word \"RED\" is the only text present in the image.",
+        "ground_truth": "red",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_06_rain_medium_tag0_paramount.jpg",
+        "response": "The image features a sign that reads \"Paramount\". The sign is blue and white, with the word \"Paramount\" written in large, bold letters. The sign is slightly tilted to the right, adding a dynamic touch to the overall composition. The background of the image is blurred, drawing focus to the sign in the foreground. The sign appears to be a part of a larger structure, possibly a building or a billboard, but the details are not clear due to the blur. The image does not contain any other discernible objects or text.",
+        "ground_truth": "paramount",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_medium_tag0_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_medium_tag1_hotel.jpg",
+        "response": "Hotel",
+        "ground_truth": "hotel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_medium_tag2_moore.jpg",
+        "response": "The image features the word \"MOORE\" written in a cursive font. The text is in black and appears to be slightly blurred. The word \"MOORE\" is the only text present in the image.",
+        "ground_truth": "moore",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_07_rain_medium_tag3_moore.jpg",
+        "response": "The image features the word \"MOORE\" written in a cursive font. The text is in a dark blue color and appears to be slightly blurred. The word \"MOORE\" is the only text present in the image.",
+        "ground_truth": "moore",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_08_rain_medium_tag0_garage.jpg",
+        "response": "Garage",
+        "ground_truth": "garage",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_09_rain_medium_tag0_pike.jpg",
+        "response": "The image contains the word \"PIEK\" in white text against a purple background.",
+        "ground_truth": "pike",
+        "match_success": false,
+        "missing_words": [
+            "pike"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_09_rain_medium_tag1_western.jpg",
+        "response": "The image features the word \"WESTERN\" written in a cursive font. The text is white and appears to be slightly blurred, giving it a dreamy or ethereal quality. The word \"WESTERN\" is the only text present in the image.",
+        "ground_truth": "western",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_09_rain_medium_tag2_wine.jpg",
+        "response": "The image features the word \"WINE\" written in a cursive font. The letters are white and appear to be slightly blurred, giving the impression that they are made of a shiny material. The background of the image is a dark purple color, which contrasts with the white letters and makes them stand out. The image does not contain any other discernible objects or text.",
+        "ground_truth": "wine",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_medium_tag0_best.jpg",
+        "response": "The image features the word \"Best\" written in a cursive font. The text is in a gold color and is slightly tilted to the right. The background of the image is blue and appears to be blurred. The word \"Best\" is the only text present in the image.",
+        "ground_truth": "best",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_medium_tag1_executive.jpg",
+        "response": "Executive",
+        "ground_truth": "executive",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_medium_tag2_inn.jpg",
+        "response": "The image features the word \"INN\" in a blue and white color scheme. The letters are slightly blurred, giving the impression that they are in motion. The image is slightly tilted to the right, adding a dynamic element to the composition. The background is a gradient of blue, transitioning from a darker shade at the top to a lighter one at the bottom. The overall effect is a visually striking image that draws the viewer's attention to the word \"INN\".",
+        "ground_truth": "inn",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_10_rain_medium_tag3_western.jpg",
+        "response": "The image features the text \"Best Western\" written in a cursive font. The text is in a dark blue color and is slightly tilted to the right. The background of the image is a blurred blue color, giving the impression of a rainy day. The text is the only visible element in the image.",
+        "ground_truth": "western",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_medium_tag0_inn.jpg",
+        "response": "The image features the logo for the hotel chain, Inn. The logo is composed of the letters \"I\" and \"N\" in white, set against a blue background. The letters are slightly tilted to the right, adding a dynamic touch to the design. The overall image gives a sense of a modern and stylish hotel brand.",
+        "ground_truth": "inn",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_medium_tag1_loyal.jpg",
+        "response": "Loyalty",
+        "ground_truth": "loyal",
+        "match_success": false,
+        "missing_words": [
+            "loyal"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_medium_tag2_western.jpg",
+        "response": "The image features a blue and white sign that reads \"Just Western\". The sign is slightly blurred, making it difficult to discern the exact details. The text is in all caps and appears to be in a serif font. The sign is the main focus of the image, with no other objects or text present. The relative position of the sign is central in the image, and it occupies most of the frame. The sign's colors contrast sharply with the background, making it stand out prominently. The image does not provide any additional context or information beyond the sign's text.",
+        "ground_truth": "western",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_13_rain_medium_tag3_best.jpg",
+        "response": "The image you've shared is a blurred image of the word \"Best\" in white letters against a blue background. The letters are slightly tilted to the right. The image appears to be a close-up of a sign or advertisement. The word \"Best\" is the only text visible in the image. The rest of the image is out of focus, making it difficult to discern any additional details. The blue background provides a stark contrast to the white text, making the word \"Best\" stand out prominently. The image does not provide any additional context or information beyond the word \"Best\".",
+        "ground_truth": "best",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_medium_tag0_avenue.jpg",
+        "response": "Avenue",
+        "ground_truth": "avenue",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_medium_tag1_sixth.jpg",
+        "response": "The image features a close-up view of a sign that reads \"Sixth\". The sign is predominantly blue and white, with the word \"Sixth\" written in a cursive font. The background of the image is blurred, but it appears to be a rainy day, as suggested by the raindrops visible in the background. The sign is the main focus of the image, and its text is clearly legible. The overall composition of the image suggests that the sign is located outdoors, possibly in a public space or a business establishment.",
+        "ground_truth": "sixth",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_medium_tag2_bar.jpg",
+        "response": "The image features a blue sign with the word \"BAR\" written in white capital letters. The sign is slightly blurred, making it difficult to discern any additional details. The text is clear and legible, indicating that the sign is likely used to identify a bar or similar establishment. The sign's blue color and white text create a striking contrast, making it easy to read even from a distance. The sign's placement and design suggest that it is meant to be prominently displayed, likely on a building or other structure. The sign's message is straightforward and unambiguous, indicating that the establishment it represents is a bar.",
+        "ground_truth": "bar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_medium_tag3_grill.jpg",
+        "response": "The image features a blue sign with the word \"GRIL\" written in white capital letters. The sign appears to be slightly blurred, making it difficult to discern any additional details. The text \"GRIL\" is the only visible text in the image.",
+        "ground_truth": "grill",
+        "match_success": false,
+        "missing_words": [
+            "grill"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_medium_tag4_sixth.jpg",
+        "response": "The image features the word \"sixth\" written in a cursive font. The text is in white and is slightly blurred, giving it a dreamy appearance. The background of the image is a gradient of blue, transitioning from a darker shade at the top to a lighter one at the bottom. The word \"sixth\" is the only text present in the image.",
+        "ground_truth": "sixth",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_medium_tag5_grill.jpg",
+        "response": "The image you've shared is a blurred image of a blue background with the word \"GRILL\" written in white. The text is slightly tilted to the right. The image appears to be a close-up of a grill. The word \"GRILL\" is the only text visible in the image. The rest of the image is out of focus, making it difficult to discern any additional details. The image does not provide any additional context or information beyond the word \"GRILL\".",
+        "ground_truth": "grill",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_medium_tag6_avenue.jpg",
+        "response": "Ave",
+        "ground_truth": "avenue",
+        "match_success": false,
+        "missing_words": [
+            "avenue"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_15_rain_medium_tag7_bar.jpg",
+        "response": "The image you've shared is a blurred image of the word \"BAR\". The letters are white and the background is blue. The image appears to be a close-up of the word \"BAR\". The letters are slightly tilted to the right. The image does not contain any other discernible objects or text. The focus is solely on the word \"BAR\".",
+        "ground_truth": "bar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_16_rain_medium_tag0_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_16_rain_medium_tag1_stewart.jpg",
+        "response": "The image features the name \"STEWART\" written in a cursive font. The text is in white and is slightly tilted to the right. The background of the image is purple and appears to be wet, suggesting that it might be raining. The overall image gives a sense of a rainy day.",
+        "ground_truth": "stewart",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_17_rain_medium_tag0_cinerama.jpg",
+        "response": "CINERAMA",
+        "ground_truth": "cinerama",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_17_rain_medium_tag1_cinerama.jpg",
+        "response": "CINEMA\nCINEMA\nCINEMA",
+        "ground_truth": "cinerama",
+        "match_success": false,
+        "missing_words": [
+            "cinerama"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_18_rain_medium_tag0_garfield.jpg",
+        "response": "The image features the word \"Garfield\" written in a cursive font. The text is in a dark blue color and appears to be slightly blurred. The word \"Garfield\" is the only text present in the image.",
+        "ground_truth": "garfield",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_18_rain_medium_tag1_high.jpg",
+        "response": "The image you've sent is blurry and it's difficult to make out the details. However, I can still try to transcribe the visible text. The text appears to be in a foreign language and it reads: \"\u041f\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410\u0420\u041e\u0414\u041d\u042b\u0419 \u041d\u0410",
+        "ground_truth": "high",
+        "match_success": false,
+        "missing_words": [
+            "high"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_18_rain_medium_tag2_school.jpg",
+        "response": "School",
+        "ground_truth": "school",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_19_rain_medium_tag0_neumos.jpg",
+        "response": "The image contains the word \"REIN\" written in a stylized font. The letters are colored red and white, and they are arranged in a zigzag pattern. The background of the image is blurred, but it appears to be a dark blue color. The word \"REIN\" is the only text visible in the image.",
+        "ground_truth": "neumos",
+        "match_success": false,
+        "missing_words": [
+            "neumos"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/18_19_rain_medium_tag1_neumos.jpg",
+        "response": "Neumos",
+        "ground_truth": "neumos",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_medium_tag0_cafe.jpg",
+        "response": "The image features a blurred sign that reads \"Cafe\". The sign is in white text on a pink background. The sign appears to be slightly tilted to the right. The background of the image is a gradient of pink and purple colors. The sign is the only text present in the image.",
+        "ground_truth": "cafe",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_medium_tag1_soleil.jpg",
+        "response": "The image you've shared is a blurred image of the word \"SOLI\". The word is written in a cursive font and is colored in a shade of pink. The background of the image is a gradient of pink and purple. The word \"SOLI\" is the only text visible in the image. The image does not provide any additional context or information.",
+        "ground_truth": "soleil",
+        "match_success": false,
+        "missing_words": [
+            "soleil"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_medium_tag2_bar.jpg",
+        "response": "The image features the word \"BAR\" in a vibrant, multicolored font. The letters are slightly tilted to the right, adding a dynamic touch to the overall composition. The background is a gradient of pink and purple hues, creating a visually appealing contrast with the white text. The image appears to be a close-up shot, focusing on the word \"BAR\" and its surrounding colors.",
+        "ground_truth": "bar",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_00_rain_medium_tag3_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_01_rain_medium_tag0_box.jpg",
+        "response": "The image contains the word \"BOX\" written in black letters.",
+        "ground_truth": "box",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_01_rain_medium_tag1_jewel.jpg",
+        "response": "JEWEL",
+        "ground_truth": "jewel",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_01_rain_medium_tag2_tiny.jpg",
+        "response": "The image contains the word \"Tiny\" written in a cursive font. The text is slightly blurry and appears to be in black and white. The word \"Tiny\" is the only text visible in the image.",
+        "ground_truth": "tiny",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_medium_tag0_cvs.jpg",
+        "response": "CVS",
+        "ground_truth": "cvs",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_medium_tag1_cvs.jpg",
+        "response": "The image contains the text \"CVS\" in white letters.",
+        "ground_truth": "cvs",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_medium_tag2_cvs.jpg",
+        "response": "The image you've sent is blurry and it's difficult to make out the details. However, I can still try to transcribe the visible text. The text appears to be in a foreign language and it reads: \"CVS A\". This could possibly be a brand name or a product name. However, without more context or a clearer image, it's hard to provide a more accurate transcription.",
+        "ground_truth": "cvs",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_medium_tag3_cvs.jpg",
+        "response": "The image you've sent is a blurred image of the word \"GVB\". The letters are white and the background is purple. The image is slightly out of focus, making it difficult to discern the exact details. However, the word \"GVB\" is clearly visible and appears to be the main focus of the image. The image does not provide any additional context or information beyond the word \"GVB\".",
+        "ground_truth": "cvs",
+        "match_success": false,
+        "missing_words": [
+            "cvs"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_medium_tag4_pharmacy.jpg",
+        "response": "The image features a sign that reads \"Pharmacy\". The sign is in red and is located on the side of a building. The background of the image is blurred, but it appears to be a rainy day. The sign is the main focus of the image, and it is clearly visible against the blurred background. The text \"Pharmacy\" is written in all capital letters, indicating that it is a business name. The sign is located on the side of a building, suggesting that it is a storefront or entrance to a pharmacy. The image does not provide any additional context or information about the location or the specific pharmacy.",
+        "ground_truth": "pharmacy",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_medium_tag5_cvs.jpg",
+        "response": "The image you've shared is a bit blurry and dark, making it difficult to discern any specific details. However, I can still attempt to transcribe the visible text. Please note that this transcription is based on the information available in the image and may not be entirely accurate.\n\nThe image appears to be a close-up of a blurred image of a person's face. The person's face is not clearly visible due to the blur. The background of the image is dark and out of focus, which further obscures the details.\n\nPlease note that this transcription is based on the information available in the image and may not be entirely accurate.",
+        "ground_truth": "cvs",
+        "match_success": false,
+        "missing_words": [
+            "cvs"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_03_rain_medium_tag6_cvs.jpg",
+        "response": "The image you've shared is a bit blurry and out of focus, making it difficult to discern any specific details. However, I can still attempt to transcribe the visible text in the image.\n\nThe image appears to be a close-up of a blurred image of a person's face. The person's face is not clearly visible due to the blur. The background of the image is a dark purple color, which contrasts with the person's face.\n\nUnfortunately, I couldn't find any specific text in the image that could be transcribed. The image seems to be more focused on the person's face and the background color rather than any text.\n\nPlease note that this transcription is based on the visible content of the image and may not be entirely accurate due to the blurriness and out-of-focus nature of the image.",
+        "ground_truth": "cvs",
+        "match_success": false,
+        "missing_words": [
+            "cvs"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_04_rain_medium_tag0_japanese.jpg",
+        "response": "The image features the word \"JAPANESE\" written in white capital letters. The letters are slightly tilted to the right, giving the text a dynamic feel. The background of the image is a gradient of blue, transitioning from a darker shade at the top to a lighter one at the bottom. The word \"JAPANESE\" is the only text present in the image.",
+        "ground_truth": "japanese",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_04_rain_medium_tag1_restaurant.jpg",
+        "response": "Restaurant",
+        "ground_truth": "restaurant",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_04_rain_medium_tag2_sakana.jpg",
+        "response": "The image features a blue sign with the word \"SAKANA\" written in white capital letters. The sign appears to be slightly blurred, making it difficult to discern any additional details. The text \"SAKANA\" is the only visible text in the image.",
+        "ground_truth": "sakana",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_06_rain_medium_tag0_fireplace.jpg",
+        "response": "Fireplace",
+        "ground_truth": "fireplace",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_07_rain_medium_tag0_fox.jpg",
+        "response": "The image features the word \"FOX\" in white text against a blue background. The text is slightly blurred, but it is clear that the word \"FOX\" is the main focus of the image. The image does not contain any other discernible objects or text. The relative position of the text is central, with the word \"FOX\" occupying most of the image. The blue background provides a stark contrast to the white text, making the word \"FOX\" stand out prominently.",
+        "ground_truth": "fox",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_07_rain_medium_tag1_cleaners.jpg",
+        "response": "The image features the word \"CLEANERS\" written in a serif font. The text is in a blue color and appears to be slightly blurred. The word \"CLEANERS\" is the only text present in the image.",
+        "ground_truth": "cleaners",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_medium_tag0_america.jpg",
+        "response": "America",
+        "ground_truth": "america",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_medium_tag1_america.jpg",
+        "response": "The image you've shared is a blurred image of a blue background with the word \"USA\" written in white. The text is slightly tilted to the right. The image appears to be a close-up of a computer screen. The word \"USA\" is the only text visible in the image.",
+        "ground_truth": "america",
+        "match_success": false,
+        "missing_words": [
+            "america"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_medium_tag2_books.jpg",
+        "response": "Books",
+        "ground_truth": "books",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_medium_tag3_books.jpg",
+        "response": "The image you've shared is a blurred image of the word \"BOOKS\" in white letters against a purple background. The letters are slightly tilted to the right. The image does not provide any additional context or information. The word \"BOOKS\" is the only text visible in the image.",
+        "ground_truth": "books",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_medium_tag4_for.jpg",
+        "response": "For",
+        "ground_truth": "for",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_09_rain_medium_tag5_for.jpg",
+        "response": "The image you've shared is a blurred image of the word \"Foxtrot\". The letters are white and the background is dark blue. The image appears to be a close-up of the word \"Foxtrot\". The letters are slightly tilted to the right. The image does not provide any additional context or information. The word \"Foxtrot\" is the only text visible in the image.",
+        "ground_truth": "for",
+        "match_success": false,
+        "missing_words": [
+            "for"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_11_rain_medium_tag0_fuddruckers.jpg",
+        "response": "The image features a sign that reads \"FUDDUCKERS\". The sign is in a large, bold font and is colored in a shade of brown. The letters are slightly tilted to the right, adding a dynamic touch to the overall design. The sign is set against a yellow background, which contrasts nicely with the brown color of the text. The sign appears to be made of a shiny material, reflecting light and making it stand out. The text is clear and legible, indicating that the sign is well-maintained. The sign is the only object in the image, and it is centrally located, making it the focal point of the image. The image does not contain any other objects or text. The relative position of the sign to the background and the absence of other objects give the image a clean and minimalistic look. The image does not provide any additional context or information beyond the text on the sign.",
+        "ground_truth": "fuddruckers",
+        "match_success": false,
+        "missing_words": [
+            "fuddruckers"
+        ]
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_11_rain_medium_tag1_the.jpg",
+        "response": "The image contains the word \"THE\" in large, bold, red letters. The letters are slightly blurry, giving the image a vintage or aged appearance. The background of the image is a blurred yellow color, which contrasts with the red letters and makes them stand out. The image does not contain any other discernible text or objects. The relative position of the letters is such that they form a single word, \"THE\", with no spaces between them. The image does not provide any additional context or information beyond the word \"THE\".",
+        "ground_truth": "the",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_12_rain_medium_tag0_cafe.jpg",
+        "response": "The image features a logo for a cafe. The logo is composed of the word \"Cafe\" written in a cursive font. The letters are white and stand out against a blue background. The logo is slightly tilted to the right, adding a dynamic touch to the overall design. The word \"Cafe\" is the only text present in the image. The logo's design is simple yet elegant, effectively conveying the name of the cafe.",
+        "ground_truth": "cafe",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_12_rain_medium_tag1_met.jpg",
+        "response": "The image contains the word \"MET\" in white text.",
+        "ground_truth": "met",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_13_rain_medium_tag0_chocolate.jpg",
+        "response": "Chocolate",
+        "ground_truth": "chocolate",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_13_rain_medium_tag1_moose.jpg",
+        "response": "Moose",
+        "ground_truth": "moose",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/19_13_rain_medium_tag2_lounge.jpg",
+        "response": "The image features the word \"Lounge\" written in a cursive font. The text is in white and is slightly tilted to the right. The background of the image is a gradient of purple and white, with a blurred effect that gives the impression of a starry night sky. The word \"Lounge\" is the only text present in the image.",
+        "ground_truth": "lounge",
+        "match_success": true,
+        "missing_words": []
+    },
+    {
+        "path": "data/svt1_augmented/img_cropped/04_13_rain_medium_tag0_eagle.jpg",
+        "response": "The image you've shared is a black square with no discernible text or objects. It's a simple, minimalist image that doesn't provide any additional context or information. If you have any other questions or need assistance with something else, feel free to ask!",
+        "ground_truth": "eagle",
+        "match_success": false,
+        "missing_words": [
+            "eagle"
+        ]
     }
 ]
