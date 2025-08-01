@@ -4,10 +4,10 @@
 
 The dataset have been augmented and made publicly available to allow for easy reproducibility of this work. Datasets are available on HuggingFace:
 
-| Dataset | |
+| Dataset |
 | --- |
-| [The Street View Text Weather]([http://www.iapr-tc11.org/mediawiki/index.php/The_Street_View_Text_Dataset](https://huggingface.co/datasets/macsz/street-view-text-weather)) |
-| [ICDAR15-Weather]([http://www.iapr-tc11.org/mediawiki/index.php/The_Street_View_Text_Dataset](https://huggingface.co/datasets/macsz/icdar-2015-weather)) |
+| [The Street View Text Weather](https://huggingface.co/datasets/macsz/street-view-text-weather) |
+| [ICDAR15-Weather](https://huggingface.co/datasets/macsz/icdar-2015-weather) |
 
 
 ## How To's
